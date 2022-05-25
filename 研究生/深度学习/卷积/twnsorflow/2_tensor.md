@@ -248,5 +248,108 @@ tf.gather(data,axis=1,indices=[9,16,30]).shape#TensorShape([10, 3, 3])
 tf.gather_nd(data,[0])#0班的所有人的所有成绩
 tf.gather_nd(data,[0,1])#0班的1号学生的所有成绩
 a = tf.gather_nd(data,[[0,0,0],[0,0,1]])#<tf.Tensor: shape=(2,), dtype=int32, numpy=array([0, 1])>
+tf.gather_nd(data,[[0,0],[0,1]])#shape=(2, 3)
 ```
+
+- `tf.boolean_mask`
+
+通过bool列表，选择需要的矩阵
+
+```python
+tf.boolean_mask(data,mask=[False,True,False],axis=2)
+```
+
+选取所有班级，所有同学，第二门课的成绩
+
+可以同时指定多个维度
+
+```python
+a =tf.ones([2,3,4])
+tf.boolean_mask(a,mask=[[True,False,False],[True,True,True]])#对应[2,3]
+```
+
+## 3. 维度变换
+
+比如28*28的单维度照片`[b,28,28]==>[b,28*28]`
+
+比如[b,2,14*28]，2就是图片的上半部的和下半部分
+
+- `tf.reshape`
+
+```python
+a = tf.random.normal([4,28,28,3])
+tf.reshape(a,[4,784,3])
+tf.reshape(a,[4,-1,3]).shape#-1标志该部分会自动计算，但是要保证非-1部分的状态
+```
+
+潜在问题
+
+[4,28,28,3]-->[4,784,3]再恢复的时候可能出现问题，要记住原本的维度和维度顺序
+
+改变content如[b,h,w,c]-->[b,w,h,c]
+
+- `tf.transpose`
+
+```python
+a = tf.random.normal((4,3,2,1))
+a.shape
+tf.transpose(a).shape#[1,2,3,4]#默认全转置
+tf.transpose(a,perm = [0,1,3,2]).shape#TensorShape([4, 3, 1, 2])
+```
+
+- 增加减少维度
+
+**增加维度**
+
+`tf.expand_dims(a,axis=0)`
+
+```python
+a = tf.random.normal([4,35,8])
+tf.expand_dims(a,axis=0).shape#TensorShape([1, 4, 35, 8])在前方增加
+```
+
+**减少维度**
+
+`tf.squeeze(a,axis=0)`
+
+没有指定axis则删除大小为1的维度
+
+```python
+tf.squeeze(tf.zeros([1,2,1,1,1,3])).shape#TensorShape([2, 3])
+```
+
+## 4. broadcasting
+
+- 维度扩展张
+- 没有复制数据但是扩张了
+- `tf.broadcast_to`
+
+![image-20220525105811074](img/image-20220525105811074.png)
+
+条件：
+
+- 如果需要在大维度方向加一个维度
+
+> 左边为大维度，右边为小维度
+
+- 将维度的大小扩充到相同
+
+![image-20220525110015538](img/image-20220525110015538.png)
+
+**具体过程**
+
+![image-20220525110056097](img/image-20220525110056097.png)
+
+**计算过程中没有进行扩充，但是按照扩充的方式进行计算！！！！**
+
+注意没有维度可以增加并扩充维度，但是如果有维度，就需要确保维度的大小相同，如果是1就可以自动扩充，**不是1且不同则不能扩充！！！！！**
+
+> broadcast可以直接通过`+`来使用
+
+```python
+b = tf.broadcast_to(tf.random.normal([4,1,1,1]),[4,23,23,3])
+b.shape#TensorShape([4, 23, 23, 3])
+```
+
+`tf.till`手动复制，改变本身结构！
 
