@@ -1,0 +1,2 @@
+- user.name相同
+- user.email相同且没有括号
