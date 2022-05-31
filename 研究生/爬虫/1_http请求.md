@@ -122,4 +122,4 @@ resp.json()#获得数据
 
 > 使用完resp后需要close也就是`resp.close()`
 >
-> 
+
