@@ -31,3 +31,13 @@ https://blog.csdn.net/weixin_44791964/article/details/105310627
 
 ![new](img/1.png)
 
+注意点：
+
+- `nn.Sequential里面不可以直接使用Sequential`
+
+主干网络见`./darknet.py`
+
+中体结构`./yolo3.py`
+
+## 2. 解码过程
+
