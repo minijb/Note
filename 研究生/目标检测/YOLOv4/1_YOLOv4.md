@@ -197,3 +197,106 @@ def darknet53(**kwargs):
     return model
 ```
 
+## 2. SPP
+
+通过不同大小的池化后进行堆叠就可以了
+
+![image-20220703145058132](img/image-20220703145058132.png)
+
+```python
+class SpatialPyramidPooling(nn.Module):
+    def __init__(self, pool_sizes=[5, 9, 13]):
+        super(SpatialPyramidPooling, self).__init__()
+        self.maxpools = nn.ModuleList([
+            # padding为pool_size//2保证了输出的size不变
+            nn.MaxPool2d(pool_size,1,pool_size//2)  for pool_size in pool_sizes
+        ])
+    def forward(self,x):
+
+        features = [maxpool(x) for maxpool in self.maxpools[::-1]]
+        features = torch.cat(features+[x],dim=1)
+        #有一个短接
+        return features
+        
+```
+
+注：
+
+- 有三个最大池化
+- 以及一个短接
+- 前后都有一次卷积，但是第二次卷积前需要先将特征图合并！！
+
+## PANet
+
+进行多次上下采样以及特征融合
+
+**上采样模块**
+
+```python
+class Upsample(nn.Module):
+   def __init__(self,in_channels,out_channels):
+      super(Upsample,self).__init__() 
+      self.upsample =nn.Sequential(
+          conv2d(in_channels,out_channels,1),
+          nn.Upsample(scale_factor=2,mode='nearest') 
+      )
+      
+   def forward(self,x):
+      x = self.upsample(x)
+      return x
+```
+
+注：下采样是通过卷积的方式实现的
+
+**不同size的卷积快**
+
+```python
+#---------------------------------------------------#
+#   三次卷积块
+#---------------------------------------------------#
+def make_three_conv(filters_list, in_filters):
+    m = nn.Sequential(
+        conv2d(in_filters, filters_list[0], 1),
+        conv2d(filters_list[0], filters_list[1], 3),
+        conv2d(filters_list[1], filters_list[0], 1),
+    )
+    return m
+
+#---------------------------------------------------#
+#   五次卷积块
+#---------------------------------------------------#
+# 5次卷积为3*3和1*1交替使用减少参量，加快迭代
+def make_five_conv(filters_list, in_filters):
+    m = nn.Sequential(
+        conv2d(in_filters, filters_list[0], 1),
+        conv2d(filters_list[0], filters_list[1], 3),
+        conv2d(filters_list[1], filters_list[0], 1),
+        conv2d(filters_list[0], filters_list[1], 3),
+        conv2d(filters_list[1], filters_list[0], 1),
+    )
+    return m
+```
+
+**YOLOhead**
+
+有两个卷积层：`3*3,1*1`
+
+1*1的卷积仅仅是为了将输出变化为指定格式不用bn层和激活函数
+
+## 3. 解码
+
+解码过程见YOLO3和YOLO3 一样
+
+## 4. 预测过程
+
+- 输入原始图片的长宽
+- 将图片转化为RGB形式
+- 加入灰度条(`letterbox_image`),并进行归一化
+- 放入网络中进行预测
+- 得到结果进行解码
+- 得到的结果进行堆叠并进行非极大值抑制
+- 得到的结果因为加入了灰度条，所以需要进行转化
+- 绘制预测框
+
+
+
