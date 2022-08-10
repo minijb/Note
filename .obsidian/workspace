@@ -4,13 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "c3483a03f105401b",
+        "id": "3d1c1858d4f3af51",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "后端/java/Maven/1_基础.md",
+            "file": "资源.md",
             "mode": "source",
+            "backlinks": true,
             "source": false
           }
         }
@@ -77,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "后端/java/Maven/1_基础.md",
+                "file": "资源.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "后端/java/Maven/1_基础.md",
+                "file": "资源.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,28 +118,28 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "后端/java/Maven/1_基础.md"
+                "file": "资源.md"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "c3483a03f105401b",
+  "active": "3d1c1858d4f3af51",
   "lastOpenFiles": [
-    "后端/java/Maven/img/image-20220801170801683.png",
-    "博客/创建知识图谱.md",
-    "设计模式/2_策略模式.md",
-    "设计模式/3_一些原则.md",
-    "设计模式/1_入门.md",
-    "研究生/目标检测/第二版本/YOLOv3实现/1_数据集.md",
-    "前端/HTML/2_常用标签.md",
-    "前端/HTML/1_初识.md",
+    "游戏编程/Unity/2_2D游戏.md",
+    "资源.md",
+    "后端/java/SpringMVC/1_基础.md",
     "xxx.md",
-    "rich.md"
+    "rich.md",
+    "image-20220608155323295.png",
+    "一些想法.md",
+    "后端/java/Maven/1_基础.md",
+    "后端/java/Maven/img/image-20220801170801683.png",
+    "博客/创建知识图谱.md"
   ]
 }
