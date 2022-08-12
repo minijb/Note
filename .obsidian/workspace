@@ -9,9 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "资源.md",
+            "file": "后端/java/SpringMVC/2_基础2.md",
             "mode": "source",
-            "backlinks": true,
+            "backlinks": false,
             "source": false
           }
         }
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#帧率和速度的关系",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -62,7 +62,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "afc553367d8f00b2",
@@ -78,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "资源.md",
+                "file": "后端/java/SpringMVC/2_基础2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +96,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "资源.md",
+                "file": "后端/java/SpringMVC/2_基础2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,28 +119,29 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "资源.md"
+                "file": "后端/java/SpringMVC/2_基础2.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 225.5,
     "collapsed": true
   },
   "active": "3d1c1858d4f3af51",
   "lastOpenFiles": [
+    "博客/创建知识图谱.md",
+    "基础/1_C.md",
+    "linux/manjaro/1_初始化配置.md",
+    "linux/manjaro/2_终端优化.md",
+    "linux/manjaro/3_neoivim.md",
+    "vim/1_vim基础.md",
     "游戏编程/Unity/2_2D游戏.md",
     "资源.md",
     "后端/java/SpringMVC/1_基础.md",
-    "xxx.md",
-    "rich.md",
-    "image-20220608155323295.png",
-    "一些想法.md",
-    "后端/java/Maven/1_基础.md",
-    "后端/java/Maven/img/image-20220801170801683.png",
-    "博客/创建知识图谱.md"
+    "xxx.md"
   ]
 }
