@@ -565,3 +565,137 @@ public interface UserMapper {
 
 
 
+### Service层
+
+```java
+public interface UserService {
+    List<User> selectUserPage(String userName,String userSex,int startRow);
+
+    int createUser(User user);
+
+    int deleteUserById(String userId);
+
+    int getRowCount(String userName,String userSex);
+}
+```
+
+impl
+
+```java
+@Service
+public class UserServiceImpl implements UserService
+{
+    @Autowired
+    UserMapper userMapper;
+
+    @Override
+    public List<User> selectUserPage(String userName, String userSex, int startRow) {
+        return userMapper.selectUserPage(userName,userSex,startRow);
+    }
+
+    @Override
+    public int createUser(User user) {
+        return userMapper.createUser(user);
+    }
+
+    @Override
+    public int deleteUserById(String userId) {
+        return userMapper.deleteUserById(userId);
+    }
+
+    @Override
+    public int getRowCount(String userName, String userSex) {
+        return userMapper.getRowCount(userName,userSex);
+    }
+}
+
+```
+
+## 测试！！！
+
+使用spring-test进行测试
+
+```java
+@RunWith(SpringJUnit4ClassRunner.class)//启动spring容器
+@ContextConfiguration(locations = {"classpath:applicationContext_mapper.xml","classpath:applicationContext_service.xml"})
+public class MyTest {
+    @Autowired
+    UserService userService;
+
+    @Test
+    public void testSelectUser() {
+        List<User> list = userService.selectUserPage(null,"女",0);
+        list.forEach(user -> System.out.println(user));
+    }
+
+    @Test
+    public void testDelete() {
+        int num = userService.deleteUserById("15968162097369904");
+        System.out.println(num);
+    }
+
+    @Test
+    public void testGetRowCount() {
+        int num = userService.getRowCount(null,null);
+        System.out.println(num);
+    }
+
+    @Test
+    public void testCreateUser() {
+        User user = new User("15968552097369903","军官证","100203123","萧山","男","30","军人");
+        int num = userService.createUser(user);
+        System.out.println(num);
+    }
+}
+```
+
+## 控制器开发
+
+```java
+@Controller
+@RequestMapping("/user")
+public class UserController {
+
+    private static final int PAGE_SIZE = 5;
+
+    @Autowired
+    UserService userService;
+
+    @RequestMapping("/selectUserPage")
+    @ResponseBody
+    public List<User> selectUserPage(String userName, String userSex, Integer page) {
+//      根据页码计算起始行
+        int startRow = 0;
+        if (page != null) {
+            startRow = (page - 1) * PAGE_SIZE;
+        }
+        return userService.selectUserPage(userName, userSex, startRow);
+    }
+
+    @RequestMapping("/getRowCount")
+    @ResponseBody
+    public int getRowCount(String userName,String userSex){
+        return userService.getRowCount(userName,userSex);
+    }
+
+    @RequestMapping("/deleteUserById")
+    @ResponseBody
+    public int deleteUserById(String userId) {
+        return userService.deleteUserById(userId);
+    }
+
+
+    @RequestMapping("/createUser")
+    @ResponseBody
+    public int createUser(User user){
+        String userId = System.currentTimeMillis()+"";
+        user.setUserId(userId);
+        return userService.createUser(user);
+    }
+}
+```
+
+### 改造控制器，出吃跨域访问+端口修改
+
+在控制器类上加上@CrossOrigin
+
