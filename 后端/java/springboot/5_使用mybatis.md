@@ -181,3 +181,39 @@ mybatis:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 ```
 
+## 5. 使用事务
+
+1. 管理事务对象：事务管理器(接口)，有很多的实现类
+
+2. 声明式事务：在xml配置文件中或者使用注解说明事务控制的内容
+
+   控制事务：隔离级别，传播行为，超时事件
+
+3. 事务处理方式
+
+   1. spring框架中的@Transactional
+   2. aspectj框架可以在xml配置文件中，声明事务控制的内容
+
+### Springboot中的事务
+
+以上两种都可以
+
+1. 在业务方法中加入@Transactional，
+2. 在主启动类上，加入`@EnableTransactionManager`
+
+**需要添加pom依赖，可以不加**
+
+是mybatis自动生成插件
+
+```xml
+<!-- https://mvnrepository.com/artifact/org.mybatis.generator/mybatis-generator-maven-plugin -->
+<dependency>
+    <groupId>org.mybatis.generator</groupId>
+    <artifactId>mybatis-generator-maven-plugin</artifactId>
+    <version>1.4.1</version>
+</dependency>
+
+```
+
+如何使用https://www.bilibili.com/video/BV1XQ4y1m7ex?p=54&vd_source=8beb74be6b19124f110600d2ce0f3957
+
