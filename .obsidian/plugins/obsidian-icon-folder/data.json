@@ -1,0 +1,57 @@
+{
+  "settings": {
+    "migrated": 4,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "none",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "TiLayoutBoard",
+      "TiWhirl",
+      "TiTemplate",
+      "TiBrandDaysCounter",
+      "SiAdobedreamweaver"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [
+      {
+        "rule": "*.md",
+        "icon": "FabMarkdown",
+        "for": "everything",
+        "order": 0,
+        "useFilePath": true
+      }
+    ],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": true,
+    "iconInFrontmatterEnabled": false,
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconIdentifier": ":"
+  },
+  "Blog": {
+    "iconName": "FabBlogger",
+    "iconColor": "#09bfec"
+  },
+  "project": "FabBuffer",
+  "files": {
+    "iconName": "SiFiles",
+    "iconColor": "#00b815"
+  },
+  "Excalidraw": {
+    "iconName": "SiAdobedreamweaver",
+    "iconColor": "#df1111"
+  },
+  "daily": "TiBrandDaysCounter",
+  "temp": {
+    "iconName": "TiTemplate",
+    "iconColor": "#2f09f1"
+  },
+  "whiteboard": "TiLayoutBoard"
+}

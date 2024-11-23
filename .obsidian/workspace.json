@@ -1,0 +1,338 @@
+{
+  "main": {
+    "id": "a3149ba01df451ea",
+    "type": "split",
+    "children": [
+      {
+        "id": "60b5513899520a0f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "10aadd04d25b16e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "project/linux list.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "linux list"
+            }
+          },
+          {
+            "id": "51079c4589f646db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "project/git List.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "git List"
+            }
+          },
+          {
+            "id": "ab9e5958c1e0e3dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "files/linux-neovim 安装.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "linux-neovim 安装"
+            }
+          },
+          {
+            "id": "545858464f8c5b4c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "files/linux - zsh.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "linux - zsh"
+            }
+          },
+          {
+            "id": "a0c1c7ff69c6fe5a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "files/linux - fzf.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "linux - fzf"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "198331d9879d8356",
+    "type": "split",
+    "children": [
+      {
+        "id": "1ae0b4a857e88e94",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0b97e0152bdb8933",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "4861bb3c9343d3fc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "path:\"project/work/\" ",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "adc43d19a2efe323",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 299.5
+  },
+  "right": {
+    "id": "a9f30bab58b437e4",
+    "type": "split",
+    "children": [
+      {
+        "id": "dd50a23499c3aecf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "19c2575cd2cf8126",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "files/Bash tutorial1.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Bash tutorial1 的反向链接列表"
+            }
+          },
+          {
+            "id": "dd744e33f959e00a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "files/Bash tutorial1.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Bash tutorial1 的出链列表"
+            }
+          },
+          {
+            "id": "89c067777a7363ff",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "716b444ab7d86c80",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "files/Bash tutorial1.md"
+              },
+              "icon": "lucide-list",
+              "title": "Bash tutorial1 的大纲"
+            }
+          },
+          {
+            "id": "38b6c4ed332715a3",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
+          },
+          {
+            "id": "ce6f4caf231715c0",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "files/linux-neovim 安装.md"
+              },
+              "icon": "lucide-info",
+              "title": "linux-neovim 安装的笔记属性"
+            }
+          },
+          {
+            "id": "45106ea19137923f",
+            "type": "leaf",
+            "state": {
+              "type": "BC-tree",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "插件不再活动"
+            }
+          },
+          {
+            "id": "f60316672057b03e",
+            "type": "leaf",
+            "state": {
+              "type": "BC-matrix",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "插件不再活动"
+            }
+          }
+        ],
+        "currentTab": 5
+      },
+      {
+        "id": "80f1416f93dd47d2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eda1ca5366b268fc",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 333.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "0b97e0152bdb8933",
+  "lastOpenFiles": [
+    "project/linux list.md",
+    "template.md",
+    "project/work/资源加载/Loader/基类.md",
+    "project/work/资源加载/Provider/ProviderBase 资源提供者 基类, Abstract class.md",
+    "project/work/资源加载/Loader/AddressableLoader 泛型类.md",
+    "project/work/资源加载/Loader/UniNetworkUniDataLoader.md",
+    "project/work/资源加载/Handler/OperationHandleBase --- YooAsset.md",
+    "project/work/资源加载/Handler/AssetInfo  资源信息 --- YooAsset.md",
+    "project/work/资源加载/Provider",
+    "project/work/资源加载/Loader",
+    "project/work/资源加载/Handler",
+    "project/work/资源加载",
+    "project/work/一些优化/优化方法.md",
+    "project/work/一些优化/shader 优化.md",
+    "project/work/一些优化/C sharp 特性.md",
+    "project/work/一些优化",
+    "project/work/骗子酒馆/接入音频.md",
+    "project/work/骗子酒馆",
+    "project/work/解析/UniNodeReader.md",
+    "project/work/解析",
+    "project/work/方法/触摸.md",
+    "project/work/方法/如何集中并处理的 OnTriggerEnter.md",
+    "project/work/方法/如何通过导表自动创建 UI.md",
+    "project/work/方法",
+    "project/work/插件/YooAsset.md",
+    "project/work/插件",
+    "project/work/UI/UISystem.md",
+    "project/work/UI/自动添加引用.md",
+    "project/work/UI/UIHelper.md",
+    "project/work/UI/Loading UI.md",
+    "project/work/UI",
+    "project/work/Tips/添加自定义 Palyer loop funciton.md",
+    "project/work/Tips/代码执行顺序.md",
+    "project/work/Tips/UniTask.md",
+    "project/work/Tips/Play.md",
+    "project/work/SpaceTree/UniNodeLoadAdapter.md",
+    "Pasted image 20240905103407.png",
+    "Pasted image 20240814160457.png",
+    "Pasted image 20240814154249.png",
+    "9768ff0af3f555d09122a65ff19d1de.png",
+    "Pasted image 20240814153437.png",
+    "Pasted image 20240525151859.png",
+    "Pasted image 20240514125916.jpg",
+    "Pasted image 20240507184718.png",
+    "Pasted image 20240504151622.png",
+    "Pasted image 20240504150539.png",
+    "未命名.canvas",
+    "未命名 1.canvas"
+  ]
+}

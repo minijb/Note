@@ -1,0 +1,7 @@
+---
+tags:
+  - linux
+---
+
+## install 
+
