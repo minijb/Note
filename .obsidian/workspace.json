@@ -4,81 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "60b5513899520a0f",
+        "id": "5a8523cdbdd7aae8",
         "type": "tabs",
         "children": [
           {
-            "id": "10aadd04d25b16e4",
+            "id": "db3497c1602cd072",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "project/linux list.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "linux list"
-            }
-          },
-          {
-            "id": "51079c4589f646db",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "project/git List.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "git List"
-            }
-          },
-          {
-            "id": "ab9e5958c1e0e3dd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "files/linux-neovim 安装.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "linux-neovim 安装"
-            }
-          },
-          {
-            "id": "545858464f8c5b4c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "files/linux - zsh.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "linux - zsh"
-            }
-          },
-          {
-            "id": "a0c1c7ff69c6fe5a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "files/linux - fzf.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "linux - fzf"
+              "title": "新标签页"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -208,8 +147,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "icon": "lucide-file",
+              "title": "插件不再活动"
             }
           },
           {
@@ -217,11 +156,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "files/linux-neovim 安装.md"
-              },
+              "state": {},
               "icon": "lucide-info",
-              "title": "linux-neovim 安装的笔记属性"
+              "title": "笔记属性"
             }
           },
           {
@@ -269,7 +206,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 333.5
+    "width": 333.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -284,9 +222,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0b97e0152bdb8933",
+  "active": "db3497c1602cd072",
   "lastOpenFiles": [
+    "project/面试.md",
     "project/linux list.md",
+    "project/work/自学/CS/3.  基础数据的位表示.md",
+    "project/work/自学/CS/1. 系统漫游.md",
+    "project/cpp List.md",
+    "project/C sharp list.md",
+    "files/linux-neovim 安装.md",
     "template.md",
     "project/work/资源加载/Loader/基类.md",
     "project/work/资源加载/Provider/ProviderBase 资源提供者 基类, Abstract class.md",
@@ -315,13 +259,7 @@
     "project/work/UI/UISystem.md",
     "project/work/UI/自动添加引用.md",
     "project/work/UI/UIHelper.md",
-    "project/work/UI/Loading UI.md",
     "project/work/UI",
-    "project/work/Tips/添加自定义 Palyer loop funciton.md",
-    "project/work/Tips/代码执行顺序.md",
-    "project/work/Tips/UniTask.md",
-    "project/work/Tips/Play.md",
-    "project/work/SpaceTree/UniNodeLoadAdapter.md",
     "Pasted image 20240905103407.png",
     "Pasted image 20240814160457.png",
     "Pasted image 20240814154249.png",
