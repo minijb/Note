@@ -1,0 +1,7 @@
+
+TextWriter是抽象类是一个写入器。它描述了写入的过程，具体的写过程和向哪里写入是由它的子类所负责的
+
+StringWriter，它用于将信息写入字符串的TextWriter类对象。它看起来跟StringBuilder所做的功能一样，但它俩的设计思路是不一样的。StringBuilder是灵活构建字符串的类，不会产生额外的临时字符串，但是StringWriter将字符串数据作为写入的目的地。
+
+StringWriter ： 用于将不同来源的字符串进行处理，最后得到一个 string
+StringBuilder ： 灵活的构建字符串，

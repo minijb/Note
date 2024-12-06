@@ -11,10 +11,42 @@
             "id": "db3497c1602cd072",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "备忘录.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "备忘录"
+            }
+          },
+          {
+            "id": "6cdcd67e74e35fcb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "project/Unity list.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Unity list"
+            }
+          },
+          {
+            "id": "622b6bf9764b0ca7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "project/work/使用 Android, IOS 方法回调.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "使用 Android, IOS 方法回调"
             }
           }
         ]
@@ -48,7 +80,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:\"project/work/\" ",
+                "query": "uninodefile",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "files/Bash tutorial1.md",
+                "file": "备忘录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +131,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Bash tutorial1 的反向链接列表"
+              "title": "备忘录 的反向链接列表"
             }
           },
           {
@@ -108,12 +140,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "files/Bash tutorial1.md",
+                "file": "备忘录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Bash tutorial1 的出链列表"
+              "title": "备忘录 的出链列表"
             }
           },
           {
@@ -135,10 +167,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "files/Bash tutorial1.md"
+                "file": "备忘录.md"
               },
               "icon": "lucide-list",
-              "title": "Bash tutorial1 的大纲"
+              "title": "备忘录 的大纲"
             }
           },
           {
@@ -147,8 +179,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           },
           {
@@ -156,19 +188,11 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {},
+              "state": {
+                "file": "project/work/网络/RpcClient.md"
+              },
               "icon": "lucide-info",
-              "title": "笔记属性"
-            }
-          },
-          {
-            "id": "45106ea19137923f",
-            "type": "leaf",
-            "state": {
-              "type": "BC-tree",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "title": "RpcClient的笔记属性"
             }
           },
           {
@@ -176,6 +200,16 @@
             "type": "leaf",
             "state": {
               "type": "BC-matrix",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "插件不再活动"
+            }
+          },
+          {
+            "id": "45106ea19137923f",
+            "type": "leaf",
+            "state": {
+              "type": "BC-tree",
               "state": {},
               "icon": "lucide-file",
               "title": "插件不再活动"
@@ -206,7 +240,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 333.5,
+    "width": 500.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -224,42 +258,42 @@
   },
   "active": "db3497c1602cd072",
   "lastOpenFiles": [
-    "project/面试.md",
-    "project/linux list.md",
+    "project/work/网络/Sproto.md",
+    "备忘录.md",
+    "project/work/自学/stringBuilder stringWriter.md",
+    "project/work/Project/UniNodeFile, UniFileContext.md",
+    "project/work/网络/RpcClient.md",
+    "project/work/自学/流.md",
+    "project/work/一些优化/shader 优化.md",
+    "project/work/自学/AOI（Area Of Interest）.md",
+    "project/work/自学/ADT 类型 -- 抽象数据类型.md",
+    "project/work/自学/设计模式.md",
+    "project/Unity list.md",
+    "project/work/使用 Android, IOS 方法回调.md",
+    "project/work/自学/CS/4. 机器级表示.md",
     "project/work/自学/CS/3.  基础数据的位表示.md",
     "project/work/自学/CS/1. 系统漫游.md",
-    "project/cpp List.md",
-    "project/C sharp list.md",
-    "files/linux-neovim 安装.md",
-    "template.md",
-    "project/work/资源加载/Loader/基类.md",
-    "project/work/资源加载/Provider/ProviderBase 资源提供者 基类, Abstract class.md",
-    "project/work/资源加载/Loader/AddressableLoader 泛型类.md",
-    "project/work/资源加载/Loader/UniNetworkUniDataLoader.md",
-    "project/work/资源加载/Handler/OperationHandleBase --- YooAsset.md",
-    "project/work/资源加载/Handler/AssetInfo  资源信息 --- YooAsset.md",
+    "project/work/网络",
+    "files/unity 音频资源优化.md",
+    "plain.md",
+    "files/备忘录.md",
+    "project/读书笔记/Unity高级编程.md",
+    "files/未命名 2.md",
+    "files/未命名 1.md",
+    "files/unity 判断点是否在UI范围内.md",
+    "project/Socket list.md",
+    "project/linux list.md",
+    "project/neovim List.md",
+    "project/Mysql.md",
     "project/work/资源加载/Provider",
     "project/work/资源加载/Loader",
     "project/work/资源加载/Handler",
     "project/work/资源加载",
-    "project/work/一些优化/优化方法.md",
-    "project/work/一些优化/shader 优化.md",
-    "project/work/一些优化/C sharp 特性.md",
     "project/work/一些优化",
-    "project/work/骗子酒馆/接入音频.md",
     "project/work/骗子酒馆",
-    "project/work/解析/UniNodeReader.md",
     "project/work/解析",
-    "project/work/方法/触摸.md",
-    "project/work/方法/如何集中并处理的 OnTriggerEnter.md",
-    "project/work/方法/如何通过导表自动创建 UI.md",
     "project/work/方法",
-    "project/work/插件/YooAsset.md",
     "project/work/插件",
-    "project/work/UI/UISystem.md",
-    "project/work/UI/自动添加引用.md",
-    "project/work/UI/UIHelper.md",
-    "project/work/UI",
     "Pasted image 20240905103407.png",
     "Pasted image 20240814160457.png",
     "Pasted image 20240814154249.png",
