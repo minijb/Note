@@ -25,3 +25,11 @@ priority_queue<int, vector<int>, greater<int>> test;
 auto cmp = [](int left, int right) { return (left ^ 1) < (right ^ 1); };
 std::priority_queue<int, std::vector<int>, decltype(cmp)> q5(cmp);
 ```
+
+```cpp
+q.size();//返回q里元素个数
+q.empty();//返回q是否为空，空则返回1，否则返回0
+q.push(k);//在q的末尾插入k
+q.pop();//删掉q的第一个元素
+q.top();//返回q的第一个元素
+```

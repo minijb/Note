@@ -26,3 +26,10 @@ tags:
 
 [南大PA](https://nju-projectn.github.io/ics-pa-gitbook/ics2019/)
 
+## 资料查阅 
+
+[GDB API 快捷查找](https://csapp.cs.cmu.edu/3e/docs/gdbnotes-x86-64.pdf)
+[GDB教程](https://beej.us/guide/bggdb/)
+[Linux tutorial](https://heather.cs.ucdavis.edu/matloff/public_html/unix.html)
+The [GNU project](http://www.gnu.org/) provides [online manuals](http://www.gnu.org/manual/) for all GNU tools, including [Emacs](http://www.gnu.org/software/emacs), [GCC](http://www.gnu.org/software/gcc), [GDB](http://www.gnu.org/software/gdb), and [Make](http://www.gnu.org/software/make).
+

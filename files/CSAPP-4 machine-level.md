@@ -167,4 +167,107 @@ movsbl movzbl 指令负责拷贝一个字节,并设置目的操作数其余的�
 movsbl源操作数是单字节,将24位设置位源字节的最高位,然后拷贝到双字目的中
 movzbl 源操作数单字节,前面加24个0扩展到32位.然后拷贝到32位中.
 
-19.44
+
+常见寄存器：
+
+1. rax : return value
+2. rsp : stack pointer
+3. rdi : 1st arg
+4. rsi : 2st arg
+5. rdx : 3st arg
+6. rcx : 4st arg
+7. r8  : 5st arg
+8. r9  : 6st arg
+
+64  - 32  - 16 - 8
+rax - eax - ax - al
+rsi - esi - si - sil
+
+setg/l --->  有符号数
+seta/b --->  无符号数
+
+
+MOV :
+- 第二个必须是地址
+- 两个参数不能全为地址
+
+
+movq 特殊情况：32位立即数 -> rax 会自动进行 signed extended
+movabsq : 可以直接放64位的立即数
+movl ： 高 32位会自动变为 全0
+
+内存中，栈是从高到低 (倒立的)， 堆：从低到高
+push  = sub + mov
+pop = mov + add
+栈指针 ： rsp
+
+leaq ： 加载有效地址操作， 用于加法计算
+
+IMM ： 因子只能是 1,2,4,8
+
+**条件码寄存器** (ALU) : 记录一条指令执行后的状态, 每条指令后都会进行**覆盖**
+
+CF : 进位标志位 Carry Flag  --- unsigned
+ZF : 零标志位 zero flag
+SF : sign flag 
+OF : overflow flag 有符号数
+
+一元，二元，移位，比较指令，会更新条件码寄存器
+
+cmp , sub 的区别 ： cmp 不改变 Target ， 只更新条件码
+test ， and 同理
+test 作用 ： 测试数大于，小于，等于0
+sete ： 将条件吗寄存器设置到 target (e : equal)
+setl : l less
+
+
+a < b : 需要使用 `SF^OF` !!! 
+
+**特殊情况**
+t  = a - b
+a < b , t > 0 此时溢出， SF = 0 ， OF = 1  `SF^OF = 1`
+a > b , t < 0  移除  SF = 1 ， OF = 1 `SF ^ OF = 0`
+
+![image.png](https://s2.loli.net/2024/12/13/AEn7VCxoacOfvbM.png)
+
+![N7DS5fmFxXZdTWh.png](https://s2.loli.net/2024/12/13/N7DS5fmFxXZdTWh.png)
+
+cmovege  c: conditinal,  ge : >=， 条件转移指令
+分支预测--- cmove 可以避免分支预测提升效率
+
+cmovg， cmovege，cmovl, cmovle
+
+switch: 实现的跳转表，帮助跳转， 只有一次跳转命令。 if else 会存在多次的 cmp 和 jmp
+
+
+机器码翻译 if
+
+```c
+if(t){
+	a
+}else{
+	b
+}
+
+
+if(!t) 
+goto b
+a : ccc
+goto done
+
+b: xxx
+
+done:
+```
+
+while 的两种跳转方式 : 
+
+- 跳到中间 -- 先跳到结尾进行判断,再跳到中间进行循环
+- gearded-go -- 先判读 !t, 随后进行循环,循环结尾再进行 t的判断跳转
+
+**汇编指令**
+
+**`.data`**，定义data section，保存程序的全局和静态数据，可读可写。
+**`.text`**，定义text section，保存代码，只读和可执行。
+**`.section .rodata`**，定义只读数据区（必须带上.section前缀）。
+

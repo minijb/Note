@@ -3,16 +3,22 @@ tags:
   - unity
 ---
 
+
+
+
 ## Unity 编辑器开发
 
 [[unity拓展1 简介]]
+[[unity - 编辑器扩展1]]
+
+[[Unity - api - SerializedProperty]]
+[[Unity - PropertyAttribute, PropertyDrawer]]
 
 ## UI 组件
 
 [[Unity - Content Size Fitter]]
 [[Unity - Canvas Scaler]]
 
-[[Unit - UI 框架 !!!]]
 
 ## 插件
 
@@ -67,23 +73,25 @@ https://www.bilibili.com/video/BV1r24y1U7ts/?spm_id_from=333.788&vd_source=8beb7
 
 [[Unity - Nolita]]
 
-## ECS + 帧同步
+## ECS 
 
 
 [[Untiy - ECS 1]]
 
-## 网络实战
+## 帧同步
 
-[[unity - 网络实战]]
-
-
-## CatLike
-
-[[Unity - catlike1 batching and computer shader]]
-
+[[unity - 帧同步资料]]
 ## Shader
 
 [[unity - shader]]
+
+## 资源加载
+
+[[unity 动态资源加载]]
+[[unity 资源策略优化]]
+
+## Unity 优化
+
 
 ## 物理
 
@@ -103,4 +111,17 @@ ORCA/RVO2
 ## Tips
 
 [[unity 判断点是否在UI范围内]]
+[[unity - Profile使用热点地位]]
+[[unity - autohook 自动绑定]]
+[[unity - 小tips]]
+
+
+## 优化
+
+https://blog.csdn.net/e295166319/article/details/68066903
+https://www.cnblogs.com/dudu580231/p/8404853.html
+https://www.cnblogs.com/wsk-0000/articles/12675826.html
+
 [[unity 音频资源优化]]
+[[unity 资源策略优化]]
+[[unity UI优化]]

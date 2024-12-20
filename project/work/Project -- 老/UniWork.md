@@ -48,9 +48,9 @@ callback :
 
 更新 step数据
 
-### ParseUniFile --- 根据 [[UniNetworkUniDataLoader]] 文件从网络获取具体地图信息
+### ParseUniFile --- 根据 [[UniNetwork+UniDataLoader]] 文件从网络获取具体地图信息
 
-先通过的通过 [[UniNetworkUniDataLoader#GetUniNodeFile]] 获取 UniNodeFile , 并根据其获取真实的节点数据
+先通过的通过 [[UniNetwork+UniDataLoader#GetUniNodeFile]] 获取 UniNodeFile , 并根据其获取真实的节点数据
 
 UniWork --> CheckAndCreateDefaultNodeData 进行检查
 

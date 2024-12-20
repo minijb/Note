@@ -4,52 +4,67 @@
     "type": "split",
     "children": [
       {
-        "id": "5a8523cdbdd7aae8",
+        "id": "244bef082a713c73",
         "type": "tabs",
         "children": [
           {
-            "id": "db3497c1602cd072",
+            "id": "581980b293667a96",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "备忘录.md",
+                "file": "project/work/Project -- 老/TrackEvent.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "备忘录"
+              "title": "TrackEvent"
             }
           },
           {
-            "id": "6cdcd67e74e35fcb",
+            "id": "3aea41a7ec467da6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "project/Unity list.md",
+                "file": "files/OS-tep cpu.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Unity list"
+              "title": "OS-tep cpu"
             }
           },
           {
-            "id": "622b6bf9764b0ca7",
+            "id": "7205129f2a8acbca",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "project/work/使用 Android, IOS 方法回调.md",
+                "file": "project/class/three easy pieces.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "使用 Android, IOS 方法回调"
+              "title": "three easy pieces"
+            }
+          },
+          {
+            "id": "cf3a2755bf1467d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "files/OS-tep asset.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "OS-tep asset"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -80,7 +95,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "uninodefile",
+                "query": "流",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -167,10 +182,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "备忘录.md"
+                "file": "目标.md"
               },
               "icon": "lucide-list",
-              "title": "备忘录 的大纲"
+              "title": "目标 的大纲"
             }
           },
           {
@@ -179,8 +194,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "icon": "lucide-file",
+              "title": "插件不再活动"
             }
           },
           {
@@ -189,10 +204,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "project/work/网络/RpcClient.md"
+                "file": "project/work/Tips/IsAssignableFrom 保证对象的派生关系.md"
               },
               "icon": "lucide-info",
-              "title": "RpcClient的笔记属性"
+              "title": "IsAssignableFrom 保证对象的派生关系的笔记属性"
             }
           },
           {
@@ -256,44 +271,44 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "db3497c1602cd072",
+  "active": "3aea41a7ec467da6",
   "lastOpenFiles": [
-    "project/work/网络/Sproto.md",
-    "备忘录.md",
-    "project/work/自学/stringBuilder stringWriter.md",
-    "project/work/Project/UniNodeFile, UniFileContext.md",
-    "project/work/网络/RpcClient.md",
+    "project/class/three easy pieces.md",
+    "project/work/project - new/Global.md",
+    "project/work/Project -- 老/TrackEvent.md",
+    "project/work/project - new",
+    "project/work/Project -- 老/UniDataModule.md",
+    "project/work/Project -- 老/UniGame.md",
+    "project/work/Project -- 老/UniGameLoadContext  load上下文.md",
+    "project/work/Project -- 老/UniMain  主入口.md",
+    "project/work/Project -- 老/UniScene.md",
+    "project/work/Node/UniNodeFile.md",
+    "project/work/Node/UniNodeLoadAdapter.md",
+    "project/work/Node/UniFileContext.md",
     "project/work/自学/流.md",
-    "project/work/一些优化/shader 优化.md",
-    "project/work/自学/AOI（Area Of Interest）.md",
-    "project/work/自学/ADT 类型 -- 抽象数据类型.md",
-    "project/work/自学/设计模式.md",
-    "project/Unity list.md",
-    "project/work/使用 Android, IOS 方法回调.md",
-    "project/work/自学/CS/4. 机器级表示.md",
-    "project/work/自学/CS/3.  基础数据的位表示.md",
-    "project/work/自学/CS/1. 系统漫游.md",
+    "project/work/Tips/UniTask.md",
+    "project/work/Tips/Play.md",
+    "project/work/Tips/IsAssignableFrom 保证对象的派生关系.md",
+    "project/work/Tips/ContractReslover.md",
+    "project/work/Tips/序列化.md",
+    "project/work/Tips/添加自定义 Palyer loop funciton.md",
+    "project/work/Tips/代码执行顺序.md",
+    "project/work/Node/体系结构.md",
+    "project/work/Node/UniNode.md",
+    "project/work/Node/UniNodeLoadAdapter --- 生成 Node.md",
+    "project/work/Node/UniNodeData.md",
+    "files/OS-tep cpu.md",
+    "files/OS-tep asset.md",
+    "project/algo List.md",
+    "project/work/状态",
+    "未命名",
+    "代码片段/DOTNET.pdf",
     "project/work/网络",
-    "files/unity 音频资源优化.md",
-    "plain.md",
-    "files/备忘录.md",
-    "project/读书笔记/Unity高级编程.md",
-    "files/未命名 2.md",
-    "files/未命名 1.md",
-    "files/unity 判断点是否在UI范围内.md",
-    "project/Socket list.md",
-    "project/linux list.md",
-    "project/neovim List.md",
-    "project/Mysql.md",
     "project/work/资源加载/Provider",
     "project/work/资源加载/Loader",
     "project/work/资源加载/Handler",
     "project/work/资源加载",
     "project/work/一些优化",
-    "project/work/骗子酒馆",
-    "project/work/解析",
-    "project/work/方法",
-    "project/work/插件",
     "Pasted image 20240905103407.png",
     "Pasted image 20240814160457.png",
     "Pasted image 20240814154249.png",
