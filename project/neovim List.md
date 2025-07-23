@@ -21,3 +21,18 @@ https://github.com/ajeetdsouza/zoxide
 
 https://learnvim.irian.to/basics/registers
 https://neovim.io/doc/user/
+
+
+
+
+
+vim.Diagnostic  --- 诊断
+
+https://neovim.io/doc/user/diagnostic.html
+
+
+## auto command 触发器
+
+```lua
+
+```

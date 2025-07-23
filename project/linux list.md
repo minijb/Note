@@ -5,6 +5,11 @@ tags:
 
 ## setup
 
+[[Ubuntu StartUp]]
+
+
+***********
+
 [[linux-neovim 安装]]
 [[linux-proxy]]
 [[linux-fishshell]]
@@ -26,3 +31,18 @@ tags:
 [[linux - zsh]]
 [[linux - fzf]]
 [[alacritty]]
+
+
+## WSL
+
+[[wsl 环境配置]]
+[[wsl 常用命令]]
+
+
+## Arch
+
+[[arch -- pacman]]
+
+## Bash
+
+https://wangdoc.com/bash/grammar

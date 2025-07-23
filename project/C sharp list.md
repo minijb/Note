@@ -17,6 +17,13 @@ tags:
 [[C sharp TimeSpan]]
 [[C Sharp WeakReference]]
 [[C Sharp IDispose]]
+[[C Sharp Attribute]]
+[[C Sharp 文件处理]]
+[[C Sharp stream 1]]
+[[C Sharp stream 2]]
+
+[[C Sharp 异步以及Awaiter]]
+
 
 ## 网络类
 

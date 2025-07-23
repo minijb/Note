@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "TiPdf",
+      "FabAvianex",
       "TiLayoutBoard",
       "TiWhirl",
-      "TiTemplate",
-      "TiBrandDaysCounter",
-      "SiAdobedreamweaver"
+      "TiTemplate"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
@@ -53,5 +53,7 @@
     "iconName": "TiTemplate",
     "iconColor": "#2f09f1"
   },
-  "whiteboard": "TiLayoutBoard"
+  "whiteboard": "TiLayoutBoard",
+  "need to do.md": "FabAvianex",
+  "PDF": "TiPdf"
 }

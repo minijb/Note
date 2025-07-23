@@ -26,7 +26,7 @@
 ## 资源装载卸载流程 -- loader
 
 **Remove** : 删除位置 ： loaded,wait,loading 三个位置的loader
-**TryLoad** ： 每帧执行
+**TryLoad** ：每帧执行
 
 - 对 waitLoaders 进行排序
 - 根据分类(local/remote) 填充到 loaders中

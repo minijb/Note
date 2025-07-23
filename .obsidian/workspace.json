@@ -4,67 +4,66 @@
     "type": "split",
     "children": [
       {
-        "id": "244bef082a713c73",
+        "id": "7cacef3cefdef42e",
         "type": "tabs",
         "children": [
           {
-            "id": "581980b293667a96",
+            "id": "821b08afbda4bb66",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "project/work/Project -- 老/TrackEvent.md",
+                "file": "备忘录.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TrackEvent"
+              "title": "备忘录"
             }
           },
           {
-            "id": "3aea41a7ec467da6",
+            "id": "00e3125ea94b1d4d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "files/OS-tep cpu.md",
+                "file": "files/面试现场问题.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OS-tep cpu"
+              "title": "面试现场问题"
             }
           },
           {
-            "id": "7205129f2a8acbca",
+            "id": "a1eba8d1acd00f0a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "project/class/three easy pieces.md",
+                "file": "files/CSAPP-9 异常控制流.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "three easy pieces"
+              "title": "CSAPP-9 异常控制流"
             }
           },
           {
-            "id": "cf3a2755bf1467d5",
+            "id": "6508a85e405fe68d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "files/OS-tep asset.md",
+                "file": "files/CSAPP-7 存储结构.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OS-tep asset"
+              "title": "CSAPP-7 存储结构"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -83,7 +82,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -95,7 +95,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "流",
+                "query": "解绑",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -136,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "备忘录.md",
+                "file": "files/algo 单调栈.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +146,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "备忘录 的反向链接列表"
+              "title": "algo 单调栈 的反向链接列表"
             }
           },
           {
@@ -182,10 +182,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "目标.md"
+                "file": "files/CSAPP-7 存储结构.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "目标 的大纲"
+              "title": "CSAPP-7 存储结构 的大纲"
             }
           },
           {
@@ -194,8 +197,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           },
           {
@@ -204,10 +207,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "project/work/Tips/IsAssignableFrom 保证对象的派生关系.md"
+                "file": "files/stl  基础.md"
               },
               "icon": "lucide-info",
-              "title": "IsAssignableFrom 保证对象的派生关系的笔记属性"
+              "title": "stl  基础的笔记属性"
             }
           },
           {
@@ -271,55 +274,55 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3aea41a7ec467da6",
+  "active": "821b08afbda4bb66",
   "lastOpenFiles": [
-    "project/class/three easy pieces.md",
-    "project/work/project - new/Global.md",
-    "project/work/Project -- 老/TrackEvent.md",
-    "project/work/project - new",
-    "project/work/Project -- 老/UniDataModule.md",
-    "project/work/Project -- 老/UniGame.md",
-    "project/work/Project -- 老/UniGameLoadContext  load上下文.md",
-    "project/work/Project -- 老/UniMain  主入口.md",
-    "project/work/Project -- 老/UniScene.md",
-    "project/work/Node/UniNodeFile.md",
-    "project/work/Node/UniNodeLoadAdapter.md",
-    "project/work/Node/UniFileContext.md",
-    "project/work/自学/流.md",
-    "project/work/Tips/UniTask.md",
-    "project/work/Tips/Play.md",
-    "project/work/Tips/IsAssignableFrom 保证对象的派生关系.md",
-    "project/work/Tips/ContractReslover.md",
-    "project/work/Tips/序列化.md",
-    "project/work/Tips/添加自定义 Palyer loop funciton.md",
-    "project/work/Tips/代码执行顺序.md",
-    "project/work/Node/体系结构.md",
-    "project/work/Node/UniNode.md",
-    "project/work/Node/UniNodeLoadAdapter --- 生成 Node.md",
-    "project/work/Node/UniNodeData.md",
-    "files/OS-tep cpu.md",
-    "files/OS-tep asset.md",
+    "周豪的学习任务---文字版.md",
+    "目标.md",
+    "project/class/CSAPP.md",
+    "档案.md",
+    "plain.md",
+    "need to do.md",
+    "files/面试现场问题.md",
+    "project/面试.md",
+    "project/设计模式.md",
     "project/algo List.md",
-    "project/work/状态",
-    "未命名",
-    "代码片段/DOTNET.pdf",
-    "project/work/网络",
-    "project/work/资源加载/Provider",
-    "project/work/资源加载/Loader",
-    "project/work/资源加载/Handler",
-    "project/work/资源加载",
-    "project/work/一些优化",
-    "Pasted image 20240905103407.png",
-    "Pasted image 20240814160457.png",
-    "Pasted image 20240814154249.png",
-    "9768ff0af3f555d09122a65ff19d1de.png",
-    "Pasted image 20240814153437.png",
-    "Pasted image 20240525151859.png",
-    "Pasted image 20240514125916.jpg",
-    "Pasted image 20240507184718.png",
-    "Pasted image 20240504151622.png",
-    "Pasted image 20240504150539.png",
+    "project/C List.md",
+    "project/cpp List.md",
+    "project/bash List.md",
+    "面试实录.md",
+    "扬州攻略.md",
+    "Pasted image 20250316144418.png",
+    "files/LearnOpengl 1 - windows.md",
+    "project/Game/CodeMonkey/Part1/05 剩余的一些.md",
+    "files/米哈游突破 -- 面试.md",
+    "files/CSAPP-9 异常控制流.md",
+    "files/CSAPP-10 虚拟内存.md",
+    "files/CSAPP-8 链接.md",
+    "files/CSAPP-7 存储结构.md",
+    "files/CSAPP-6 程序优化.md",
+    "files/CSAPP-5 处理器设计.md",
+    "files/CSAPP-4 machine-level.md",
+    "备忘录.md",
+    "project/class/未命名",
+    "Pasted image 20250323160624.png",
+    "Pasted image 20250323155545.png",
+    "Pasted image 20250323112502.png",
+    "Pasted image 20250322234413.png",
+    "Pasted image 20250322234318.png",
+    "Pasted image 20250322223046.png",
+    "Pasted image 20250315124200.png",
+    "PDF/863813+深入设计模式+v2021-1.25.pdf",
+    "project/work/painting",
+    "project/work/component",
+    "Pasted image 20250101193954.png",
     "未命名.canvas",
+    "project/work/UGCScriptable",
+    "project/Games/未命名",
+    "project/未命名",
+    "PDF/Beej's Quick Guide to GDB.pdf",
+    "PDF",
+    "project/work/project - new",
+    "Pasted image 20240905103407.png",
     "未命名 1.canvas"
   ]
 }

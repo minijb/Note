@@ -2,6 +2,7 @@
 如何使用 Culling Group 进行剔除
 
 https://unitycoder.com/blog/2018/10/31/find-nearby-objects-using-cullinggroup/
+https://www.bilibili.com/video/BV1eC6GYYEE4/?spm_id_from=333.1007.tianma.1-1-1.click&vd_source=8beb74be6b19124f110600d2ce0f3957
 
 ```c#
 using UnityEngine;

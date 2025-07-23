@@ -1,23 +1,29 @@
 
-架构分层：
 
-- UI架构层
-- 逻辑核心层
-	- 工具编辑器
-	- 角色行为框架
-	- AI
-	- 地图场景和寻路
-	- 着色器和特效
-	- 设备平台
-- 资源管理
-	- assetBundle
-	- prefeb
-- 数据管理
-	- 内存数据管理
-	- 外部数据管理
-- 网络层
+[[C Sharp IList  IReadOnlyList]]
 
 
-## C sharp List
+List 默认扩容为2的整数倍
 
-**Add** : 每次扩容如果到上线，默认会将当前容量乘2，如4，8，16...
+
+**报错**
+
+Contract.Ensures
+
+```c#
+int IArray.Add(Object value)
+{
+    // Returns the index in which an item was inserted.
+    Contract.Ensures(Contract.Result<int>() >= -1);
+    Contract.Ensures(Contract.Result<int>() < ((IArray)this).Count);
+    return default(int);
+}
+```
+
+
+List 删除 --- Array.Copy
+
+Insert 也是同理 --- Array.Copy
+
+ToArray : 复制一个新数组，有大量内存分配
+

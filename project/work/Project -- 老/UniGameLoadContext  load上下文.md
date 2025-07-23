@@ -47,6 +47,6 @@ Steps[(int)UniGameLoadStep.enum] = UniGameStepLoadState.Succ;
 	1.  DataModule.LoadGameAsset(),
 	2.  UniLanguage.Initialize(),
 	3.  AudioManager.Initialize(),
-	4.  [[UniNodeLoadManager]].InitShapesPool()  !!!!
+	4.  [[project/work/Project -- 老/UniNodeLoadManager]].InitShapesPool()  !!!!
 	5. 设置 Step 状态  --- 自动设置 UI_Loading
 4.  如果 LoadPreAsset 不为 None 则等待直到成功后才进行下一个步骤

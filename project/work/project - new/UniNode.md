@@ -1,0 +1,14 @@
+
+这段代码定义了一个名为 UniNode 的抽象类及其相关的接口和方法，用于在 Unity 中实现节点的功能。UniNode 类继承自 MonoBehaviour，并包含了多个属性和方法来管理节点的状态、组件、网络同步等功能。
+
+首先，INodePoseChangeListener 接口定义了三个方法：OnSetPosition、OnSetRotation 和 OnSetScale，用于在节点位置、旋转和缩放发生变化时进行回调。UniNode 类中包含多个方法来管理节点的基本组件和状态。例如，NewBasicComponent 方法创建一个新的基本组件 UniBasicComponent，并通过 UniComponentReflectionUtils.ConfigNode 方法配置该组件。CreateBasicComponent 方法用于创建基本组件并调用其 OnUniAwake 方法进行初始化。
+
+OnUniStart 方法在节点启动时调用，用于应用同步数据。AddRuntimeFlag 和 RemoveRuntimeFlag 方法用于添加和移除运行时标志，而 HaveRuntimeFlag 方法用于检查是否具有特定的运行时标志。Export 方法用于导出节点数据，包括位置、缩放、旋转、ID 等信息，并处理基本组件的序列化。SetParent 方法用于设置节点的父节点，并在父节点发生变化时进行通知。SetPosition、SetRotation 和 SetScale 方法分别用于设置节点的位置、旋转和缩放，并调用相应的回调方法。
+
+SetActive 方法用于设置节点的激活状态，SetTransform 方法用于同时设置节点的位置、旋转和缩放。SetPivotToCenter 方法用于将节点的中心点设置为其子节点的中心，并根据需要调整位置。Destroy 方法用于销毁节点及其子节点，并从场景中移除节点。InvokeNewComponentEvent 方法用于在编辑模式下处理新组件的添加事件，并调用相应的生命周期方法。
+
+AddUniComponent2 方法用于添加新的组件，并根据需要进行配置和生命周期管理。AddUniComponent 和 AddUniComponent<T> 方法是 AddUniComponent2 方法的简化版本，用于添加指定类型的组件。SetChildrenNodesWithModeValue 方法用于设置子节点的模式值，ToNodeFile 方法用于将节点转换为文件格式，并导出相关数据。ProcessScriptUsedIDList 方法用于处理脚本使用的 ID 列表，并收集脚本单元的使用数据。
+
+ToRawData 方法用于将节点转换为原始数据格式，GetUniComponent 方法用于获取指定名称或类型的组件。GetNodeName 方法用于获取节点的名称。AddNetworkFlag 和 RemoveNetworkFlag 方法用于添加和移除网络标志，而 HaveNetworkFlag 方法用于检查是否具有特定的网络标志。
+
+总体来说，这段代码实现了一个功能丰富的节点类，提供了节点管理、组件管理、网络同步和数据导出等功能。

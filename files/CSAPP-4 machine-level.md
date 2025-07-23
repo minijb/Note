@@ -271,3 +271,144 @@ while 的两种跳转方式 :
 **`.text`**，定义text section，保存代码，只读和可执行。
 **`.section .rodata`**，定义只读数据区（必须带上.section前缀）。
 
+**switch** : 存在一个跳转表因此速度较快
+
+**Call** 命令 : 会自动在rsp -- 栈中进行 push 
+
+rsp = rsp -2 , 值指向call的下一条命令
+
+ret 的时候,  PC跳转到 rsp 指向的地方, rsp = rep + 2 
+
+> rsp 中, 调用的函数都有栈帧. 内部存放下一个返回地址, 以及超过6个的参数, 保护的寄存器
+
+栈内 **传递参数的时候** 的最小单位为 : 8B--64bit . 所有大小都会向8取整!!!!
+
+- **局部变量是存放在栈帧中** 
+- 同时如果一个运算符需要进行取地址操作,也需要放到栈内.
+
+
+P172 : **注意对局部变量存储时大小没有要求, 而传递的参数大小需要是8的倍数.**
+
+![dd](https://cdn.acwing.com/media/article/image/2021/09/29/85607_ac8f06b320-3.png)
+
+注意 :  作为参数的部分只有 arg 7,8 ,其他的存储在寄存器中.
+因此只有 7,8 进行了对齐,其他没有.
+
+### 调用者保护和被调用者保护
+
+https://blog.csdn.net/Edidaughter/article/details/122334074
+
+- 调用者保护, 在外层函数保护    
+- 被调用者保护, 子啊内存函数保护
+
+rbx 就是一个被调用者保护寄存器
+
+### 数组和指针
+
+**定长数组**
+
+一个变量的基本组成方式 ： 1. 地址值 2. 变量值
+
+$$
+\&D[i][j] = D_{x} + L(C \cdot i + j)
+$$
+
+
+`int A[5][3]`
+
+```txt
+X_a : rdi, i : rsi, j : rdx 
+leaq (rsi, rsi, 2), rax   -- rax = 3rsi = 3i
+leaq (rdi, rax, 4), rax   -- rax = 4*3i + X_a = 12i + X_a
+movl (rax, rdx, 4), rax   -- rax = M(12i+4j+X_a)
+```
+
+
+定长数组可以根据原始 长宽 和 i,j 进行快速定位
+
+每次跨行、列的定位会在编辑阶段转换为常数， 因此速度很快
+
+**变长数组**
+
+`func(int x, int y, int A[x][y])`
+
+注意产犊必须在数组 A 之前。
+
+![UvTjfW4VHuYc2Lg.png](https://s2.loli.net/2024/12/30/UvTjfW4VHuYc2Lg.png)
+
+注意需要进行一次计算。
+
+**两者对比**
+
+![xjimWRdYhz3eDK7.png](https://s2.loli.net/2024/12/30/xjimWRdYhz3eDK7.png)
+
+
+**struct**
+
+字节对齐规则：
+
+1. 
+
+![rZWkDsfPJCNBLz8.png](https://s2.loli.net/2024/12/30/rZWkDsfPJCNBLz8.png)
+
+`x / k ` 能除的进。
+
+2. 考虑 ： 结构体数组 
+
+结构体之间也需要对齐。 一般是对8字节
+
+> 调整顺序 会改变 struct 类型的大小
+
+
+**Union**
+
+互斥体 ： 大小为变量中最大的
+
+![wtZaWQixGlURsV4.png](https://s2.loli.net/2024/12/30/wtZaWQixGlURsV4.png)
+
+节约空间。
+
+![kt71KARV6LZa8Mu.png](https://s2.loli.net/2024/12/30/kt71KARV6LZa8Mu.png)
+
+![4nLbYxJKt9wHopS.png](https://s2.loli.net/2024/12/30/4nLbYxJKt9wHopS.png)
+
+可以用于类型转换。
+
+### Buffer Overflow
+
+gets : 根据输入总到 buf (字符数组)中 -- 无法判断buf大小。 
+
+字符数组作为局部变量会多分配一些空间 
+
+![HfyA5vQBhL1F89g.png](https://s2.loli.net/2024/12/30/HfyA5vQBhL1F89g.png)
+
+![AMWHt7zDsO83d4v.png](https://s2.loli.net/2024/12/30/AMWHt7zDsO83d4v.png)
+
+如果超过一定范围， 就会造成返回地址不确定。 本质就是覆盖 返回地址。
+
+Thwarting Buffer Overflow Attacks
+
+1. Stack Randomization
+2. Stack Corruption Detection 栈破坏检测 -- use canary（金丝雀/哨兵）
+3. Limiting Executable Code Regions
+
+
+**Stack Corruption Detection**
+
+![wDaX7dI2z8PixsK.png](https://s2.loli.net/2025/01/02/wDaX7dI2z8PixsK.png)
+
+
+检测到 canary 被修改会报错。
+
+`%fs:40`  指向内存中的特定位置， 其中40为偏移量 --- 只读
+
+![rhfCZcO5u83pgaE.png](https://s2.loli.net/2025/01/02/rhfCZcO5u83pgaE.png)
+
+
+**Limiting Executable Code Regions**
+
+![olNZW8d1ptKXxcO.png](https://s2.loli.net/2025/01/02/olNZW8d1ptKXxcO.png)
+
+
+
+

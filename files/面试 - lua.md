@@ -138,7 +138,7 @@ end
 ### lua 引用 c#对象 ，代价高
 
 c#不能作为指针直接给lua操作。因此使用 id 来表示一个对象 (unity + lua), C# 中通过 dictionary 来对应 id和 object 。
-坏处 ： 每次使用 object 都会有查找的过程，对于经常使用的对象还好
+坏处 ： 每次使用 object（作为参数，或者使用成员方法） 都会有查找的过程，对于经常使用的对象还好
 - （未持有）对于临时对象，刚分配的 userdata，和 dictionary 索引因为 lua 的引用被 GC ，下一次，又会重复以上的准备过程，导致反复分配和GC 如 transform.position. 之后没有使用 会被lua 释放，之后 在 update 中的时候，就会重新分配
 
 **因此不推荐串行 使用 (很多次.)， 对于 Object 类推荐持有**
@@ -214,6 +214,8 @@ getfloat3(get_field + to number 3次) 变为  isnumber + tonumber
 
 ## 闭包 
 
+https://www.yuque.com/chengxuyuanchangfeng/qxodkp/kxqrk2z4rrgltbch
+
 **UpValue**
 - lua 中有全局栈， 所有的upvalue 指向栈里的值。离开作用域值会被释放。
 - 闭包运行的时候 ，会找到upvalue 指针， 找到需要的外部需要的变量
@@ -287,9 +289,11 @@ end
 
 ## Rehash + table 的结构
 
+https://www.cnblogs.com/zhepama/p/4285223.html
+
 table 分为 数组部分和哈希部分
 
-内粗大小动态分配， 如果空间不够就会分配， 如果太少就会缩少
+内存大小动态分配， 如果空间不够就会分配， 如果太少就会缩少
 
 做的事
 - 计算 array part key

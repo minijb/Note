@@ -3,7 +3,9 @@ tags:
   - unity
 ---
 
+## Mirror 底层原理
 
+[[Mirror1]]
 
 
 ## Unity 编辑器开发
@@ -62,6 +64,8 @@ tags:
 ## 小技巧
 
 [[Unity - 导入资源自动设置]]
+[[Unity - 代码打开资源+获取代码的结构]]
+
 
 
 https://www.bilibili.com/video/BV1zT411b7L3/?spm_id_from=333.337.search-card.all.click&vd_source=8beb74be6b19124f110600d2ce0f3957
@@ -92,6 +96,12 @@ https://www.bilibili.com/video/BV1r24y1U7ts/?spm_id_from=333.788&vd_source=8beb7
 
 ## Unity 优化
 
+[[Unity - 闭包+匿名函数造成的GC]]
+[[Unity - struct 栈实验]]
+
+！！！！！1
+https://lizijie.github.io/2020/03/10/%E8%AE%B0%E4%B8%80%E6%AC%A1C-%E6%95%B0%E6%8D%AE%E5%8C%85GC%E4%BC%98%E5%8C%96.html
+
 
 ## 物理
 
@@ -115,6 +125,10 @@ ORCA/RVO2
 [[unity - autohook 自动绑定]]
 [[unity - 小tips]]
 
+
+## xlua
+
+[[xlua 速通]]
 
 ## 优化
 

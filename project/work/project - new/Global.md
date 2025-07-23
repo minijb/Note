@@ -17,3 +17,5 @@ protected UniLaunchConfig launchConfig;
 // 版本信息
 ```
 
+
+UniScriptNode -- 自定义编辑信息
