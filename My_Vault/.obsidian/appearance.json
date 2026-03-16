@@ -1,10 +1,5 @@
 {
-  "accentColor": "",
-  "cssTheme": "Blue Topaz",
-  "theme": "moonstone",
-  "interfaceFontFamily": "FiraCode Nerd Font,微软雅黑",
-  "textFontFamily": "FiraCode Nerd Font,微软雅黑",
-  "monospaceFontFamily": "FiraCode Nerd Font,微软雅黑",
-  "baseFontSizeAction": false,
-  "baseFontSize": 16
+  "interfaceFontFamily": "Maple Mono NF CN",
+  "textFontFamily": "Maple Mono NF CN",
+  "monospaceFontFamily": "Maple Mono NF CN"
 }
