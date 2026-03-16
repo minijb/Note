@@ -2,21 +2,66 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-## Repository Overview
-This repository contains a collection of programming notes and documentation managed via Obsidian. It is not a traditional software codebase but rather a personal knowledge management system. There are no build steps, tests, or compilation processes.
+## 当前任务：笔记整合迁移
 
-The repository currently consists of three distinct versions or structures of notes:
-- **`Blog/`**: Structured using a numbered folder system (e.g., `0_Areas`, `1_Projects`, `2_TechStack`, `10_Archive`). This likely follows a methodology like PARA or Johnny.Decimal.
-- **`Note/`**: Organized by broad topic categories (e.g., `Language`, `Project`, `Resources`, `Skill`, `Tools`, `Unity`).
-- **`remote/`**: Contains a mix of Chinese-named root files (e.g., `备忘录.md`, `目标.md`), templates, and subdirectories. The presence of `.stfolder` suggests this directory is synced across devices (e.g., via Syncthing).
+正在执行从 `Blog/`, `Note/`, `remote/` 三个旧版本向统一结构迁移。
 
-## Formatting and Conventions
-- **Markdown:** All content should be written in standard Markdown, compatible with Obsidian.
-- **Obsidian Features:** Support Obsidian-specific syntax such as wikilinks (`[[Note Name]]`) and frontmatter (YAML) where appropriate.
-- **File Naming:** When creating new notes, follow the naming conventions of the directory you are working in. In `Blog/`, use appropriate numbered prefixes if placing files in root structures. In `remote/`, Chinese filenames are common and acceptable.
-- **Assets:** Images and attachments (like Excalidraw files or PDFs) are stored locally in the vault (e.g., `remote/Excalidraw/`, `remote/PDF/`). Use relative paths or Obsidian link syntax when embedding assets.
+## 迁移目标结构
+采用 **MOC + PARA + 数字前缀** 的混合结构：
 
-## Common Tasks
-- **Refactoring Notes:** When asked to reorganize or plan note structures, consider the differences between the three existing versions (`Blog`, `Note`, `remote`) and help consolidate or migrate notes based on the user's preferred methodology.
-- **Content Creation:** Provide clear, concise, and well-structured Markdown when writing new notes or summarizing concepts.
-- **Searching:** Use the `Glob` and `Grep` tools to find specific concepts or code snippets across the markdown files, as there are many files spread across different directory structures.
+```
+remote/                      # 以 remote 为基础目录（包含同步配置）
+├── 00_Dashboard.md         # 主页/导航页
+├── 00_Inbox/               # 收件箱：临时闪念、未分类内容
+├── 01_Projects/            # 项目：正在进行的代码项目
+├── 02_Knowledge/          # 知识库（核心）
+│   ├── 01_Language/       # 编程语言
+│   ├── 02_Framework/      # 框架与引擎
+│   ├── 03_Tools/          # 工具使用
+│   └── 04_CS_Basics/     # 计算机基础
+├── 03_Resources/           # 资源库
+│   ├── Code_Snippets/    # 代码片段
+│   ├── PDF_Books/        # 电子书
+│   └── Bookmarks/        # 网址收藏
+├── 04_Career/             # 职业发展
+├── 88_Templates/          # 模板
+├── 99_Assets/             # 附件库
+└── Archive/              # 归档
+```
+
+## 迁移步骤（按顺序执行）
+
+### Step 1: 创建新目录结构
+在 `remote/` 下创建所有子文件夹
+
+### Step 2: 处理 remote 根目录散落文件
+- `need to do.md`, `备忘录.md` → `00_Inbox/`
+- `目标.md`, `面试实录.md` → `04_Career/`
+- `template.md` → `88_Templates/`
+- `Pasted image*.png` → `99_Assets/`
+
+### Step 3: 吸收 Note 目录
+- `Note/Language/` → `remote/02_Knowledge/01_Language/`
+- `Note/Tools/` → `remote/02_Knowledge/03_Tools/`
+- `Note/Unity/` → `remote/02_Knowledge/02_Framework/`
+- `Note/Project/` → `remote/01_Projects/`
+- `Note/Skill/` → `remote/02_Knowledge/`（按内容分散）
+- `Note/Resources/` → `remote/03_Resources/`
+
+### Step 4: 吸收 Blog 目录
+- `Blog/1_Projects/` → `remote/01_Projects/`
+- `Blog/2_TechStack/` → `remote/02_Knowledge/`（按内容分散）
+- `Blog/5_KowledgeBase/` → `remote/02_Knowledge/`
+- `Blog/10_Archive/` → `remote/Archive/`
+- `Blog/Excalidraw/` → `remote/99_Assets/`
+
+## 常用操作命令
+- **创建目录**：`mkdir -p remote/00_Inbox remote/01_Projects remote/02_Knowledge/{01_Language,02_Framework,03_Tools,04_CS_Basics} remote/03_Resources/{Code_Snippets,PDF_Books,Bookmarks} remote/04_Career remote/88_Templates remote/99_Assets remote/Archive`
+- **移动文件**：`mv 源路径 目标路径`
+- **搜索笔记**：`Grep` 工具搜索关键词
+- **查找文件**：`Glob` 工具按模式匹配
+
+## 笔记维护建议
+- **标签优先于文件夹**：使用 `#tag` 而非深层次嵌套
+- **状态标签**：`#todo`, `#draft`, `#review`
+- **每目录放 MOC 索引页**：用 `[[wikilink]]` 串联相关内容
