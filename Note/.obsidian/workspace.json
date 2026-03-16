@@ -1,0 +1,235 @@
+{
+  "main": {
+    "id": "cc476e0b03f2718d",
+    "type": "split",
+    "children": [
+      {
+        "id": "014bea1836d4afbd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "181272e1d431d44a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Project/三国杀/03_prject_san_TriggerAction部分.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "03_prject_san_TriggerAction部分"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5de065997881da4c",
+    "type": "split",
+    "children": [
+      {
+        "id": "79435ec9abd91cb9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7e410183c8c5ffc3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "eeab5e380a6e7afc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "5b5e795e7e042f22",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 294.5
+  },
+  "right": {
+    "id": "2c1cdc1f66406b6b",
+    "type": "split",
+    "children": [
+      {
+        "id": "ef933e4798d6bd59",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c00ffd5b837db361",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Project/三国杀/03_prject_san_TriggerAction部分.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 03_prject_san_TriggerAction部分"
+            }
+          },
+          {
+            "id": "38dc6746101edb04",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "c894795e7112e093",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "dc81014237700cf7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Unity/编辑器拓展/01_Unitu编辑器_编辑器特性.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 01_Unitu编辑器_编辑器特性"
+            }
+          },
+          {
+            "id": "ff77ea0cfa3bf644",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "advanced-tables-toolbar"
+            }
+          },
+          {
+            "id": "f5a25eca29a3374c",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {},
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "templater-obsidian:Templater": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
+    }
+  },
+  "active": "181272e1d431d44a",
+  "lastOpenFiles": [
+    "Project/三国杀/01_Project_san_Battle.md",
+    "Project/三国杀/03_prject_san_TriggerAction部分.md",
+    "Project/三国杀/02_project_san_BattleTriggerComp.md",
+    "Project/三国杀/00_Project_san_Trigger部分.md",
+    "Skill/Untitled.md",
+    "Skill",
+    "Unity/Dots/JobSystem/05_Dots_JobSystem_调试和分析.md",
+    "Unity/Dots/JobSystem/03_Dots_JobSystem_Job结构体.md",
+    "Unity/Dots/JobSystem/02_Dots_JobSystem_Native集合和Blittable.md",
+    "Unity/Dots/JobSystem/01_Dots_JobSystem_Brust.md",
+    "Unity/优化/01_Unity_优化_字符串优化.md",
+    "Unity/优化/00_Unity_优化_语言层面.md",
+    "Unity/常用函数/编辑器相关/00_Unity_常用函数_Selection.md",
+    "Language/Csharp_tools/Thread/00_Csharp_Thread_启动线程的方式.md",
+    "Language/Lua",
+    "Language/Csharp_tools/Process/00_Csharp_Process.md",
+    "Language/Csharp_tools/Process/00_Csharp_Process_.md",
+    "Language/python/01_Python_文件的增删改查.md",
+    "Project/三国杀",
+    "Project/Untitled.md",
+    "Project",
+    "Unity/常用函数/编辑器相关",
+    "Language/Csharp_tools/Process",
+    "Language/python/00_Python_运行命令行.md",
+    "Language/python/01_Python_文件的增删改查",
+    "Language/python",
+    "Language/Csharp/Csharp_Struct 如何减少装箱造成的GC.md",
+    "Language/Csharp_tools/Thread",
+    "Language/Csharp_tools",
+    "Unity/Dots/JobSystem/04_Dots_JobSystem_内存分配.md",
+    "Tools/Dotnet/00_Tools_dotnet_常用命令.md",
+    "Unity/Dots/00_.md",
+    "Unity/编辑器拓展/05_Gizmos 辅助调试.md",
+    "Unity/编辑器拓展/Untitled.md",
+    "Unity/编辑器拓展/04_Unity编辑器_自定义窗口.md",
+    "Unity/编辑器拓展/03_Unity编辑器_自定义Inspector面板.md",
+    "Pasted image 20251031150039.png"
+  ]
+}
