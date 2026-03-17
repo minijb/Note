@@ -2,6 +2,9 @@
 
 Quartz 4 是完全重写的版本，基于 Node.js，速度极快，原生完美支持 Obsidian 的双向链接、标签、Callouts 等特殊语法。
 
+[元数据](https://blog.csdn.net/gitblog_00228/article/details/151281180)
+[配置教程](https://www.lapis.cafe/posts/technicaltutorials/obsidian-quartz-4/)
+
 > **前置条件**：需要 Git 和 Node.js (v18.14+) 环境。
 
 ---
