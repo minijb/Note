@@ -11,10 +11,14 @@
             "id": "181272e1d431d44a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "02_Knowledge/CUDA/02_CUDA_硬件架构及编程基础.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "02_CUDA_硬件架构及编程基础"
             }
           }
         ]
@@ -188,8 +192,16 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "181272e1d431d44a",
+  "active": "7e410183c8c5ffc3",
   "lastOpenFiles": [
+    "00_Inbox/未命名",
+    "02_Knowledge/CUDA/01_CUDA_环境配置.md",
+    "02_Knowledge/CUDA/00_CUDA_介绍.md",
+    "00_Inbox/need to do.md",
+    "00_Inbox/plain.md",
+    "00_Inbox/Now.md",
+    "00_Inbox/周豪的学习任务---文字版.md",
+    "00_Inbox/备忘录.md",
     "Project/三国杀/01_Project_san_Battle.md",
     "Project/三国杀/03_prject_san_TriggerAction部分.md",
     "Project/三国杀/02_project_san_BattleTriggerComp.md",
@@ -216,16 +228,8 @@
     "Language/python/00_Python_运行命令行.md",
     "Language/python/01_Python_文件的增删改查",
     "Language/python",
-    "Language/Csharp/Csharp_Struct 如何减少装箱造成的GC.md",
     "Language/Csharp_tools/Thread",
     "Language/Csharp_tools",
-    "Unity/Dots/JobSystem/04_Dots_JobSystem_内存分配.md",
-    "Tools/Dotnet/00_Tools_dotnet_常用命令.md",
-    "Unity/Dots/00_.md",
-    "Unity/编辑器拓展/05_Gizmos 辅助调试.md",
-    "Unity/编辑器拓展/Untitled.md",
-    "Unity/编辑器拓展/04_Unity编辑器_自定义窗口.md",
-    "Unity/编辑器拓展/03_Unity编辑器_自定义Inspector面板.md",
     "Pasted image 20251031150039.png"
   ]
 }
