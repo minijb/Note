@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02_Knowledge/CUDA/02_CUDA_硬件架构及编程基础.md",
+                "file": "88_Templates/template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02_CUDA_硬件架构及编程基础"
+              "title": "template"
             }
           }
         ]
@@ -61,7 +61,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "搜索"
             }
           },
           {
@@ -156,8 +156,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "advanced-tables-toolbar"
+              "icon": "lucide-file",
+              "title": "插件不再活动"
             }
           },
           {
@@ -166,8 +166,8 @@
             "state": {
               "type": "mermaid-toolbar-view",
               "state": {},
-              "icon": "trident-custom",
-              "title": "Mermaid Toolbar"
+              "icon": "lucide-file",
+              "title": "插件不再活动"
             }
           }
         ]
@@ -179,57 +179,58 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:新建数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "bases:新建数据库": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "templater-obsidian:Templater": false,
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "7e410183c8c5ffc3",
+  "active": "181272e1d431d44a",
   "lastOpenFiles": [
-    "00_Inbox/未命名",
-    "02_Knowledge/CUDA/01_CUDA_环境配置.md",
-    "02_Knowledge/CUDA/00_CUDA_介绍.md",
-    "00_Inbox/need to do.md",
-    "00_Inbox/plain.md",
-    "00_Inbox/Now.md",
-    "00_Inbox/周豪的学习任务---文字版.md",
-    "00_Inbox/备忘录.md",
-    "Project/三国杀/01_Project_san_Battle.md",
-    "Project/三国杀/03_prject_san_TriggerAction部分.md",
-    "Project/三国杀/02_project_san_BattleTriggerComp.md",
-    "Project/三国杀/00_Project_san_Trigger部分.md",
-    "Skill/Untitled.md",
+    "05_StartUp/StartUp_AI_Environment.md",
+    "05_StartUp/StartUp_常用工具.md",
+    "06_Tools/Tool_NVM.md",
+    "06_Tools",
+    "02_Knowledge/01_Language/常用接口/Tech_Csharp_常用接口_集合接口.md",
+    "02_Knowledge/01_Language/常用工具/01_CSharp_文件处理.md",
+    "02_Knowledge/01_Language/常用工具/00_CSharp_进程.md",
+    "Excalidraw/fork.excalidraw.md",
+    "Excalidraw/tree.excalidraw.md",
+    "Excalidraw/Prototype.excalidraw.md",
+    "Excalidraw/FactoryMethod.excalidraw.md",
+    "Excalidraw/diffuse.excalidraw.md",
+    "Excalidraw/builder.excalidraw.md",
+    "Excalidraw/algo_stack.excalidraw.md",
+    "01_Projects/战旗/UnPack/Texture 释放问题.md",
+    "01_Projects/战旗/UnPack/00_Project战旗_UI编写逻辑.md",
+    "01_Projects/战旗/UnPack/嘴型动画/01_战旗_嘴型动画_tips.md",
+    "01_Projects/战旗/UnPack/嘴型动画/01_战旗_嘴型动画_方案.md",
+    "01_Projects/战旗/UnPack/嘴型动画/00_战旗_嘴型动画_资源.md",
+    "02_Knowledge/02_Framework/编辑器拓展/01_Unity编辑器_编辑器特性.md",
+    "02_Knowledge/02_Framework/编辑器拓展/03_Unity编辑器_自定义Inspector面板.md",
+    "99_Assets/ScreenPointToLocalPointInRectangle.excalidraw.md",
+    "99_Assets/Pasted image 20250316144418.png",
+    "files/备忘录.md",
+    "Archive/Window_Scoop 安装、更新、使用.md",
+    "Archive/Window_Powershell_升级.md",
+    "Archive/NoteTake_Obsidian_Plugin_Dataview.md",
+    "Archive/NoteTake_Obsidian_Plugin_Admonition.md",
     "Skill",
-    "Unity/Dots/JobSystem/05_Dots_JobSystem_调试和分析.md",
-    "Unity/Dots/JobSystem/03_Dots_JobSystem_Job结构体.md",
-    "Unity/Dots/JobSystem/02_Dots_JobSystem_Native集合和Blittable.md",
-    "Unity/Dots/JobSystem/01_Dots_JobSystem_Brust.md",
-    "Unity/优化/01_Unity_优化_字符串优化.md",
-    "Unity/优化/00_Unity_优化_语言层面.md",
-    "Unity/常用函数/编辑器相关/00_Unity_常用函数_Selection.md",
-    "Language/Csharp_tools/Thread/00_Csharp_Thread_启动线程的方式.md",
     "Language/Lua",
-    "Language/Csharp_tools/Process/00_Csharp_Process.md",
-    "Language/Csharp_tools/Process/00_Csharp_Process_.md",
-    "Language/python/01_Python_文件的增删改查.md",
     "Project/三国杀",
-    "Project/Untitled.md",
     "Project",
     "Unity/常用函数/编辑器相关",
     "Language/Csharp_tools/Process",
-    "Language/python/00_Python_运行命令行.md",
     "Language/python/01_Python_文件的增删改查",
     "Language/python",
     "Language/Csharp_tools/Thread",
-    "Language/Csharp_tools",
     "Pasted image 20251031150039.png"
   ]
 }
