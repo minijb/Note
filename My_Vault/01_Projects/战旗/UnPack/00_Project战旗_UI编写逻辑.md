@@ -1,14 +1,17 @@
-
-**路径：**
-
-UI的lua 路径  ： `Script/Lua/Client/UI/{PanelName}/xxx`
-
-
-
-**简单逻辑**
-
-- 先执行bindGoObj.lua的逻辑 绑定东西。
-
+---
+title: 战旗 UI编写逻辑
+date: 2026-03-16
+tags:
+  - project
+  - game
+  - unity
+  - ui
+type: project
+aliases:
+  战旗UI
+description: 战旗项目UI编写逻辑
+draft: false
+---
 
 
 ## 绑定

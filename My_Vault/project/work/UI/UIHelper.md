@@ -1,3 +1,16 @@
+---
+title: UIHelper
+date: 2026-03-16
+tags:
+  - untagged
+type: ui
+aliases:
+  -
+description: UIPathDic ： UI 路由 --- 生成路径 ： `dic<UIName, string>`
+draft: false
+---
+
+# UIHelper
 
 UIPathDic ： UI 路由 --- 生成路径 ： `dic<UIName, string>`
 UIFactory ： 工厂 --- enum ,   `Func<UIBase>`

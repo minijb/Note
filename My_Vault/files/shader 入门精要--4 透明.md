@@ -1,4 +1,5 @@
 ---
+title: shader 入门精要 4 透明
 tags:
   - shader
 ---

@@ -1,3 +1,16 @@
+---
+title: 5Compute Shaders
+date: 2026-03-16
+tags:
+  - untagged
+type: shader
+aliases:
+  -
+description: - [t1](https://www.youtube.com/watch?v=9RHGLZLUuwc&t=184s)
+draft: false
+---
+
+# 5Compute Shaders
 
 - [t1](https://www.youtube.com/watch?v=9RHGLZLUuwc&t=184s)
 - [t2](https://www.youtube.com/watch?v=nF4X9BIUzx0&t=159s)

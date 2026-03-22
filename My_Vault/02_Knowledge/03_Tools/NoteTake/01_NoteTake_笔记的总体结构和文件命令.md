@@ -1,3 +1,18 @@
+---
+title: Obsidian 笔记结构与命名
+date: 2026-03-16
+tags:
+  - obsidian
+  - note-taking
+  - structure
+type: tool
+aliases:
+  笔记结构
+description: Obsidian笔记的总体结构和文件命名规范
+draft: false
+---
+
+
 ### **一、核心原则**
 
 1. **按领域划分**（非技术栈）：避免过度细分技术（如“Python”“Java”），而是按**知识维度**分类（如“算法”“架构”）。

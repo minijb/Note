@@ -1,4 +1,16 @@
+---
+title: ch mermaid 00 List
+date: 2026-03-16
+tags:
+  - resource
+type: knowledge
+aliases:
+  -
+description: - [[ch_mermaid_01_流程图]]
+draft: false
+---
 
+# ch mermaid 00 List
 
 - [[ch_mermaid_01_流程图]]
 - [时序图](https://mermaid.nodejs.cn/syntax/sequenceDiagram.html)

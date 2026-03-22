@@ -1,3 +1,18 @@
+---
+title: Unity Xlua 资源加载和Csharp访问lua
+date: 2026-03-16
+tags:
+  - knowledge
+  - csharp
+  - unity
+type: language
+aliases:
+  -
+description: luaenv.DoString("print('hello world')")
+draft: false
+---
+
+# Unity Xlua 资源加载和Csharp访问lua
 
 ## 1. lua脚本加载
 

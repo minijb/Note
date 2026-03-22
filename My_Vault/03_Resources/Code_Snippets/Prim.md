@@ -1,3 +1,16 @@
+---
+title: Prim
+date: 2026-03-16
+tags:
+  - resource
+type: knowledge
+aliases:
+  -
+description: using namespace std;
+draft: false
+---
+
+# Prim
 
 ```c++
 #include<iostream>

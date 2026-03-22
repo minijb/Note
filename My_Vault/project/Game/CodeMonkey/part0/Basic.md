@@ -1,3 +1,16 @@
+---
+title: Basic
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: 游戏资源: [unity asset store](https://assetstore.unity.com/zh)
+draft: false
+---
+
+# Basic
 
 游戏资源: [unity asset store](https://assetstore.unity.com/zh)
 

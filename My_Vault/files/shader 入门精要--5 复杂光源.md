@@ -1,4 +1,5 @@
 ---
+title: shader 入门精要 5 复杂光源
 tags:
   - shader
 ---

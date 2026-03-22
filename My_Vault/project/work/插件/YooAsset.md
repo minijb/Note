@@ -1,3 +1,16 @@
+---
+title: YooAsset
+date: 2026-03-16
+tags:
+  - untagged
+type: asset
+aliases:
+  -
+description: 1. YooAsset 初始化系统
+draft: false
+---
+
+# YooAsset
 
 ## 1. 初始化过程
 

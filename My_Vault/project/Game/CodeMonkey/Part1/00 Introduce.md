@@ -1,3 +1,16 @@
+---
+title: 00 Introduce
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: [homepage](https://unitycodemonkey.com/kitchenchaoscourse.php)
+draft: false
+---
+
+# 00 Introduce
 
 ## assert
 

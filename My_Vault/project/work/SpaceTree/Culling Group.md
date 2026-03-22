@@ -1,3 +1,16 @@
+---
+title: Culling Group
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: 如何使用 Culling Group 进行剔除
+draft: false
+---
+
+# Culling Group
 
 如何使用 Culling Group 进行剔除
 

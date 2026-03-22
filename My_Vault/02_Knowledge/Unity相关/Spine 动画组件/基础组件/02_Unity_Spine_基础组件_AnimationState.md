@@ -1,14 +1,17 @@
+---
+title: Unity Spine AnimationState
+date: 2026-03-16
+tags:
+  - unity
+  - spine
+  - animationstate
+type: framework
+aliases:
+  AnimationState
+description: Unity Spine基础组件AnimationState
+draft: false
+---
 
-
-[SkeletonAnimation](https://zh.esotericsoftware.com/spine-unity-main-components#SkeletonAnimation%E7%BB%84%E4%BB%B6) 组件实现了 `Update` 方法, 它按照delta时间更新底层的 [AnimationState](https://zh.esotericsoftware.com/spine-applying-animations#AnimationState-API), 同时根据skeleton物理约束推进变换运动, 再将 `AnimationState` 应用于skeleton, 最后更新skeleton上所有骨骼的世界变换.
-
-
-**设置时间尺度**
-
-```c#
-float timeScale = skeletonAnimation.timeScale;
-skeletonAnimation.timeScale = 0.5f;
-```
 
 ## 1. 设置动画
 
@@ -38,7 +41,7 @@ TrackEntry entry = skeletonAnimation.AnimationState.AddAnimation(trackIndex, "ru
 
 ## 3. 清除动画
 
-如果轨道当前没有动画但已设置了动画时, 运行时会立即开始播放动画. 清空轨道后将不再应用轨道动画, Skeleton将保持清空动画时的姿势. 如[通用运行时指南](https://zh.esotericsoftware.com/spine-applying-animations/#%E7%A9%BA%E5%8A%A8%E7%94%BB)所述, _empty_动画就是用来mix-in(淡入)或mix-out(淡出)到另一个动画的. Skeleton动画组件提供了设置空动画、队列空动画、清空某条或全部轨道的方法. 这些方法的用法与上文中队列动画的方法和参数相似.
+如果轨道当前没有动画但已设置了动画时, 运行时会立即开始播放动画. 清空轨道后将不再应用轨道动画, Skeleton将保持清空动画时的姿势. 如[通用运行时指南](https://zh.esotericsoftware.com/spine-applying-animations/#%E7%A9%BA%E5%8A%A8%E7%94%BB)所述, _empty_动画就是用来mix-in(淡入)或mix-out(淡出)到另一个动画的. Skeleton动画组件提供了设置空动画、队列空动画、清空某条或全部轨道的方法. 这些方法的用法与上文中队列动画的方法和参数相似.
 
 ```c#
 TrackEntry entry = skeletonAnimation.AnimationState.SetEmptyAnimation(trackIndex, mixDuration);
@@ -49,9 +52,9 @@ skeletonAnimation.AnimationState.ClearTracks();
 
 ## 4. [轨道条目](https://zh.esotericsoftware.com/spine-unity-main-components#%E8%BD%A8%E9%81%93%E6%9D%A1%E7%9B%AE)
 
-AnimationState的所有方法都会返回一个 [TrackEntry](https://zh.esotericsoftware.com/spine-api-reference#TrackEntry) (轨道条目)对象, 它可以进一步定制如何回放某段动画, 也能自定义轨道条目中某个事件的委托. 详见下文中的 _处理AnimationState事件_ 一节.
+AnimationState的所有方法都会返回一个 [TrackEntry](https://zh.esotericsoftware.com/spine-api-reference#TrackEntry) (轨道条目)对象, 它可以进一步定制如何回放某段动画, 也能自定义轨道条目中某个事件的委托. 详见下文中的 _处理AnimationState事件_ 一节.
 
-> **请注意:** 运行时从底层的AnimationState中删除了轨道条目所对应的动画后, 这些方法返回的轨道条目便会失效. Unity的垃圾收集器会自动释放它们. 在接收到轨道条目的销毁事件(dispose event)后, 就不应再存储或访问这个轨道条目了.
+> **请注意:** 运行时从底层的AnimationState中删除了轨道条目所对应的动画后, 这些方法返回的轨道条目便会失效. Unity的垃圾收集器会自动释放它们. 在接收到轨道条目的销毁事件(dispose event)后, 就不应再存储或访问这个轨道条目了.
 
 
 ```c#

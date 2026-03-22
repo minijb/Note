@@ -1,3 +1,16 @@
+---
+title: Game 架构
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: 用户 -> UI <-> Data
+draft: false
+---
+
+# Game 架构
 
 ## MVC
 

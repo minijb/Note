@@ -1,4 +1,30 @@
+---
+title: Lua EmmyLua 函数注解
+date: 2026-03-16
+tags:
+  - lua
+  - emmylua
+  - function-annotation
+type: language
+aliases:
+  函数注解
+description: EmmyLua函数注解语法
+draft: false
+---
 
+title: Lua EmmyLua 函数注解
+date: 2026-03-16
+tags:
+  - knowledge
+  - lua
+type: language
+aliases:
+  -
+description: ---@param <参数名>[?] <类型表达式> [描述]
+draft: false
+---
+
+# Lua EmmyLua 函数注解
 
 ## 1. @param 参数定义
 
@@ -6,8 +32,8 @@
 ---@param <参数名>[?] <类型表达式> [描述]
 ```
 
-- `?` - 可选参数标记
-- `...` - 可变参数标记
+- `?` - 可选参数标记
+- `...` - 可变参数标记
 - 支持联合类型
 - 支持泛型参数
 

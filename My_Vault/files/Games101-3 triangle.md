@@ -1,4 +1,5 @@
 ---
+title: Games101 3 triangle
 tags:
   - games101
 ---

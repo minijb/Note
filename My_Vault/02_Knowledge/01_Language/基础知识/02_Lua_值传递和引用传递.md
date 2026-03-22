@@ -1,5 +1,17 @@
+---
+title: Lua 值传递和引用传递
+date: 2026-03-16
+tags:
+  - lua
+  - value
+  - reference
+type: language
+aliases:
+  值传递引用传递
+description: Lua值传递和引用传递的区别
+draft: false
+---
 
-在 Lua 中，**所有类型都是值传递**，但对于 table、function、userdata、thread 这些类型，传递的是**引用值**（即对象的引用）。
 
 ### 1. 值传递（真正的值拷贝）
 

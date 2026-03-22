@@ -1,14 +1,18 @@
+---
+title: JobSystem 线程安全类型
+date: 2026-03-16
+tags:
+  - unity
+  - dots
+  - job-system
+  - thread
+type: framework
+aliases:
+  线程安全
+description: JobSystem线程安全类型
+draft: false
+---
 
-
-内置的NativeContainer对象
-
-- NativeArray：向托管代码公开本机内存缓冲区的非托管数组
-- NativeSlice：获取从特定位置到特定长度的子集
-
-**注意，不仅仅是两个数组类型，其他类型也有在[Collection types](https://docs.unity.cn/Packages/com.unity.collections@latest/index.html?subfolder=/manual/collection-types.html)** 如：NativehashMap， NativeQueue, NativeBitArray
-
-
-**读写权限** ： 使用 `[Readonly]` 可以标记只读， 提高性能
 
 ## 内存分配器
 

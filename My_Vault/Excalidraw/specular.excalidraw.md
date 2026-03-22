@@ -1,5 +1,6 @@
 ---
 
+title: specular.excalidraw
 excalidraw-plugin: parsed
 tags: [excalidraw]
 

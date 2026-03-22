@@ -1,4 +1,5 @@
 ---
+title: Bash tutorial1
 tags:
   - bash
 ---

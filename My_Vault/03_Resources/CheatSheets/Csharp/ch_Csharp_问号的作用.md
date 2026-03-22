@@ -1,3 +1,17 @@
+---
+title: ch Csharp 问号的作用
+date: 2026-03-16
+tags:
+  - resource
+  - csharp
+type: language
+aliases:
+  -
+description: - 基本数据类型可空标识符
+draft: false
+---
+
+# ch Csharp 问号的作用
 
 - 三目运算符
 - 基本数据类型可空标识符

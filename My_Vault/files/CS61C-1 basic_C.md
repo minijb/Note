@@ -1,3 +1,16 @@
+---
+title: CS61C 1 basic C
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: 4 Bits 比特 = 1 hex digit = 16 things
+draft: false
+---
+
+# CS61C 1 basic C
 
 ## btye and bit
 

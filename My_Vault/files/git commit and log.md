@@ -1,4 +1,5 @@
 ---
+title: git commit and log
 tags:
   - git
 ---

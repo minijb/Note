@@ -1,3 +1,17 @@
+---
+title: Dots ECS 基础概念
+date: 2026-03-16
+tags:
+  - unity
+  - dots
+  - ecs
+type: framework
+aliases:
+  ECS基础
+description: Unity Dots ECS基础概念
+draft: false
+---
+
 
 ## 1. 三大基础组成 E C S
 

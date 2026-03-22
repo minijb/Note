@@ -1,4 +1,5 @@
 ---
+title: C sharpe Event, Delegates, Action
 tags:
   - Csharp
   - Event

@@ -1,3 +1,17 @@
+---
+title: Unity工具函数 ScreenPointToLocalPointInRectangle
+date: 2026-03-16
+tags:
+  - knowledge
+  - unity
+type: ui
+aliases:
+  -
+description: `public static bool ScreenPointToLocalPointInRectangle (RectTransform rect, Vector2 screenPoint, Cam...
+draft: false
+---
+
+# Unity工具函数 ScreenPointToLocalPointInRectangle
 
 `public static bool ScreenPointToLocalPointInRectangle (RectTransform rect, Vector2 screenPoint, Camera cam, out Vector2 localPoint);`
 

@@ -1,3 +1,17 @@
+---
+title: Nodejs
+date: 2026-03-21
+tags:
+  - knowledge
+type: knowledge
+aliases:
+  -
+description: 使用 nvm 管理多版本
+draft: false
+---
+
+# Nodejs
+
 使用 nvm 管理多版本
 
 ```sh

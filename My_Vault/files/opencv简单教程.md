@@ -1,4 +1,5 @@
 ---
+title: opencv简单教程
 tags:
   - opencv
 ---

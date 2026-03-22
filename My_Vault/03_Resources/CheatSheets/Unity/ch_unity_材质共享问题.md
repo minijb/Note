@@ -1,3 +1,17 @@
+---
+title: ch unity 材质共享问题
+date: 2026-03-16
+tags:
+  - resource
+  - unity
+type: knowledge
+aliases:
+  -
+description: 与 Material 的区别
+draft: false
+---
+
+# ch unity 材质共享问题
 
 与 Material 的区别
 

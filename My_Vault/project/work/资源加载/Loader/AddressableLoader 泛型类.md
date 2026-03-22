@@ -1,3 +1,16 @@
+---
+title: AddressableLoader 泛型类
+date: 2026-03-16
+tags:
+  - untagged
+type: asset
+aliases:
+  -
+description: 1. State --> waiting
+draft: false
+---
+
+# AddressableLoader 泛型类
 
 本地资源加载
 

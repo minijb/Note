@@ -1,3 +1,17 @@
+---
+title: ch Csharp reflaction
+date: 2026-03-16
+tags:
+  - resource
+  - csharp
+type: language
+aliases:
+  -
+description: // =============1. typeof 编译时已知类型（静态类型）=============
+draft: false
+---
+
+# ch Csharp reflaction
 
 ## 1. 获取类型
 

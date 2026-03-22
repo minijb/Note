@@ -1,3 +1,17 @@
+---
+title: ch unity UnityWebRequest
+date: 2026-03-16
+tags:
+  - resource
+  - unity
+type: knowledge
+aliases:
+  -
+description: [unity doc](https://docs.unity.cn/cn/2023.2/ScriptReference/Networking.UnityWebRequest.html)
+draft: false
+---
+
+# ch unity UnityWebRequest
 
 [unity doc](https://docs.unity.cn/cn/2023.2/ScriptReference/Networking.UnityWebRequest.html)
 

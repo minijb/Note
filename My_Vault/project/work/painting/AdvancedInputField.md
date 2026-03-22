@@ -1,4 +1,16 @@
+---
+title: AdvancedInputField
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: [RequireComponent(typeof(RectTransform))]
+draft: false
+---
 
+# AdvancedInputField
 
 ```c#
 	[RequireComponent(typeof(RectTransform))]

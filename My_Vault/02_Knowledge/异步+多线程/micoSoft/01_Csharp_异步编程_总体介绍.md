@@ -1,3 +1,17 @@
+---
+title: Csharp 异步编程 总体介绍
+date: 2026-03-16
+tags:
+  - knowledge
+  - csharp
+type: language
+aliases:
+  -
+description: .NET 提供了三种用于执行异步作的模式：
+draft: false
+---
+
+# Csharp 异步编程 总体介绍
 
 .NET 提供了三种用于执行异步作的模式：
 

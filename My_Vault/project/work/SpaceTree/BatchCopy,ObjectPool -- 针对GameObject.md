@@ -1,3 +1,16 @@
+---
+title: BatchCopy,ObjectPool   针对GameObject
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: 一个简易对象池。仅有对象存储+拿取+扩容的功能
+draft: false
+---
+
+# BatchCopy,ObjectPool   针对GameObject
 
 ## BatchCopy
 

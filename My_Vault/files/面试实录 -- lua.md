@@ -1,3 +1,16 @@
+---
+title: 面试实录   lua
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: **table 的底层原理**
+draft: false
+---
+
+# 面试实录   lua
 
 **table 的底层原理**
 

@@ -1,3 +1,16 @@
+---
+title: forward render
+date: 2026-03-16
+tags:
+  - resource
+type: knowledge
+aliases:
+  -
+description: Shader "Unity Shaders Book/Chapter 9/Forward Rendering" {
+draft: false
+---
+
+# forward render
 
 ```c
 Shader "Unity Shaders Book/Chapter 9/Forward Rendering" {

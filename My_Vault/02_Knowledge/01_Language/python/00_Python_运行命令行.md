@@ -1,3 +1,29 @@
+---
+title: Python 运行命令行
+date: 2026-03-16
+tags:
+  - python
+  - cli
+type: language
+aliases:
+  Python命令行
+description: Python运行命令行相关知识
+draft: false
+---
+
+title: Python 运行命令行
+date: 2026-03-16
+tags:
+  - knowledge
+  - python
+type: language
+aliases:
+  -
+description: This module allows you to spawn processes, connect to their
+draft: false
+---
+
+# Python 运行命令行
 
 ## subprocess
 
@@ -5,7 +31,7 @@ This module allows you to spawn processes, connect to their
 input/output/error pipes, and obtain their return codes.
 
 run(...): Runs a command, waits for it to complete, then returns a  
-          CompletedProcess instance.  
+          CompletedProcess instance.  
 Popen(...): A class for flexibly executing a command in a new proces  --- 更加底层
 
 ## subprocess.run 详解

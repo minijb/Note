@@ -1,3 +1,17 @@
+---
+title: 03Environment
+date: 2026-03-16
+tags:
+  - untagged
+type: os
+aliases:
+  -
+description: 查看 `env` `printenv {xxx}` `echo $xxx`
+draft: false
+---
+
+# 03Environment
+
 # 环境变量
 
 ## 环境变量

@@ -1,3 +1,16 @@
+---
+title: UniNodeLoadRefCounter
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: 这段代码定义了一个名为 `UniNodeLoadRefCounter` 的类，用于在 Unity 中管理节点加载的引用计数。该类包含多个字段和方法，用于跟踪节点加载的进度，并在节点加载完成时触发相应的...
+draft: false
+---
+
+# UniNodeLoadRefCounter
 
 这段代码定义了一个名为 `UniNodeLoadRefCounter` 的类，用于在 Unity 中管理节点加载的引用计数。该类包含多个字段和方法，用于跟踪节点加载的进度，并在节点加载完成时触发相应的事件。
 

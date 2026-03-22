@@ -1,3 +1,16 @@
+---
+title: BaseLayout   基础脚本布局 并使用 connect 连接不同的Node
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: public abstract class BaseLayout
+draft: false
+---
+
+# BaseLayout   基础脚本布局 并使用 connect 连接不同的Node
 
 ```c#
     public abstract class BaseLayout

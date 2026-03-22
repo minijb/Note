@@ -1,3 +1,16 @@
+---
+title: CMake Professtional 2 Variables
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: set(varName value... [PARENT_SCOPE])
+draft: false
+---
+
+# CMake Professtional 2 Variables
 
 ```cmake
 set(varName value... [PARENT_SCOPE])

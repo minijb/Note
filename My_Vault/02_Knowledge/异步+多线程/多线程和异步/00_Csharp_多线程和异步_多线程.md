@@ -1,4 +1,17 @@
+---
+title: Csharp 多线程和异步 多线程
+date: 2026-03-16
+tags:
+  - knowledge
+  - csharp
+type: language
+aliases:
+  -
+description: int count = 0;
+draft: false
+---
 
+# Csharp 多线程和异步 多线程
 
 ## 1. Thread 线程
 

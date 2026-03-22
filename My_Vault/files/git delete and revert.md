@@ -1,4 +1,5 @@
 ---
+title: git delete and revert
 tags:
   - git
 ---

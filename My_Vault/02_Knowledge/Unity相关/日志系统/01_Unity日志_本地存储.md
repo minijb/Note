@@ -1,4 +1,17 @@
+---
+title: Unity日志 本地存储
+date: 2026-03-16
+tags:
+  - knowledge
+  - unity
+type: knowledge
+aliases:
+  -
+description: https://www.yxtown.com/my/course/70
+draft: false
+---
 
+# Unity日志 本地存储
 
 https://www.yxtown.com/my/course/70
 

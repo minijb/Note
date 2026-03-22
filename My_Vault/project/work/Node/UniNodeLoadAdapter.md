@@ -1,3 +1,16 @@
+---
+title: UniNodeLoadAdapter
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: 这段代码定义了一个名为 `UniNodeLoadAdapter` 的类，用于在 Unity 中加载和管理节点。该类包含多个字段和方法，用于处理节点的加载、初始化、组件应用和生命周期管理等功能。
+draft: false
+---
+
+# UniNodeLoadAdapter
 
 这段代码定义了一个名为 `UniNodeLoadAdapter` 的类，用于在 Unity 中加载和管理节点。该类包含多个字段和方法，用于处理节点的加载、初始化、组件应用和生命周期管理等功能。
 

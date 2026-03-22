@@ -1,3 +1,20 @@
+---
+title: Dots Burst 编译器
+date: 2026-03-16
+tags:
+  - unity
+  - dots
+  - burst
+type: framework
+aliases:
+  Burst
+description: Unity Dots Burst编译器
+draft: false
+---
+
+
+# Dots Burst
+
 https://docs.unity3d.com/Packages/com.unity.burst@1.2/manual/index.html
 
 

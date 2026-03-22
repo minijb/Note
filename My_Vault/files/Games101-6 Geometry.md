@@ -1,4 +1,5 @@
 ---
+title: Games101 6 Geometry
 tags:
   - games101
 ---

@@ -1,3 +1,17 @@
+---
+title: ch Csharp readonly and const
+date: 2026-03-16
+tags:
+  - resource
+  - csharp
+type: language
+aliases:
+  -
+description: 先解释下什么是静态常量（Const）以及什么是动态常量（Readonly）。
+draft: false
+---
+
+# ch Csharp readonly and const
 
 先解释下什么是静态常量（Const）以及什么是动态常量（Readonly）。
 

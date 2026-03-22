@@ -1,3 +1,26 @@
+---
+title: 战旗 半身像Panel与UI组件
+date: 2026-03-16
+tags:
+  - project
+  - game
+  - unity
+  - ui
+type: project
+aliases:
+  - 战旗Note
+  - 半身像
+description: 战旗项目半身像Panel开发笔记：WorldArchitecturePanel、OsDialogWorldNormalPanel、BattlePanel、FightInfoPanel组件结构及LoadUICompImage资源加载机制
+draft: false
+---
+
+# 战旗 半身像Panel与UI组件
+
+**半身像出现panel**
+draft: false
+---
+
+# Note
 
 **半身像出现panel**
 

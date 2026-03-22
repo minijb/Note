@@ -1,3 +1,16 @@
+---
+title: CSAPP 8 链接
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: 源代码  --- 编译 ----  可执行文件
+draft: false
+---
+
+# CSAPP 8 链接
 
 ## 可重定位目标文件
 

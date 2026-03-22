@@ -1,5 +1,16 @@
+---
+title: 如何开始 DirectExecuteUnit
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: public class DirectExecuteUnit:BaseScriptUnit
+draft: false
+---
 
-
+# 如何开始 DirectExecuteUnit
 
 ```c#
     public class DirectExecuteUnit:BaseScriptUnit

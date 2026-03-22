@@ -1,3 +1,17 @@
+---
+title: 01Basic
+date: 2026-03-16
+tags:
+  - untagged
+type: os
+aliases:
+  -
+description: - ?: 匹配一个字符
+draft: false
+---
+
+# 01Basic
+
 # Basic of Shell
 
 ## ls 的过滤器

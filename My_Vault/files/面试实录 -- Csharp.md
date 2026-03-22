@@ -1,3 +1,16 @@
+---
+title: 面试实录   Csharp
+date: 2026-03-16
+tags:
+  - csharp
+type: language
+aliases:
+  -
+description: 接口中的函数，可以写上默认函数。
+draft: false
+---
+
+# 面试实录   Csharp
 
 **默认接口方法**
 

@@ -1,4 +1,5 @@
 ---
+title: linux neovim 安装
 tags:
   - linux
   - neovim

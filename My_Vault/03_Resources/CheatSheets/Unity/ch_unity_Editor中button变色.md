@@ -1,3 +1,17 @@
+---
+title: ch unity Editor中button变色
+date: 2026-03-16
+tags:
+  - resource
+  - unity
+type: editor
+aliases:
+  -
+description: 1. 使用GUI.BackGround
+draft: false
+---
+
+# ch unity Editor中button变色
 
 1. 使用GUI.BackGround 
 

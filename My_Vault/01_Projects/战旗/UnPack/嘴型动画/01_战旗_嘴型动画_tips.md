@@ -1,3 +1,17 @@
+---
+title: 战旗 嘴型动画 tips
+date: 2026-03-16
+tags:
+  - project
+  - game
+  - animation
+  - lipsync
+type: project
+aliases:
+  嘴型tips
+description: 战旗项目嘴型动画tips
+draft: false
+---
 
 
 ## 1. 捕获音频
@@ -19,7 +33,7 @@ AudioSource.GetSpectrumData ， [AudioSource.GetOutputData](https://docs.unity.c
 
 将向 samples 参数指定的数组填充请求的数据。  
   
-值的数量（提供的样本数组的长度）必须为 2 的幂数，即 128/256/512 等。最小值为 64，最大值为 8192。 使用 [window](https://docs.unity.cn/cn/current/ScriptReference/FFTWindow.html) 可减少频点/频带之间的泄漏。 注意，窗口类型越复杂，音质越好，但会降低速度。
+值的数量（提供的样本数组的长度）必须为 2 的幂数，即 128/256/512 等。最小值为 64，最大值为 8192。 使用 [window](https://docs.unity.cn/cn/current/ScriptReference/FFTWindow.html) 可减少频点/频带之间的泄漏。 注意，窗口类型越复杂，音质越好，但会降低速度。
 
 **window** 为映射方法。
 

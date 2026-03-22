@@ -1,3 +1,16 @@
+---
+title: 3Mathematical Surfaces
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: 使用一个类专门用来展示函数，但是不需要知道确切的算法公式。This is an example of specialization and separation of concerns.
+draft: false
+---
+
+# 3Mathematical Surfaces
 
 ## Library 类
 

@@ -1,3 +1,16 @@
+---
+title: Unity 菜单栏扩展
+date: 2026-03-16
+tags:
+  - unity
+  - editor
+  - menu
+type: framework
+aliases:
+  菜单栏
+description: Unity编辑器菜单栏扩展和选中物体操作
+draft: false
+---
 
 
 ## 1. 简单介绍
@@ -148,7 +161,7 @@ https://docs.unity.cn/cn/2023.2/ScriptReference/Selection.html
 
 ## 5. 注意点
 
-在使用 GameObject 也就是在 Hierarchy 窗口添加游戏对象的时候， 需要使用   [GameObjectUtility.SetParentAndAlign](https://docs.unity.cn/cn/2019.4/ScriptReference/GameObjectUtility.SetParentAndAlign.html) 从而保证正确的上下级关系， 同时需要使用 [Undo.RegisterCreatedObjectUndo](https://docs.unity.cn/cn/2019.4/ScriptReference/Undo.RegisterCreatedObjectUndo.html) 是的该操作可以撤销并将物体挂在到  [Selection.activeObject](https://docs.unity.cn/cn/2019.4/ScriptReference/Selection-activeObject.html) 设置到新创建的对象上
+在使用 GameObject 也就是在 Hierarchy 窗口添加游戏对象的时候， 需要使用   [GameObjectUtility.SetParentAndAlign](https://docs.unity.cn/cn/2019.4/ScriptReference/GameObjectUtility.SetParentAndAlign.html) 从而保证正确的上下级关系， 同时需要使用 [Undo.RegisterCreatedObjectUndo](https://docs.unity.cn/cn/2019.4/ScriptReference/Undo.RegisterCreatedObjectUndo.html) 是的该操作可以撤销并将物体挂在到  [Selection.activeObject](https://docs.unity.cn/cn/2019.4/ScriptReference/Selection-activeObject.html) 设置到新创建的对象上
 
 
 为了将“GameObject/”中的菜单项 传播到层级视图 Create 下拉菜单和层级视图上下文菜单，它必须与 其他游戏对象创建菜单项归为一组。这可以通过将其优先级 设为 10 来实现（请参阅以下示例）

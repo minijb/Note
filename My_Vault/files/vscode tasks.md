@@ -1,4 +1,5 @@
 ---
+title: vscode tasks
 tags:
   - vscode
   - settings

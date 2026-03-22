@@ -1,3 +1,16 @@
+---
+title: UIPaintingModel
+date: 2026-03-16
+tags:
+  - untagged
+type: ui
+aliases:
+  -
+description: public class CanvasLayers
+draft: false
+---
+
+# UIPaintingModel
 
 ```c#
     public class CanvasLayers

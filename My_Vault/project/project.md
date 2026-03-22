@@ -1,5 +1,6 @@
 ---
 
+title: project
 kanban-plugin: basic
 
 ---

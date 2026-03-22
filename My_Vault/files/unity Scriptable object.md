@@ -1,4 +1,5 @@
 ---
+title: unity Scriptable object
 tags:
   - unity
 ---

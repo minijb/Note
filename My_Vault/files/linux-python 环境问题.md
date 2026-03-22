@@ -1,4 +1,5 @@
 ---
+title: linux python 环境问题
 tags:
   - linux
 ---

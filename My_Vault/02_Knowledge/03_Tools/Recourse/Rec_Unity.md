@@ -1,4 +1,19 @@
+---
+title: Unity 学习资源
+date: 2026-03-16
+tags:
+  - unity
+  - resource
+  - learning
+type: resource
+aliases:
+  Unity资源
+description: Unity学习资源汇总
+draft: false
+---
 
+
+# Rec Unity
 
 - [Unity面试精华](https://www.yuque.com/g/chengxuyuanchangfeng/qxodkp/collaborator/join?token=NkfzCGf9Td0gIsa6&source=book_collaborator#)
 - [项目难点](https://www.yuque.com/chengxuyuanchangfeng/idsf04)

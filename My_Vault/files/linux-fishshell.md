@@ -1,3 +1,16 @@
+---
+title: linux fishshell
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: sudo apt-add-repository ppa:fish-shell/release-3
+draft: false
+---
+
+# linux fishshell
 
 ## download
 

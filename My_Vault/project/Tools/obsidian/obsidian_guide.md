@@ -1,3 +1,17 @@
+---
+title: obsidian guide
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: 1. Markdown 文件：`md`;
+draft: false
+---
+
+# obsidian guide
+
 # Obsidian Guide
 
 #obsidian 

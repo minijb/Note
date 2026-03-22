@@ -1,3 +1,16 @@
+---
+title: UIBroadCast
+date: 2026-03-16
+tags:
+  - untagged
+type: ui
+aliases:
+  -
+description: public class UIBroadcast : UIBase<UIBroadcastRef, UIBroadcastModel>
+draft: false
+---
+
+# UIBroadCast
 
 ```c#
     public class UIBroadcast : UIBase<UIBroadcastRef, UIBroadcastModel>

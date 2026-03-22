@@ -1,3 +1,16 @@
+---
+title: 4Measuring Performance
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: CPU main thread took 31.7ms and the render thread took 29.2ms.
+draft: false
+---
+
+# 4Measuring Performance
 
 ## 分析unity
 

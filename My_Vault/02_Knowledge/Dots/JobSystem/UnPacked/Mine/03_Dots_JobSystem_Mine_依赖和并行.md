@@ -1,3 +1,18 @@
+---
+title: JobSystem 依赖和并行
+date: 2026-03-16
+tags:
+  - unity
+  - dots
+  - job-system
+  - parallel
+type: framework
+aliases:
+  依赖并行
+description: JobSystem依赖和并行处理
+draft: false
+---
+
 
 ## 依赖
 

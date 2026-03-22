@@ -1,3 +1,16 @@
+---
+title: ch mermaid 01 流程图
+date: 2026-03-16
+tags:
+  - resource
+type: knowledge
+aliases:
+  -
+description: title: Node
+draft: false
+---
+
+# ch mermaid 01 流程图
 
 ```txt
 ---

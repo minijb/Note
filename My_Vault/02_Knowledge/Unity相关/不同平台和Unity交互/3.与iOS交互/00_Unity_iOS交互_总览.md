@@ -1,3 +1,17 @@
+---
+title: Unity iOS交互 总览
+date: 2026-03-16
+tags:
+  - knowledge
+  - unity
+type: knowledge
+aliases:
+  -
+description: 放到 `Plugins/IOS` 目录下
+draft: false
+---
+
+# Unity iOS交互 总览
 
 ## 1. 通过 .m / .mm 文件进行交互
 

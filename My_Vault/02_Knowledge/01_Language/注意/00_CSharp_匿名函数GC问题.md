@@ -1,3 +1,19 @@
+---
+title: C# 匿名函数GC问题
+date: 2026-03-16
+tags:
+  - csharp
+  - gc
+  - lambda
+type: language
+aliases:
+  匿名函数GC
+description: C#匿名函数造成的GC问题及解决方案
+draft: false
+---
+
+
+# CSharp 匿名函数GC问题
 
 1. 匿名函数引用外部变量，会形成闭包 --- 实现原理为生成一个 **匿名类来保存外部变量** ， 此时会在堆上进行内存分配
 

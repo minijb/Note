@@ -1,4 +1,5 @@
 ---
+title: linux lazygit
 tags:
   - linux
 ---

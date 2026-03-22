@@ -1,3 +1,18 @@
+---
+title: IDEAVIM 资源
+date: 2026-03-16
+tags:
+  - vim
+  - ideavim
+type: tool
+aliases:
+  IDEAVIM
+description: IDEAVIM使用资源和技巧
+draft: false
+---
+
+
+# IDEAVIM Resources
 
 - [官方](https://www.jetbrains.com/zh-cn/help/idea/using-product-as-the-vim-editor.html)
 - [详细博客](https://dreamkidd.github.io/posts/20250430-idea-vim-%E9%85%8D%E7%BD%AE---%E6%8F%92%E4%BB%B6%E7%AF%87/)

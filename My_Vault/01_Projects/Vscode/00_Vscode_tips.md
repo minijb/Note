@@ -1,3 +1,21 @@
+---
+title: VSCode 使用技巧汇总
+date: 2026-03-16
+tags:
+  - tool
+  - vscode
+  - editor
+  - productivity
+type: tool
+aliases:
+  - VSCode tips
+  - Vscode tips
+description: VSCode 常用技巧：命令行参数、多光标编辑、代码导航、Snippets自定义、Git merge/diff工具集成、Task配置
+draft: false
+---
+
+# VSCode 使用技巧汇总
+
 #TODO
 ## 1. 命令行
 

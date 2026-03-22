@@ -1,4 +1,5 @@
 ---
+title: linux 安装
 tags:
   - linux
 ---

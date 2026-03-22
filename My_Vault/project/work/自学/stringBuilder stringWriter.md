@@ -1,3 +1,16 @@
+---
+title: stringBuilder stringWriter
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: TextWriter是抽象类是一个写入器。它描述了写入的过程，具体的写过程和向哪里写入是由它的子类所负责的
+draft: false
+---
+
+# stringBuilder stringWriter
 
 TextWriter是抽象类是一个写入器。它描述了写入的过程，具体的写过程和向哪里写入是由它的子类所负责的
 

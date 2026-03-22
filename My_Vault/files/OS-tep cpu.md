@@ -1,4 +1,5 @@
 ---
+title: OS tep cpu
 tags:
   - OS
 ---

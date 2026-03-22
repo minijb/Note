@@ -1,3 +1,17 @@
+---
+title: ch Csharp 静态类
+date: 2026-03-16
+tags:
+  - resource
+  - csharp
+type: language
+aliases:
+  -
+description: 静态类内部的成员全是静态成员，没有非静态成员。
+draft: false
+---
+
+# ch Csharp 静态类
 
 静态类内部的成员全是静态成员，没有非静态成员。
 

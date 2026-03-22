@@ -1,4 +1,5 @@
 ---
+title: algo 前缀和，差分和
 tags:
   - algo
 ---

@@ -1,3 +1,16 @@
+---
+title: IUniAssetLoader
+date: 2026-03-16
+tags:
+  - untagged
+type: asset
+aliases:
+  -
+description: public interface IUniAssetLoader
+draft: false
+---
+
+# IUniAssetLoader
 
 ## interface  IUniAssetLoader
 

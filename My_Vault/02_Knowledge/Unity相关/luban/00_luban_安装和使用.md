@@ -1,3 +1,17 @@
+---
+title: luban 安装和使用
+date: 2026-03-16
+tags:
+  - knowledge
+  - unity
+type: knowledge
+aliases:
+  -
+description: 1. clone luban_example 并复制 demo
+draft: false
+---
+
+# luban 安装和使用
 
 ## Unity
 

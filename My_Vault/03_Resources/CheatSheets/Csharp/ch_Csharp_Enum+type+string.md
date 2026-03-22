@@ -1,3 +1,17 @@
+---
+title: ch Csharp Enum+type+string
+date: 2026-03-16
+tags:
+  - resource
+  - csharp
+type: language
+aliases:
+  -
+description: [Enum.GetName](https://learn.microsoft.com/zh-cn/dotnet/api/system.enum.getname?view=net-9.0)
+draft: false
+---
+
+# ch Csharp Enum+type+string
 
 [Enum.GetName](https://learn.microsoft.com/zh-cn/dotnet/api/system.enum.getname?view=net-9.0)
 

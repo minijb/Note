@@ -1,3 +1,16 @@
+---
+title: Window Scoop 安装、更新、使用
+date: 2026-03-16
+tags:
+  - archive
+type: knowledge
+aliases:
+  -
+description: iwr -useb get.scoop.sh | iex
+draft: false
+---
+
+# Window Scoop 安装、更新、使用
 
 ```sh
 iwr -useb get.scoop.sh | iex

@@ -1,34 +1,16 @@
-
-
-Job System 是Unity 内多线程编程工具。 为 Dots 的重要组成部分
-
-**优势**
-
-- 内置的安全检查
-	- 原生多线程必须手动 lock，mutex等
-	- jobSystem : 强制使用线程安全的容器
-	- 所有权：住现场将数据所有权授予 Job 后， 在主线陈的 `JobHandle.Complete()` 调用之前，住现场不能访问这些数据， 从而避免读写冲突。
-
-**Burst 编译**
-- 原生 使用 `.Net` 编译
-- Burst 专门为数学计算密集任务进行优化
-	- 一般没有GC分配 --- Job的优势
-
-**负载均衡的线程池**
-- 实现"工作窃取"算法
-- 提前完成了可以从其他线程偷一些工作来做
-
-**隐式的依赖管理和同步**
-- 原生使用 Task.Wait  continueWith 等机制来显示的等待
-- Job System
-	- 调度Job的时候会返回 `JobHandle` 我们可以将句柄传递给一个job， 作为知心的先决条件 `job2.Schedule(job1Handle)`
-	- 系统会自动处理这些依赖， 不需要复杂的同步代码
-	- 自动构建依赖链，易于管理
-
-**和Unity深度集成**
-
-- 在Job中执行纯计算。将不涉及引擎核心对象的计算如位置，物理，网格等放在job中进行
-- 在主线程中引用结果， 通过 `NativeContainer` 作为桥梁， 在job完成后与 主线陈的 `JobHandle.Completre()` 调用之后安全的将计算结果取回应用到Unity对象中
+---
+title: JobSystem 介绍
+date: 2026-03-16
+tags:
+  - unity
+  - dots
+  - job-system
+type: framework
+aliases:
+  JobSystem介绍
+description: Unity JobSystem介绍
+draft: false
+---
 
 
 ### Dots

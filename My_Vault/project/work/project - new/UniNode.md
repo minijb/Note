@@ -1,3 +1,16 @@
+---
+title: UniNode
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: 这段代码定义了一个名为 UniNode 的抽象类及其相关的接口和方法，用于在 Unity 中实现节点的功能。UniNode 类继承自 MonoBehaviour，并包含了多个属性和方法来管理节点的状态...
+draft: false
+---
+
+# UniNode
 
 这段代码定义了一个名为 UniNode 的抽象类及其相关的接口和方法，用于在 Unity 中实现节点的功能。UniNode 类继承自 MonoBehaviour，并包含了多个属性和方法来管理节点的状态、组件、网络同步等功能。
 

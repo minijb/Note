@@ -1,3 +1,17 @@
+---
+title: ch Csharp Linq 1
+date: 2026-03-16
+tags:
+  - resource
+  - csharp
+type: language
+aliases:
+  -
+description: https://www.cnblogs.com/Can-daydayup/p/18824060
+draft: false
+---
+
+# ch Csharp Linq 1
 
 https://www.cnblogs.com/Can-daydayup/p/18824060
 

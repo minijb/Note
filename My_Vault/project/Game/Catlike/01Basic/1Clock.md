@@ -1,3 +1,17 @@
+---
+title: 1Clock
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: 创建页面后，我们来到默认的layout，我们可以自定义我们的layout。
+draft: false
+---
+
+# 1Clock
+
 ## new project
 
 创建页面后，我们来到默认的layout，我们可以自定义我们的layout。

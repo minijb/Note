@@ -1,3 +1,17 @@
+---
+title: Unity Xlua 热跟新
+date: 2026-03-16
+tags:
+  - knowledge
+  - unity
+type: language
+aliases:
+  -
+description: 添加 `HOTFIX_ENABLE` 宏，（在 Unity3D 的 "File->Build Setting->Scripting Define Symbols" 下添加）。编辑器、各手机平台这个宏要...
+draft: false
+---
+
+# Unity Xlua 热跟新
 
 1. 打开该特性
     

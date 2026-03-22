@@ -1,3 +1,16 @@
+---
+title: play List
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: - fzf -- 命令行
+draft: false
+---
+
+# play List
 
 - Hexo
 - fzf -- 命令行

@@ -1,4 +1,5 @@
 ---
+title: cpp hash
 tags:
   - algo
   - cpp

@@ -1,3 +1,26 @@
+---
+title: 三国杀 BattleTriggerComp 触发器管理
+date: 2026-03-16
+tags:
+  - project
+  - game
+  - lua
+  - trigger
+type: project
+aliases:
+  - BattleTriggerComp
+  - 触发器管理
+description: 三国杀Battle中Trigger管理组件：triggers表管理、胜利/失败条件检查、触发器变量存储、LoadTrigger加载逻辑
+draft: false
+---
+
+# 三国杀 BattleTriggerComp 触发器管理
+
+Battle中用来管理 Trigger 的部分
+draft: false
+---
+
+# project san BattleTriggerComp
 
 Battle中用来管理 Trigger 的部分
 

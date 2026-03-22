@@ -1,5 +1,6 @@
 ---
 
+title: Prototype.excalidraw
 excalidraw-plugin: parsed
 tags: [excalidraw]
 

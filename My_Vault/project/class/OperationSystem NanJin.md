@@ -1,3 +1,16 @@
+---
+title: OperationSystem NanJin
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: 关于 OperationSystem NanJin 的笔记
+draft: false
+---
+
+# OperationSystem NanJin
 
 [[Operating System(nanjin)-0 assert]]
 

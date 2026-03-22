@@ -1,4 +1,17 @@
+---
+title: Unity Xlua 配置
+date: 2026-03-16
+tags:
+  - knowledge
+  - unity
+type: language
+aliases:
+  -
+description: xLua所有的配置都支持三种方式：打标签；静态列表；动态列表。
+draft: false
+---
 
+# Unity Xlua 配置
 
 xLua所有的配置都支持三种方式：打标签；静态列表；动态列表。
 

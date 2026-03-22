@@ -1,3 +1,17 @@
+---
+title: KEN unity 实例化材质球问题
+date: 2026-03-16
+tags:
+  - resource
+  - unity
+type: knowledge
+aliases:
+  -
+description: https://zhuanlan.zhihu.com/p/22179381
+draft: false
+---
+
+# KEN unity 实例化材质球问题
 
 https://zhuanlan.zhihu.com/p/22179381
 https://blog.csdn.net/thinbug/article/details/103871464

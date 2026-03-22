@@ -1,3 +1,16 @@
+---
+title: windows scoop
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: iwr -useb get.scoop.sh | iex
+draft: false
+---
+
+# windows scoop
 
 ## 安装
 

@@ -1,6 +1,16 @@
-
-
-MeshRender 中可以存在多个 Material ， 但是 CanvasRender 一个 gameobject 中只能存在一个 Material 。 也就是说只能有一个 texture
+---
+title: Unity Spine Material 管理
+date: 2026-03-16
+tags:
+  - unity
+  - spine
+  - material
+type: framework
+aliases:
+  Spine Material
+description: Unity Spine动画组件Material管理
+draft: false
+---
 
 
 ## 1. 开启 Advanced -> Multiple CanvasRenders
@@ -11,7 +21,7 @@ MeshRender 中可以存在多个 Material ， 但是 CanvasRender 一个 gameobj
 
 在 inspecter 界面控制 texture 的覆盖。
 
-该组件的设计初衷里不包括用代码控制Material覆盖. 如果需要通过代码动态地设置SkeletonGraphic的material, 应直接通过 `SkeletonGraphic.CustomMaterialOverride` 来访问material覆盖数组, 或者通过 `SkeletonGraphic.CustomTextureOverride` 访问texture覆盖数组.
+该组件的设计初衷里不包括用代码控制Material覆盖. 如果需要通过代码动态地设置SkeletonGraphic的material, 应直接通过 `SkeletonGraphic.CustomMaterialOverride` 来访问material覆盖数组, 或者通过 `SkeletonGraphic.CustomTextureOverride` 访问texture覆盖数组.
 
 ## 3. 使用代码替换 Material 或者 texture
 
@@ -45,8 +55,8 @@ GetComponent<Renderer>().SetPropertyBlock(mpb);
 ```
 
 - 使用Renderer.SetPropertyBlock设置不同的Material属性值会破坏渲染器合批(batching)操作. 当MaterialPropertyBlock的参数一致时 (例如tint颜色均置为绿色) 渲染器才会合批渲染.
-- 每当你改变或添加了MaterialPropertyBlock的属性值时, 都需要调用 `SetPropertyBlock` 来设置参数. 但你可以把MaterialPropertyBlock保存在类成员中, 如此在改变某个属性值时就无需再实例化出一个新MaterialPropertyBlock了.
-- **当需要经常更改某个属性时, 你可以使用静态方法 `Shader.PropertyToID(string)` 来缓存该属性ID(int值), 而无需每次都访问MaterialPropertyBlock中字符串重载过的setter.**
+- 每当你改变或添加了MaterialPropertyBlock的属性值时, 都需要调用 `SetPropertyBlock` 来设置参数. 但你可以把MaterialPropertyBlock保存在类成员中, 如此在改变某个属性值时就无需再实例化出一个新MaterialPropertyBlock了.
+- **当需要经常更改某个属性时, 你可以使用静态方法 `Shader.PropertyToID(string)` 来缓存该属性ID(int值), 而无需每次都访问MaterialPropertyBlock中字符串重载过的setter.**
 
 ## 4. 简单聊聊换装
 

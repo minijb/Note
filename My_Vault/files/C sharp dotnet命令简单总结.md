@@ -1,4 +1,5 @@
 ---
+title: C sharp dotnet命令简单总结
 tags:
   - Csharp
 ---

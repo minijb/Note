@@ -1,3 +1,19 @@
+---
+title: Unity 自定义Inspector
+date: 2026-03-16
+tags:
+  - unity
+  - editor
+  - inspector
+type: framework
+aliases:
+  Inspector
+description: Unity自定义Inspector面板
+draft: false
+---
+
+
+# Unity编辑器 自定义Inspector面板
 
 ```c#
 public class CustomEditorTest : MonoBehaviour 

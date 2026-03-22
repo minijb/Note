@@ -1,3 +1,17 @@
+---
+title: Unity 销毁方法区别
+date: 2026-03-16
+tags:
+  - unity
+  - destory
+  - lifecycle
+type: framework
+aliases:
+  销毁方法
+description: Unity Destory、DestoryImmediate、DestoryObjectImmediate区别
+draft: false
+---
+
 
 ## 销毁物体相关函数
 

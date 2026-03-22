@@ -1,3 +1,18 @@
+---
+title: ch Csharp Linq01
+date: 2026-03-16
+tags:
+  - resource
+  - csharp
+type: language
+aliases:
+  -
+description: https://learn.microsoft.com/zh-cn/dotnet/csharp/linq/get-started/introduction-to-linq-queries
+draft: false
+---
+
+# ch Csharp Linq01
+
 #TODO 
 
 https://learn.microsoft.com/zh-cn/dotnet/csharp/linq/get-started/introduction-to-linq-queries

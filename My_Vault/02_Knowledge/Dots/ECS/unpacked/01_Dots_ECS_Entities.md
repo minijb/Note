@@ -1,3 +1,18 @@
+---
+title: ECS Entities
+date: 2026-03-16
+tags:
+  - unity
+  - dots
+  - ecs
+  - entities
+type: framework
+aliases:
+  Entities
+description: ECS Entities实体
+draft: false
+---
+
 
 ## 1. 是什么？
 

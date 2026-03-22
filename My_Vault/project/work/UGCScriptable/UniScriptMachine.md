@@ -1,3 +1,16 @@
+---
+title: UniScriptMachine
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: namespace Uni.Component
+draft: false
+---
+
+# UniScriptMachine
 
 ```c#
 namespace Uni.Component

@@ -1,4 +1,16 @@
+---
+title: DataStruct 二叉树
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: - 满二叉树 ： 节点数量: $2^k-1$
+draft: false
+---
 
+# DataStruct 二叉树
 
 ## 二叉树的分类
 

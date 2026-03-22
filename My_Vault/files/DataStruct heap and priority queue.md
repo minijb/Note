@@ -1,4 +1,5 @@
 ---
+title: DataStruct heap and priority queue
 tags:
   - datastruct
   - algo

@@ -1,3 +1,16 @@
+---
+title: Operating System(nanjin) Pro 0 实验须知
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: [POSIX 对命令行参数有一定的约定](http://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap12.html)
+draft: false
+---
+
+# Operating System(nanjin) Pro 0 实验须知
 
 ## pstree
 

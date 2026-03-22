@@ -1,3 +1,17 @@
+---
+title: Unity 程序集和package package
+date: 2026-03-16
+tags:
+  - knowledge
+  - unity
+type: knowledge
+aliases:
+  -
+description: - 模型、纹理、动画和音频剪辑以及其他资源。
+draft: false
+---
+
+# Unity 程序集和package package
 
 ## 1. 自定义打包
 

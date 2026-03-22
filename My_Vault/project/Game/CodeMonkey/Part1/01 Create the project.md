@@ -1,3 +1,16 @@
+---
+title: 01 Create the project
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: - 创建 3D URP 模板的项目。
+draft: false
+---
+
+# 01 Create the project
 
 ## create the project
 

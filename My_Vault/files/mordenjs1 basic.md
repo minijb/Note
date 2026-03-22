@@ -1,4 +1,5 @@
 ---
+title: mordenjs1 basic
 tags:
   - js
 ---

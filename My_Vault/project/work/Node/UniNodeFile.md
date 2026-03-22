@@ -1,3 +1,16 @@
+---
+title: UniNodeFile
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: //tag 4 byte
+draft: false
+---
+
+# UniNodeFile
 
 [[UniFileContext]] 外层壳子， 主要用来进行序列化和反序列化
 

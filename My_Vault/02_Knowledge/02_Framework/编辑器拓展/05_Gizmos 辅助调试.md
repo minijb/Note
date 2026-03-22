@@ -1,3 +1,18 @@
+---
+title: Unity Gizmos 调试
+date: 2026-03-16
+tags:
+  - unity
+  - editor
+  - gizmos
+  - debug
+type: framework
+aliases:
+  Gizmos
+description: Unity Gizmos辅助调试绘制
+draft: false
+---
+
 
 ## 1. 通过内置方法实现
 

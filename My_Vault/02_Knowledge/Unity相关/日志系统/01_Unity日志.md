@@ -1,3 +1,17 @@
+---
+title: Unity日志
+date: 2026-03-16
+tags:
+  - knowledge
+  - unity
+type: knowledge
+aliases:
+  -
+description: Debug.Log("This is a log message.");
+draft: false
+---
+
+# Unity日志
 
 三种基础打印方式
 

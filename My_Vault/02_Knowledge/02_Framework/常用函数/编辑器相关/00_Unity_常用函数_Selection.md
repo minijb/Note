@@ -1,3 +1,17 @@
+---
+title: Unity Selection 选中对象
+date: 2026-03-16
+tags:
+  - unity
+  - editor
+  - selection
+type: framework
+aliases:
+  Selection
+description: Unity编辑器 Selection类获取选中对象
+draft: false
+---
+
 
 ## Selection 用于返回在编辑器中选中的物体
 

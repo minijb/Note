@@ -1,4 +1,5 @@
 ---
+title: Operating System(nanjin) 0 assert
 tags:
   - OperatingSystemNanjin
 ---

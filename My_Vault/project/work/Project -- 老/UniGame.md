@@ -1,3 +1,16 @@
+---
+title: UniGame
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: 添加一下 component
+draft: false
+---
+
+# UniGame
 
 ### Initialize
 

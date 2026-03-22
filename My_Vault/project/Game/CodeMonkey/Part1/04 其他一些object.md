@@ -1,3 +1,16 @@
+---
+title: 04 其他一些object
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: 我们创建 一个 `_BaseCounter` 作为所有 橱柜类的父类。 使用 prefeb variable --- 首先创建一个普通的预制体作为基类，使用这个基类可以创建很多子类的 prefeb 也...
+draft: false
+---
+
+# 04 其他一些object
 
 ## container counter
 

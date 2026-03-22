@@ -1,3 +1,16 @@
+---
+title: Operating System(nanjin) 2 硬件和数学视角
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: **how to use gdb**
+draft: false
+---
+
+# Operating System(nanjin) 2 硬件和数学视角
 
 **how to use gdb**
 

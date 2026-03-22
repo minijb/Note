@@ -1,3 +1,18 @@
+---
+title: Unity FMod DSP
+date: 2026-03-16
+tags:
+  - unity
+  - fmod
+  - dsp
+  - audio
+type: framework
+aliases:
+  FMod DSP
+description: Unity FMod DSP处理
+draft: false
+---
+
 
 ## 1. ChannelGroup 
 

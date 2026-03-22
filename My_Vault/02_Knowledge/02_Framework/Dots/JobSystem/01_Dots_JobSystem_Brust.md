@@ -1,5 +1,18 @@
+---
+title: Dots JobSystem Burst编译
+date: 2026-03-16
+tags:
+  - unity
+  - dots
+  - job-system
+  - burst
+type: framework
+aliases:
+  Burst
+description: Unity Dots JobSystem Burst编译器使用
+draft: false
+---
 
- 使用LLVM 编译代码，使用了多种优化技术，提高代码性能。
 
 ## 1. 如何使用
 
@@ -89,5 +102,5 @@ public static unsafe float* GenerateGaussianFilter(int size, float deviationSqua
 
 | 方案              | 优点                  | 缺点               | 适用场景            |
 | --------------- | ------------------- | ---------------- | --------------- |
-| **使用 `ref` 参数** | ✅ 安全、直观、符合Burst最佳实践 | 调用方需预先分配内存       | **绝大多数情况，推荐使用** |
+| **使用 `ref` 参数** | ✅ 安全、直观、符合Burst最佳实践 | 调用方需预先分配内存       | **绝大多数情况，推荐使用** |
 | **返回指针**        | 灵活，可直接操作内存          | ❌ 危险，需手动管理内存，易泄漏 | 高级性能优化场景，需谨慎使用  |

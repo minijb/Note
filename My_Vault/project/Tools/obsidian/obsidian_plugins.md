@@ -1,4 +1,5 @@
 ---
+title: obsidian plugins
 next:
   - - obsidian_plugins_settings
 ---

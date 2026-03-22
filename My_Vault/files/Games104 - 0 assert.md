@@ -1,4 +1,16 @@
+---
+title: Games104   0 assert
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: [视频](https://space.bilibili.com/512313464/channel/collectiondetail?sid=292637&spm_id_from=333.788.0....
+draft: false
+---
 
+# Games104   0 assert
 
 [视频](https://space.bilibili.com/512313464/channel/collectiondetail?sid=292637&spm_id_from=333.788.0.0)
 [官网](https://games104.boomingtech.com/sc/)

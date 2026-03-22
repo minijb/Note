@@ -1,3 +1,16 @@
+---
+title: SpaceTree
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: 配合 unity 的剔出功能，根据距离进行自动剔除。
+draft: false
+---
+
+# SpaceTree
 
 配合 unity 的剔出功能，根据距离进行自动剔除。
 

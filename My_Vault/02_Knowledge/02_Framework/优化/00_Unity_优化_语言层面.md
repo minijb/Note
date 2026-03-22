@@ -1,3 +1,19 @@
+---
+title: Unity 优化 语言层面
+date: 2026-03-16
+tags:
+  - unity
+  - optimization
+  - performance
+type: framework
+aliases:
+  语言优化
+description: Unity语言层面优化：Struct减少装箱、避免匿名函数等
+draft: false
+---
+
+
+# Unity 优化 语言层面
 
 1. 使用集合的时候需要提前设置大小
 比如 List，Dictionary

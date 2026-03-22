@@ -1,3 +1,18 @@
+---
+title: Linux 基础笔记
+date: 2026-03-16
+tags:
+  - linux
+  - os
+  - shell
+type: cs-basics
+aliases:
+  Linux基础
+description: Linux简单笔记，基础命令和概念
+draft: false
+---
+
+
 ## 1. 改变文件属性和权限的方法
 
 chgrp ：改变文件所属群组

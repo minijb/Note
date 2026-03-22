@@ -1,4 +1,5 @@
 ---
+title: Socket 1
 tags:
   - socket
 ---

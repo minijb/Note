@@ -1,3 +1,16 @@
+---
+title: UniNodeLoadAdapter
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: 子类有 UniAOINodeLoadAdapter， UniEditNodeLoadAdapter，  UniPlayNodeLoadAdapter
+draft: false
+---
+
+# UniNodeLoadAdapter
 
 父类
 

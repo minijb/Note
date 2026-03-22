@@ -1,3 +1,16 @@
+---
+title: vscode 多配置文件
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: 左下角创建新的配置文件，可以根据现有的配置文件增加
+draft: false
+---
+
+# vscode 多配置文件
 
 ## 创建基础的配置文件
 

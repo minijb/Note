@@ -1,3 +1,16 @@
+---
+title: Shadow shader
+date: 2026-03-16
+tags:
+  - resource
+type: shader
+aliases:
+  -
+description: Shader "Unity Shaders Book/Chapter 9/Shadow" {
+draft: false
+---
+
+# Shadow shader
 
 ```c
 Shader "Unity Shaders Book/Chapter 9/Shadow" {

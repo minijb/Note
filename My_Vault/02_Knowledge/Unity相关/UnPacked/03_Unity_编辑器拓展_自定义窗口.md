@@ -1,3 +1,17 @@
+---
+title: Unity 自定义窗口
+date: 2026-03-16
+tags:
+  - unity
+  - editor
+  - window
+type: framework
+aliases:
+  自定义窗口
+description: Unity编辑器自定义窗口
+draft: false
+---
+
 
 ## 1. 创建一个窗口类
 

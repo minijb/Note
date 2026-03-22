@@ -1,4 +1,17 @@
+---
+title: Csharp 异步编程 任务异步编程模型
+date: 2026-03-16
+tags:
+  - knowledge
+  - csharp
+type: language
+aliases:
+  -
+description: public async Task<int> GetUrlContentLengthAsync()
+draft: false
+---
 
+# Csharp 异步编程 任务异步编程模型
 
 **基本运行流程**
 

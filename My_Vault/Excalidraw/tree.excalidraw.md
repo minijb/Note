@@ -1,5 +1,6 @@
 ---
 
+title: tree.excalidraw
 excalidraw-plugin: parsed
 tags: [excalidraw]
 

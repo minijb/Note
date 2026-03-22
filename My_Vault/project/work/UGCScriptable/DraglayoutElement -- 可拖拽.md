@@ -1,3 +1,16 @@
+---
+title: DraglayoutElement   可拖拽
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: 类继承自 `DragLayoutElement`，用于管理和布局其子元素。该类包含多个字段和方法，用于处理子元素的添加、移除、布局和更新等功能。类中定义了一个受保护的 `List<DragLayout...
+draft: false
+---
+
+# DraglayoutElement   可拖拽
 
 ```c#
 

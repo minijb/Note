@@ -1,7 +1,24 @@
+---
+title: 三国杀 Battle 战斗系统架构
+date: 2026-03-16
+tags:
+  - project
+  - game
+  - lua
+  - architecture
+type: project
+aliases:
+  - Battle系统
+  - 战斗架构
+description: 三国杀游戏Battle战斗系统架构：组合优于继承、单一职责、多层级状态机、阵营管理、多随机数设计、实体管理
+draft: false
+---
+
+# 三国杀 Battle 战斗系统架构
 
 ## Battle -- 总文件
 
-- **组合优于继承**：通过 `class.AddComponents` 将14个功能组件组合到Battle类中，Battle.lua 就是用来协调各个系统的
+- **组合优于继承**：通过 `class.AddComponents` 将14个功能组件组合到Battle类中，Battle.lua 就是用来协调各个系统的
 - **单一职责**：每个组件负责特定领域（地图、触发器、回合、Buff、战斗等）
 - **松耦合**：组件间通过事件系统通信，避免直接依赖
 

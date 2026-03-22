@@ -1,3 +1,16 @@
+---
+title: 2Graph
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: 将对象拖到 project 窗口创建预制件 prefeb。其中粗体表示当前对象 覆盖了 预制件的值。
+draft: false
+---
+
+# 2Graph
 
 ## 预制件
 

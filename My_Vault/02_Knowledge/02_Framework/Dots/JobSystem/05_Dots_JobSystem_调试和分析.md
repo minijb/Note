@@ -1,3 +1,18 @@
+---
+title: Dots JobSystem 调试分析
+date: 2026-03-16
+tags:
+  - unity
+  - dots
+  - job-system
+  - debug
+type: framework
+aliases:
+  调试分析
+description: Unity Dots JobSystem调试和分析方法
+draft: false
+---
+
 
 ## 1. 查看Burst编译
 
@@ -17,8 +32,8 @@ Window > Analysis > Profiler > Job Details
 - 使用 Unity.Collections.LowLevel.Unsafe.UnsafeUtility 中的方法  
 - Job 中不能抛出异常，否则会导致 Silent Failure（静默失败）。建议：
 
-- 使用 `NativeArray<int>` 或 `NativeQueue<Exception>` 收集错误信息。
-- 在 `Complete()` 后检查并处理。
+- 使用 `NativeArray<int>` 或 `NativeQueue<Exception>` 收集错误信息。
+- 在 `Complete()` 后检查并处理。
 
 ## 4. Job 的依赖关系图可视化
 

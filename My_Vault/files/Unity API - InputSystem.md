@@ -1,3 +1,16 @@
+---
+title: Unity API   InputSystem
+date: 2026-03-16
+tags:
+  - unity
+type: knowledge
+aliases:
+  -
+description: **Action type** :  差别是在于触发时机不同
+draft: false
+---
+
+# Unity API   InputSystem
 
 **Action type** :  差别是在于触发时机不同
 

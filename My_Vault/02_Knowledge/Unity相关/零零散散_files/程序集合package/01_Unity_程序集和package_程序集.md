@@ -1,4 +1,17 @@
+---
+title: Unity 程序集和package 程序集
+date: 2026-03-16
+tags:
+  - knowledge
+  - unity
+type: knowledge
+aliases:
+  -
+description: - 所有的游戏脚本都打包到一个 dll 文件中，只要修改一个文件，所有的脚本都需要重新打包，很耗时间。
+draft: false
+---
 
+# Unity 程序集和package 程序集
 
 ## 1. 程序集的作用
 

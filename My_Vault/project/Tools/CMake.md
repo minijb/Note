@@ -1,3 +1,16 @@
+---
+title: CMake
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: cmake_minimum_required(VERSION 3.5.0)
+draft: false
+---
+
+# CMake
 
 [[CMake#- 常用变量]]
 

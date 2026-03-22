@@ -1,3 +1,16 @@
+---
+title: Unity 编辑器全局设置
+date: 2026-03-16
+tags:
+  - unity
+  - editor
+type: framework
+aliases:
+  编辑器全局
+description: Unity编辑器全局配置
+draft: false
+---
+
 
 ## 1. 编辑器相关的文件夹
 
@@ -13,7 +26,7 @@
 
 ## 2. `[MenuItem]` 添加菜单栏按钮
 
-`public MenuItem (string itemName, bool isValidateFunction, int priority);`
+`public MenuItem (string itemName, bool isValidateFunction, int priority);`
 
 三个参数
 1. 菜单路径

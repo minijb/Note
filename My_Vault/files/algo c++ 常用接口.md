@@ -1,4 +1,5 @@
 ---
+title: algo c++ 常用接口
 tags:
   - cpp
   - algo

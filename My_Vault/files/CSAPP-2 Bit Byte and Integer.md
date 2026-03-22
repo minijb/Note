@@ -1,4 +1,5 @@
 ---
+title: CSAPP 2 Bit Byte and Integer
 tags:
   - csapp
 ---

@@ -1,71 +1,17 @@
-
-
-```c#
-using UnityEngine;
-using Unity.Collections;
-using Unity.Jobs;
-
-public class MyScheduledJob : MonoBehaviour
-{
-    // Create a native array of a single float to store the result. Using a 
-    // NativeArray is the only way you can get the results of the job, whether
-    // you're getting one value or an array of values.
-    NativeArray<float> result;
-    // Create a JobHandle for the job
-    JobHandle handle;
-
-    // Set up the job
-    public struct MyJob : IJob
-    {
-        public float a;
-        public float b;
-        public NativeArray<float> result;
-
-        public void Execute()
-        {
-            result[0] = a + b;
-        }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        // Set up the job data
-        result = new NativeArray<float>(1, Allocator.TempJob);
-
-        MyJob jobData = new MyJob
-        {
-            a = 10,
-            b = 10,
-            result = result
-        };
-
-        // Schedule the job
-        handle = jobData.Schedule();
-    }
-
-    private void LateUpdate()
-    {
-        // Sometime later in the frame, wait for the job to complete before accessing the results.
-        handle.Complete();
-
-        // All copies of the NativeArray point to the same memory, you can access the result in "your" copy of the NativeArray
-        // float aPlusB = result[0];
-
-        // Free the memory allocated by the result array
-        result.Dispose();
-    }
-
-
-}
-```
-
-
-简评： 
-
-1. 其实就是将逻辑和现实进行了分离
-2. 逻辑在比较快的 Update中云信
-3. 显示 在 LateUpate中展示
+---
+title: JobSystem 例子
+date: 2026-03-16
+tags:
+  - unity
+  - dots
+  - job-system
+  - example
+type: framework
+aliases:
+  例子
+description: JobSystem使用例子
+draft: false
+---
 
 
 ## 避免长时间作业

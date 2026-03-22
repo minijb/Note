@@ -1,3 +1,16 @@
+---
+title: Global
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: public static UniAssetModule AssetModule;
+draft: false
+---
+
+# Global
 
 全局信息
 

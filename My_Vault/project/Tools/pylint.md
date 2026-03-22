@@ -1,4 +1,5 @@
 ---
+title: pylint
 tags:
   - python
   - pylint

@@ -1,4 +1,5 @@
 ---
+title: linux mysql
 tags:
   - linux
 ---

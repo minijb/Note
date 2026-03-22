@@ -1,3 +1,16 @@
+---
+title: Node 生命周期
+date: 2026-03-16
+tags:
+  - untagged
+type: optimization
+aliases:
+  -
+description: 所有的Node 都含有一个个生命周期 如 初始化， OnDescripted，
+draft: false
+---
+
+# Node 生命周期
 
 所有的Node 都含有一个个生命周期 如 初始化， OnDescripted， 
 

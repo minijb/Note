@@ -1,5 +1,17 @@
+---
+title: Unity 自定义编辑器特性
+date: 2026-03-16
+tags:
+  - unity
+  - editor
+  - custom-editor
+type: framework
+aliases:
+  自定义编辑器
+description: Unity自定义编辑器CustomEditor
+draft: false
+---
 
-两种自定义的方法，一种使用csharp的原生特性，还有一种是利用Unity来创建特性
 
 ## 1. Csharp 
 

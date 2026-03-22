@@ -1,3 +1,20 @@
+---
+title: SVN 版本控制基础
+date: 2026-03-16
+tags:
+  - tool
+  - svn
+  - version-control
+  - project
+type: tool
+aliases:
+  - SVN基础
+  - svn基础知识
+description: SVN（Subversion）版本控制软件基础：repository、checkout、commit、update命令及工作生命周期
+draft: false
+---
+
+# SVN 版本控制基础
 
 svn ： 目录版本控制软件
 

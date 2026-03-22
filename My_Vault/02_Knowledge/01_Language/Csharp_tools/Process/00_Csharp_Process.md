@@ -1,3 +1,31 @@
+---
+title: C# Process 进程管理
+date: 2026-03-16
+tags:
+  - csharp
+  - process
+  - system
+type: language
+aliases:
+  Process进程
+description: C# Process进程管理相关知识
+draft: false
+---
+
+title: Csharp Process
+date: 2026-03-16
+tags:
+  - knowledge
+  - csharp
+type: language
+aliases:
+  -
+description: using (Process myProcess = new Process())
+draft: false
+---
+
+# Csharp Process
+
 ## 两种启动进程的方式
 
 ### 1. 使用对象

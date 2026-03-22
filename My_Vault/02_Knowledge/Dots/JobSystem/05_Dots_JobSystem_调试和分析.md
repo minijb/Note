@@ -1,3 +1,17 @@
+---
+title: Dots JobSystem 调试和分析
+date: 2026-03-16
+tags:
+  - knowledge
+  - dots
+type: framework
+aliases:
+  -
+description: Jobs > Burst > Open Inspector
+draft: false
+---
+
+# Dots JobSystem 调试和分析
 
 ## 1. 查看Burst编译
 

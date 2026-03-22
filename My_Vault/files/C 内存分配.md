@@ -1,4 +1,5 @@
 ---
+title: C 内存分配
 tags:
   - cpp
   - C

@@ -1,4 +1,5 @@
 ---
+title: CSAPP Lab2   bomb
 tags:
   - csapp
 ---

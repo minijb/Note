@@ -1,3 +1,16 @@
+---
+title: cpp priority queue
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: 允许自己添加规则。 默认是大根堆 -- < 表示队列后面的元素要小于前面的元素。
+draft: false
+---
+
+# cpp priority queue
 
 允许自己添加规则。 默认是大根堆 -- < 表示队列后面的元素要小于前面的元素。
 

@@ -1,4 +1,5 @@
 ---
+title: Games101 1 Linear Algebra
 tags:
   - games101
 ---

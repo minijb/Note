@@ -1,3 +1,17 @@
+---
+title: ABManager
+date: 2026-03-16
+tags:
+  - resource
+type: knowledge
+aliases:
+  -
+description: using System.Collections;
+draft: false
+---
+
+# ABManager
+
 ```c#
 using System.Collections;
 using System.Collections.Generic;

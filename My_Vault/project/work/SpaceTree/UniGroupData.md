@@ -1,3 +1,17 @@
+---
+title: UniGroupData
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: public class UniGroupData : UniComponentsNodeData
+draft: false
+---
+
+# UniGroupData
+
 ```c#
 public class UniGroupData : UniComponentsNodeData
     {

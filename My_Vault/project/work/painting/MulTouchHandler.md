@@ -1,3 +1,16 @@
+---
+title: MulTouchHandler
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: public class MulTouchHandler : MonoBehaviour, IPointerDownHandler, IDragHandler, IPointerUpHandler
+draft: false
+---
+
+# MulTouchHandler
 
 ```c#
 public class MulTouchHandler : MonoBehaviour, IPointerDownHandler, IDragHandler, IPointerUpHandler

@@ -1,3 +1,16 @@
+---
+title: CSAPP
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: 关于 CSAPP 的笔记
+draft: false
+---
+
+# CSAPP
 
 [[CSAPP-Assert]]
 [[CSAPP-1 C programme and System]]

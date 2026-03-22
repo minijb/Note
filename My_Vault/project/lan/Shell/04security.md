@@ -1,3 +1,17 @@
+---
+title: 04security
+date: 2026-03-16
+tags:
+  - untagged
+type: os
+aliases:
+  -
+description: `useradd -D` 查看默认值
+draft: false
+---
+
+# 04security
+
 # 安全
 
 ## 用户

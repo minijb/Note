@@ -1,3 +1,16 @@
+---
+title: 面试实录   c++
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: 1. 性质 ： 左值有地址，右值没有地址
+draft: false
+---
+
+# 面试实录   c++
 
 ## 左值右值
 

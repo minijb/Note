@@ -1,3 +1,17 @@
+---
+title: ch Csharp BitConvert
+date: 2026-03-16
+tags:
+  - resource
+  - csharp
+type: language
+aliases:
+  -
+description: 主要分为两部分操作  字节->类型  类型->字节
+draft: false
+---
+
+# ch Csharp BitConvert
 
 # BitConvert
 

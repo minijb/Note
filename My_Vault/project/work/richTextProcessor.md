@@ -1,3 +1,16 @@
+---
+title: richTextProcessor
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: public class RichTextProcessor
+draft: false
+---
+
+# richTextProcessor
 
 ```c#
 	public class RichTextProcessor

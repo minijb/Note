@@ -1,3 +1,16 @@
+---
+title: UniGraphTree
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: public struct RequestCreateGlobalVariableUnit
+draft: false
+---
+
+# UniGraphTree
 
 ```c#
     public struct RequestCreateGlobalVariableUnit

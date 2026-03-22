@@ -1,4 +1,5 @@
 ---
+title: cpp thread   1
 tags:
   - thread
 ---

@@ -1,5 +1,6 @@
 ---
 
+title: algo stack.excalidraw
 excalidraw-plugin: parsed
 tags: [excalidraw]
 

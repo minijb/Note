@@ -1,4 +1,16 @@
+---
+title: Unity高级编程 1 简介及C Sharp
+date: 2026-03-16
+tags:
+  - unity
+type: knowledge
+aliases:
+  -
+description: List 默认扩容为2的整数倍
+draft: false
+---
 
+# Unity高级编程 1 简介及C Sharp
 
 [[C Sharp IList  IReadOnlyList]]
 

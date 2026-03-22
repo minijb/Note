@@ -1,23 +1,18 @@
+---
+title: Dots JobSystem Native集合
+date: 2026-03-16
+tags:
+  - unity
+  - dots
+  - job-system
+  - native
+type: framework
+aliases:
+  Native集合
+description: Unity Dots JobSystem Native集合和Blittable类型
+draft: false
+---
 
-Native集合
-
-- 为 struct 是一个值类型
-- 本质是一个包装器 --- 还有一个指针。 因此内部的T---需要是定长的。[源码](https://blog.csdn.net/enternalstar/article/details/143299952)
-	- 这个指针通过 unity 内部的 allocateor 分配非托管的内存块和一些源数据
-	- 赋值，拷贝这些都是**浅拷贝** ，本质是复制指针
-
-
-JobSystem 需要一个 **非托管集合** -- 一个 struct  同时内部所有字段都必须是 Blittable。 **原因 ： 可以确定长度**
-
-![image.png](https://s2.loli.net/2025/10/15/eQTlvDgJc51KFRP.png)
-
-
-可以使用 struct 但是 但是需要满足，结构体里只能包含Blittable类型，或**嵌套其他非托管结构体**。 部分类型可以使用 `Unity.Mathematics` 内的类型替代如 float3 等。
-
-> 使用 `[StructLayout(LayoutKind.Sequential, Pack = 4)]` 实现结构内部的字节对齐
-
-
-**本质原因** ： 多线程拷贝数据的时候内存分布是一致的。
 
 ## 其他 Native集合
 
@@ -107,7 +102,7 @@ title: 类型之间的关系
 - 定义：值类型是其实例直接包含其数据的类型。它们通常分配在栈上（但也可以是类的字段而被间接分配在堆上）。
 - 包括：
 
-- 所有数值类型（`int`, `float`, `double`, `long`, `byte` 等）
+- 所有数值类型（`int`, `float`, `double`, `long`, `byte` 等）
 - `char`
 - `bool`
 - `enum`
@@ -118,7 +113,7 @@ title: 类型之间的关系
 
 **非托管类型 (Unmanaged Types)**
 
-这是值类型的一个子集，是 C# 7.3 引入的一个正式概念，主要用于 `unsafe` 上下文和与非托管代码的交互。
+这是值类型的一个子集，是 C# 7.3 引入的一个正式概念，主要用于 `unsafe` 上下文和与非托管代码的交互。
 
 - 定义：一种类型，如果它满足以下所有条件，则它是非托管类型：
 
@@ -126,7 +121,7 @@ title: 类型之间的关系
 - 它不包含任何引用类型的字段。
 - 它的所有字段递归地也都是非托管类型。
 
-关系中的位置：非托管类型是值类型的子集。它排除了那些包含引用类型的值类型（如某些 `struct`）。
+关系中的位置：非托管类型是值类型的子集。它排除了那些包含引用类型的值类型（如某些 `struct`）。
 
 **Blittable 类型 (Blittable Types)**
 
@@ -135,23 +130,23 @@ title: 类型之间的关系
 - 定义：一种数据类型，它在托管内存和非托管内存中具有相同的二进制表示形式（相同的内存布局和位模式）。因此，在互操作时，运行时可以直接进行“位拷贝”（blit）来传递数据，而无需进行任何特殊的转换或封送处理（Marshaling）。
 - 包括：
 
-- 大多数基础数值类型：`byte`, `sbyte`, `short`, `ushort`, `int`, `uint`, `long`, `ulong`, `single`, `double`。
-- 包含“非嵌套”的 Blittable 类型的数组（如 `int[]`）。
-- 只包含 Blittable 类型字段的 `struct`，并且其布局是连续的（通常是 `[StructLayout(LayoutKind.Sequential)]` 或默认顺序）。
+- 大多数基础数值类型：`byte`, `sbyte`, `short`, `ushort`, `int`, `uint`, `long`, `ulong`, `single`, `double`。
+- 包含“非嵌套”的 Blittable 类型的数组（如 `int[]`）。
+- 只包含 Blittable 类型字段的 `struct`，并且其布局是连续的（通常是 `[StructLayout(LayoutKind.Sequential)]` 或默认顺序）。
 
 - 不包括（重要的非 Blittable 类型）：
 
 - `bool`： 在C#中占1字节，但在非托管代码中可能是4字节（如Win32 BOOL）。需要封送处理。
 - `char`： 在C#中是2字节Unicode，在非托管代码中可能是1字节ANSI。需要封送处理。
 - `string`： 引用类型，且编码不同，必须封送。
-- 包含 `bool` 或 `char` 字段的 `struct`：因为这些字段不是 Blittable 的，所以整个结构体也不是 Blittable 的。
+- 包含 `bool` 或 `char` 字段的 `struct`：因为这些字段不是 Blittable 的，所以整个结构体也不是 Blittable 的。
 
 ```
 
 
 ````ad-note
 title: 什么是结构数组（SoA）
-结构数组指的是为每种数据创建平行的、等长的 `NativeArray`。这是 Data-Oriented Design（面向数据设计）的核心。
+结构数组指的是为每种数据创建平行的、等长的 `NativeArray`。这是 Data-Oriented Design（面向数据设计）的核心。
 
 - **错误设计 (❌ AoS - Array of Structures)：内存布局分散，难以管理_。_**
 
@@ -165,7 +160,7 @@ public NativeArray<BadEntityStruct> BadEntities;
 ```
 
 JobSystem 和 Burst 的性能优势来自于连续内存块的线性遍历。  
-如果每个结构体内部都有一个独立的 `NativeArray`，数据会被分散在内存的各个角落，导致大量的缓存未命中，性能会急剧下降。
+如果每个结构体内部都有一个独立的 `NativeArray`，数据会被分散在内存的各个角落，导致大量的缓存未命中，性能会急剧下降。
 
 - **正确设计 (✅ SoA - Structure of Arrays)：内存布局连续，易于批量处理，缓存友好。**
 
@@ -198,29 +193,29 @@ public NativeArray<int> EntityPathLength; // 每个实体的路径点数量
 title: NativeArray<T> 是值类型吗？
 
 NativeArray<T> 是一个结构体（struct），因此它属于值类型。  
-这是一个非常重要的特性，也是它能在 JobSystem 中安全使用的关键原因之一。但是，它的行为与简单的值类型（如 `int`、`float`）有本质区别，理解这一点至关重要。
+这是一个非常重要的特性，也是它能在 JobSystem 中安全使用的关键原因之一。但是，它的行为与简单的值类型（如 `int`、`float`）有本质区别，理解这一点至关重要。
 
-**为什么 `NativeArray<T>` 是值类型，却又如此特殊？**
+**为什么 `NativeArray<T>` 是值类型，却又如此特殊？**
 
-简单来说：`NativeArray<T>` 是一个包装器或智能指针。它的结构体内部并不直接存储数据数组，而是包含了一个指向Unity内存管理系统（Allocator）中分配的非托管内存块的指针和一些管理元数据（如长度、版本号等）。  
+简单来说：`NativeArray<T>` 是一个包装器或智能指针。它的结构体内部并不直接存储数据数组，而是包含了一个指向Unity内存管理系统（Allocator）中分配的非托管内存块的指针和一些管理元数据（如长度、版本号等）。  
 
 **这种设计带来的行为特性：**
 
 1.值类型的拷贝语义：
 
-1. 当我们将一个 `NativeArray` 变量赋值给另一个变量，或者作为参数传递给方法时，发生的是值类型的拷贝。这意味着 `m_Buffer`、`m_Length` 等内部字段的值被复制了一份。
-2. 关键点：复制的是指针（`m_Buffer`），而不是指针所指向的数据。因此，两个 `NativeArray` 变量（`arrayA` 和 `arrayB`）将指向同一块非托管内存数据。
+1. 当我们将一个 `NativeArray` 变量赋值给另一个变量，或者作为参数传递给方法时，发生的是值类型的拷贝。这意味着 `m_Buffer`、`m_Length` 等内部字段的值被复制了一份。
+2. 关键点：复制的是指针（`m_Buffer`），而不是指针所指向的数据。因此，两个 `NativeArray` 变量（`arrayA` 和 `arrayB`）将指向同一块非托管内存数据。
 
 2.“浅拷贝”而非“深拷贝”：
 
-1. 对 `arrayA[0]` 进行修改，会直接反映在 `arrayB[0]` 上，因为它们操作的是同一片内存。
+1. 对 `arrayA[0]` 进行修改，会直接反映在 `arrayB[0]` 上，因为它们操作的是同一片内存。
 2. 这种行为类似于引用类型，但其本质是值类型（结构体）包含了一个指针。
 
 **为什么Unity要这样设计？**
 
 1. 性能：避免在Job之间传递数据时进行昂贵的内存拷贝。Job可以高效地读写同一块内存，从而实现线程间通信。
-2. 与JobSystem协同工作：作为值类型，`NativeArray` 可以完美地嵌入到 `IJob` 结构体中，满足Job参数必须是Blittable类型的要求。因为它只包含指针和整数等原始类型，整个结构体的内存布局是固定的和明确的。
-3. 内存安全：虽然数据是共享的，但Unity的安全系统（通过 `AtomicSafetyHandle`）会跟踪`NativeArray`的生命周期和访问权限。例如，它会在我们尝试在Schedule的Job仍在执行时`Dispose()`数组，或者在一个写入权限不匹配的Job中写入数据时抛出异常，从而防止内存损坏和数据竞争。
+2. 与JobSystem协同工作：作为值类型，`NativeArray` 可以完美地嵌入到 `IJob` 结构体中，满足Job参数必须是Blittable类型的要求。因为它只包含指针和整数等原始类型，整个结构体的内存布局是固定的和明确的。
+3. 内存安全：虽然数据是共享的，但Unity的安全系统（通过 `AtomicSafetyHandle`）会跟踪`NativeArray`的生命周期和访问权限。例如，它会在我们尝试在Schedule的Job仍在执行时`Dispose()`数组，或者在一个写入权限不匹配的Job中写入数据时抛出异常，从而防止内存损坏和数据竞争。
    
 **总结**
 
@@ -339,5 +334,5 @@ modifiersPerEntity.Dispose();
 
 
 ```ad-warning
-注意 ： 在并行 Job 中修改嵌套的 `UnsafeList` 时，必须确保**每个并行迭代只访问完全独立的内层列表**，否则需手动加锁
+注意 ： 在并行 Job 中修改嵌套的 `UnsafeList` 时，必须确保**每个并行迭代只访问完全独立的内层列表**，否则需手动加锁
 ```

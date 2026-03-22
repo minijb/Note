@@ -1,4 +1,5 @@
 ---
+title: wsl 常用命令
 tags:
   - wsl
 ---

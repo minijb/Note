@@ -1,3 +1,17 @@
+---
+title: 05filesystem
+date: 2026-03-16
+tags:
+  - untagged
+type: os
+aliases:
+  -
+description: 查看分区情况： `fdisk -lu [target]` 没有 target 查看多有分区
+draft: false
+---
+
+# 05filesystem
+
 # file system
 
 ## 分区

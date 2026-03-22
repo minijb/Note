@@ -1,3 +1,16 @@
+---
+title: linux proxy
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: hostip=$(cat /etc/resolv.conf | grep nameserver | awk '{ print $2 }')
+draft: false
+---
+
+# linux proxy
 
 ```shell
 #!/bin/sh

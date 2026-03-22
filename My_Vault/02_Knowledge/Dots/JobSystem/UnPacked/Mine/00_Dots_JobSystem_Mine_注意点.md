@@ -1,8 +1,24 @@
+---
+title: JobSystem 注意点
+date: 2026-03-16
+tags:
+  - unity
+  - dots
+  - job-system
+type: framework
+aliases:
+  注意点
+description: JobSystem使用注意点
+draft: false
+---
+
+
+# Dots JobSystem Mine 注意点
 
 1. Job 不应该访问静态数据
-2. 使用 [JobHandle.ScheduleBatchedJobs](https://link.zhihu.com/?target=https%3A//docs.unity3d.com/ScriptReference/Unity.Jobs.JobHandle.ScheduleBatchedJobs.html) 方法立即执行已调度的 Job
+2. 使用 [JobHandle.ScheduleBatchedJobs](https://link.zhihu.com/?target=https%3A//docs.unity3d.com/ScriptReference/Unity.Jobs.JobHandle.ScheduleBatchedJobs.html) 方法立即执行已调度的 Job
 
-Job 在被调度后会被缓存不会立即执行，该方法可立即清空缓存队列中的 Job 并执行，但会影响性能，或调用 [JobHandle.Complete](https://link.zhihu.com/?target=https%3A//docs.unity3d.com/ScriptReference/Unity.Jobs.JobHandle.Complete.html) 执行，ECS 系统已经隐式清空了缓存，以你无需主动调用
+Job 在被调度后会被缓存不会立即执行，该方法可立即清空缓存队列中的 Job 并执行，但会影响性能，或调用 [JobHandle.Complete](https://link.zhihu.com/?target=https%3A//docs.unity3d.com/ScriptReference/Unity.Jobs.JobHandle.Complete.html) 执行，ECS 系统已经隐式清空了缓存，以你无需主动调用
 
 3. 不要更新 NativeContainer 内容
 

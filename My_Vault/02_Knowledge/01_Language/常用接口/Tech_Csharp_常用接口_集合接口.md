@@ -1,3 +1,17 @@
+---
+title: C# 集合接口
+date: 2026-03-16
+tags:
+  - csharp
+  - collection
+  - interface
+type: language
+aliases:
+  集合接口
+description: C#常用集合接口IList、ICollection等
+draft: false
+---
+
 
 ## IList
 
@@ -39,7 +53,7 @@
 
 **Dispose(bool) 方法重载**
 
-在重载中，`disposing` 参数是一个 [Boolean](https://learn.microsoft.com/zh-cn/dotnet/api/system.boolean)，用于指示方法调用是来自 [Dispose](https://learn.microsoft.com/zh-cn/dotnet/api/system.idisposable.dispose) 方法（其值是 `true`），还是来自析构函数（其值是 `false`）。
+在重载中，`disposing` 参数是一个 [Boolean](https://learn.microsoft.com/zh-cn/dotnet/api/system.boolean)，用于指示方法调用是来自 [Dispose](https://learn.microsoft.com/zh-cn/dotnet/api/system.idisposable.dispose) 方法（其值是 `true`），还是来自析构函数（其值是 `false`）。
 
 ```C#
 protected virtual void Dispose(bool disposing)

@@ -1,3 +1,17 @@
+---
+title: Csharp 异步编程 资源
+date: 2026-03-16
+tags:
+  - knowledge
+  - csharp
+type: language
+aliases:
+  -
+description: - [完整的doc  教程](https://learn.microsoft.com/zh-cn/dotnet/standard/asynchronous-programming-patterns/)
+draft: false
+---
+
+# Csharp 异步编程 资源
 
 - [完整的doc  教程](https://learn.microsoft.com/zh-cn/dotnet/standard/asynchronous-programming-patterns/)
 - [简单的异步编程介绍](https://learn.microsoft.com/zh-cn/dotnet/csharp/asynchronous-programming/)

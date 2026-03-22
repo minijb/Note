@@ -1,3 +1,21 @@
+---
+title: 三国杀 Trigger 触发器系统设计
+date: 2026-03-16
+tags:
+  - project
+  - game
+  - lua
+  - trigger
+  - event-driven
+type: project
+aliases:
+  - Trigger系统
+  - 触发器设计
+description: 三国杀游戏Trigger触发器系统设计：TriggerBase骨架、观察者模式（onBegin/onEnd/onTrigger）、模板方法模式、参数控制、触发限制
+draft: false
+---
+
+# 三国杀 Trigger 触发器系统设计
 
 ## TriggerBase ： 为触发器提供骨架
 

@@ -1,3 +1,18 @@
+---
+title: Unity Xlua lua call Csharp
+date: 2026-03-16
+tags:
+  - knowledge
+  - csharp
+  - unity
+type: language
+aliases:
+  -
+description: 你在C#这样new一个对象：
+draft: false
+---
+
+# Unity Xlua lua call Csharp
 
 new C#对象
 

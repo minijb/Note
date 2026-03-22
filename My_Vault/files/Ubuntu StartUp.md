@@ -1,4 +1,5 @@
 ---
+title: Ubuntu StartUp
 tags:
   - linux
 ---

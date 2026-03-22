@@ -1,3 +1,16 @@
+---
+title: SpaceNode
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: public SpaceIndex Index;
+draft: false
+---
+
+# SpaceNode
 
 ```C#
   

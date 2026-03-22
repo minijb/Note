@@ -1,4 +1,5 @@
 ---
+title: algo 二分查找
 tags:
   - algo
 ---

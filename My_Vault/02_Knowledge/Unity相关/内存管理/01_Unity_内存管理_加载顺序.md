@@ -1,3 +1,17 @@
+---
+title: Unity 内存管理 加载顺序
+date: 2026-03-16
+tags:
+  - knowledge
+  - unity
+type: knowledge
+aliases:
+  -
+description: 一个 prefab 内的资源大概包含以下
+draft: false
+---
+
+# Unity 内存管理 加载顺序
 
 一个 prefab 内的资源大概包含以下
 

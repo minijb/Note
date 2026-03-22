@@ -1,3 +1,17 @@
+---
+title: kruskal
+date: 2026-03-16
+tags:
+  - resource
+type: knowledge
+aliases:
+  -
+description: using namespace std;
+draft: false
+---
+
+# kruskal
+
 ```c++
 #include<iostream>
 #include<vector>

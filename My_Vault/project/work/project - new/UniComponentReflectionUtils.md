@@ -1,3 +1,16 @@
+---
+title: UniComponentReflectionUtils
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: 这段代码定义了一个名为 UniComponentReflectionUtils 的静态类及其内部类 SLID2Meta，用于在 Unity 中处理组件的反射和元数据管理。SLID2Meta 类包含了多...
+draft: false
+---
+
+# UniComponentReflectionUtils
 
 这段代码定义了一个名为 UniComponentReflectionUtils 的静态类及其内部类 SLID2Meta，用于在 Unity 中处理组件的反射和元数据管理。SLID2Meta 类包含了多个字段和方法，用于存储和操作组件的元数据，例如对象类型、序列化类型、ID、创建新对象和编辑器的方法、生命周期方法、网络序列化和反序列化方法等。
 

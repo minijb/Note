@@ -1,3 +1,16 @@
+---
+title: 使用 Android, IOS 方法回调
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: unity端调用方式有以下4种:
+draft: false
+---
+
+# 使用 Android, IOS 方法回调
 
 ## Android
 

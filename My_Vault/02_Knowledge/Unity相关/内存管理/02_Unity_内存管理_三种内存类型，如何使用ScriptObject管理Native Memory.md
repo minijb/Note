@@ -1,3 +1,17 @@
+---
+title: Unity 内存管理 三种内存类型，如何使用ScriptObject管理Native Memory
+date: 2026-03-16
+tags:
+  - knowledge
+  - unity
+type: knowledge
+aliases:
+  -
+description: 1. Managed Memory -- C# Object + Value type (int, float ,struct)
+draft: false
+---
+
+# Unity 内存管理 三种内存类型，如何使用ScriptObject管理Native Memory
 
 ## 1. 三种内存类型
 

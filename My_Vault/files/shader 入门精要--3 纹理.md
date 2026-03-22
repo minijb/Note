@@ -1,4 +1,5 @@
 ---
+title: shader 入门精要 3 纹理
 tags:
   - shader
 ---

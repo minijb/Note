@@ -1,3 +1,16 @@
+---
+title: Lua 循环语法
+date: 2026-03-16
+tags:
+  - lua
+  - loop
+type: language
+aliases:
+  Lua循环
+description: Lua循环语句语法
+draft: false
+---
+
 
 ### 1. for 循环
 

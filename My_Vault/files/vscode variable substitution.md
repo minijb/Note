@@ -1,4 +1,5 @@
 ---
+title: vscode variable substitution
 tags:
   - vscode
   - settings

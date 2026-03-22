@@ -1,3 +1,17 @@
+---
+title: LuaManager
+date: 2026-03-16
+tags:
+  - resource
+  - lua
+type: language
+aliases:
+  -
+description: using System.Security.Cryptography;
+draft: false
+---
+
+# LuaManager
 
 ```c#
 using System.Security.Cryptography;

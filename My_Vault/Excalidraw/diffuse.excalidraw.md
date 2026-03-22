@@ -1,5 +1,6 @@
 ---
 
+title: diffuse.excalidraw
 excalidraw-plugin: parsed
 tags: [excalidraw]
 

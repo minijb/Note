@@ -1,3 +1,16 @@
+---
+title: Games202  1 Basic
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: **GPU pipeline**
+draft: false
+---
+
+# Games202  1 Basic
 
 **GPU pipeline**
 

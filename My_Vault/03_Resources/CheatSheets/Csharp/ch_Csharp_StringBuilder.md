@@ -1,3 +1,17 @@
+---
+title: ch Csharp StringBuilder
+date: 2026-03-16
+tags:
+  - resource
+  - csharp
+type: language
+aliases:
+  -
+description: **简介：** 可变长度的 string
+draft: false
+---
+
+# ch Csharp StringBuilder
 
 **简介：** 可变长度的 string
 

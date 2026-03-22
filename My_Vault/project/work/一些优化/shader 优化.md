@@ -1,3 +1,16 @@
+---
+title: shader 优化
+date: 2026-03-16
+tags:
+  - untagged
+type: optimization
+aliases:
+  -
+description: 1. Material Property Block --- 原本相同的材质才可以进行合批(Color 不一样就会生成材质)， 使用 Material Property Block 可以不生成相似的材...
+draft: false
+---
+
+# shader 优化
 
 1. Material Property Block --- 原本相同的材质才可以进行合批(Color 不一样就会生成材质)， 使用 Material Property Block 可以不生成相似的材质。‘
 

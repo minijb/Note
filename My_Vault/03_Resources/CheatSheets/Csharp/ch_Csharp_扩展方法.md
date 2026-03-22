@@ -1,3 +1,17 @@
+---
+title: ch Csharp 扩展方法
+date: 2026-03-16
+tags:
+  - resource
+  - csharp
+type: language
+aliases:
+  -
+description: **什么是扩展方法**
+draft: false
+---
+
+# ch Csharp 扩展方法
 
 **什么是扩展方法**
 

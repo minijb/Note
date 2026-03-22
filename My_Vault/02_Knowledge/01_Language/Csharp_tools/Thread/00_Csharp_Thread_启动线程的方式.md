@@ -1,3 +1,30 @@
+---
+title: C# Thread 线程启动方式
+date: 2026-03-16
+tags:
+  - csharp
+  - thread
+  - async
+type: language
+aliases:
+  线程启动
+description: C# Thread线程启动的几种方式
+draft: false
+---
+
+title: Csharp Thread 启动线程的方式
+date: 2026-03-16
+tags:
+  - knowledge
+  - csharp
+type: language
+aliases:
+  -
+description: Thread t = new Thread(() =>
+draft: false
+---
+
+# Csharp Thread 启动线程的方式
 
 ## 1. 最简单的方式
 

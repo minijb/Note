@@ -1,5 +1,17 @@
+---
+title: Unity 编辑器特性
+date: 2026-03-16
+tags:
+  - unity
+  - editor
+  - attribute
+type: framework
+aliases:
+  编辑器特性
+description: Unity编辑器特性Attributes
+draft: false
+---
 
-特性 ： 方便开发项目
 
 ## 1. 属性特性
 

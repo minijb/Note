@@ -1,4 +1,17 @@
+---
+title: ch unity 批量宏脚本
+date: 2026-03-16
+tags:
+  - resource
+  - unity
+type: knowledge
+aliases:
+  -
+description: using System.Collections.Generic;
+draft: false
+---
 
+# ch unity 批量宏脚本
 
 ```c#
  using System.Collections.Generic;

@@ -1,4 +1,5 @@
 ---
+title: git 初始化
 tags:
   - git
 ---

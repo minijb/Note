@@ -1,3 +1,16 @@
+---
+title: CMake Professtional 1 Introduction
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: **the stage of cmake**
+draft: false
+---
+
+# CMake Professtional 1 Introduction
 
 **the stage of cmake**
 

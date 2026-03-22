@@ -1,3 +1,17 @@
+---
+title: ch Csharp StopWatch
+date: 2026-03-16
+tags:
+  - resource
+  - csharp
+type: language
+aliases:
+  -
+description: https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.stopwatch?view=net-9.0
+draft: false
+---
+
+# ch Csharp StopWatch
 
 https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.stopwatch?view=net-9.0
 

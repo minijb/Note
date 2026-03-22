@@ -1,3 +1,16 @@
+---
+title: UniNodeData
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: [ProtoContract]
+draft: false
+---
+
+# UniNodeData
 
 ```c#
 [ProtoContract]

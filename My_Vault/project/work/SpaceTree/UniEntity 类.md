@@ -1,3 +1,16 @@
+---
+title: UniEntity 类
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: 配合 spaceTree 进行进行渲染辅助
+draft: false
+---
+
+# UniEntity 类
 
 配合 spaceTree 进行进行渲染辅助
 

@@ -1,3 +1,16 @@
+---
+title: Shader3   表面着色器+曲面细分
+date: 2026-03-16
+tags:
+  - untagged
+type: shader
+aliases:
+  -
+description: https://www.yuque.com/chengxuyuanchangfeng/idsf04/qh920r9xfa5rf5di
+draft: false
+---
+
+# Shader3   表面着色器+曲面细分
 
 默认帮我们实现了光照
 

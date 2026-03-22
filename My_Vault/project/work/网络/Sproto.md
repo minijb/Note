@@ -1,3 +1,16 @@
+---
+title: Sproto
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: local sproto = require "sproto"
+draft: false
+---
+
+# Sproto
 
 ## 基础的 lua 接口
 

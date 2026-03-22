@@ -1,3 +1,17 @@
+---
+title: NoteTake Obsidian Plugin Admonition
+date: 2026-03-16
+tags:
+  - archive
+type: meta
+aliases:
+  -
+description: document ： https://plugins.javalent.com/admonitions
+draft: false
+---
+
+# NoteTake Obsidian Plugin Admonition
+
 document ： https://plugins.javalent.com/admonitions
 github ： https://github.com/javalent/admonitions
 

@@ -1,5 +1,6 @@
 ---
 
+title: FactoryMethod.excalidraw
 excalidraw-plugin: parsed
 tags: [excalidraw]
 

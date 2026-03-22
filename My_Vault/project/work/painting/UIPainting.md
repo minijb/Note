@@ -1,5 +1,16 @@
+---
+title: UIPainting
+date: 2026-03-16
+tags:
+  - untagged
+type: ui
+aliases:
+  -
+description: `UIPainting` 类中的代码片段展示了如何处理画布上的触摸和手势操作。该类继承自 `MonoBehaviour`，并实现了多个方法来管理和处理用户在画布上的交互。
+draft: false
+---
 
-
+# UIPainting
 
 `UIPainting` 类中的代码片段展示了如何处理画布上的触摸和手势操作。该类继承自 `MonoBehaviour`，并实现了多个方法来管理和处理用户在画布上的交互。
 

@@ -1,6 +1,18 @@
+---
+title: ECS 组件介绍
+date: 2026-03-16
+tags:
+  - unity
+  - dots
+  - ecs
+  - component
+type: framework
+aliases:
+  组件
+description: ECS组件介绍
+draft: false
+---
 
-
-![image.png](https://s2.loli.net/2025/10/15/7oH9nAp3KIU2ifQ.png)
 
 ## 1. Entity 实体
 
@@ -83,7 +95,7 @@
 
 默认情况下， 在进入游戏后，Unity会自动创建一个 World 并加入所有的 sysytem。
 
-如果您希望手动将系统添加到默认世界，请创建一个实现[ICustom Bootstrap](https://docs.unity3d.com/Packages/com.unity.entities@1.4/api/Unity.Entities.ICustomBootstrap.html)接口的单个​​类。
+如果您希望手动将系统添加到默认世界，请创建一个实现[ICustom Bootstrap](https://docs.unity3d.com/Packages/com.unity.entities@1.4/api/Unity.Entities.ICustomBootstrap.html)接口的单个​​类。
 
 如果您想要完全手动控制引导，请使用这些定义来禁用默认的世界创建：
 
@@ -91,7 +103,7 @@
 - `#UNITY_DISABLE_AUTOMATIC_SYSTEM_BOOTSTRAP_EDITOR_WORLD`：禁用默认编辑器世界的生成。
 - `#UNITY_DISABLE_AUTOMATIC_SYSTEM_BOOTSTRAP`：禁用两个默认世界的生成。
 
-然后，您的代码将负责创建您的世界和系统，并将世界的更新插入到 Unity 可编写脚本的[Player Loop](https://docs.unity3d.com/ScriptReference/LowLevel.PlayerLoop.html)中。有关如何管理多个世界中的系统的更多信息，请参阅[管理多个世界中的系统](https://docs.unity3d.com/Packages/com.unity.entities@1.4/manual/systems-icustombootstrap.html)。
+然后，您的代码将负责创建您的世界和系统，并将世界的更新插入到 Unity 可编写脚本的[Player Loop](https://docs.unity3d.com/ScriptReference/LowLevel.PlayerLoop.html)中。有关如何管理多个世界中的系统的更多信息，请参阅[管理多个世界中的系统](https://docs.unity3d.com/Packages/com.unity.entities@1.4/manual/systems-icustombootstrap.html)。
 
 Unity 用于[`WorldFlags`](https://docs.unity3d.com/Packages/com.unity.entities@1.4/api/Unity.Entities.WorldFlags.html)在编辑器中创建专门的世界。
 
@@ -102,7 +114,7 @@ Unity 用于[`WorldFlags`](https://docs.unity3d.com/Packages/com.unity.entities@
 原型是世界中所有具有相同唯一组件类型组合的实体的唯一标识符
 
 
-For example, in the following diagram, all the entities in a world that have the components `Speed`, `Direction`, `Position`, and `Renderer` and no others share the archetype labelled `X`. All the entities that have component types `Speed`, `Direction`, and `Position` and no others share a different archetype labelled `Y`.
+For example, in the following diagram, all the entities in a world that have the components `Speed`, `Direction`, `Position`, and `Renderer` and no others share the archetype labelled `X`. All the entities that have component types `Speed`, `Direction`, and `Position` and no others share a different archetype labelled `Y`.
 
 ![image.png](https://s2.loli.net/2025/10/15/7oH9nAp3KIU2ifQ.png)
 当你在实体中添加或移除组件类型时，世界会将[`EntityManager`](https://docs.unity3d.com/Packages/com.unity.entities@1.4/api/Unity.Entities.EntityManager.html)实体移动到相应的原型。例如，如果一个实体包含组件类型`Speed`、`Direction`和 ，`Position`而你移除了该`Speed`组件，世界会将实体移动到包含组件和 的`EntityManager`原型。如果不存在这样的原型，世界会创建它。`Direction``Position``EntityManager`

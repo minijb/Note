@@ -1,3 +1,16 @@
+---
+title: PointService
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: public class PaintService : Singleton<PaintService>, IPaintService
+draft: false
+---
+
+# PointService
 
 ```c#
 public class PaintService : Singleton<PaintService>, IPaintService

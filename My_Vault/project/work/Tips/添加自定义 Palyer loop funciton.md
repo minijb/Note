@@ -1,3 +1,16 @@
+---
+title: 添加自定义 Palyer loop funciton
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: https://docs.unity.cn/cn/2021.1/ScriptReference/LowLevel.PlayerLoop.html
+draft: false
+---
+
+# 添加自定义 Palyer loop funciton
 
 https://docs.unity.cn/cn/2021.1/ScriptReference/LowLevel.PlayerLoop.html
 

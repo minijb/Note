@@ -1,3 +1,19 @@
+---
+title: CUDA 介绍
+date: 2026-03-16
+tags:
+  - cuda
+  - gpu
+  - nvidia
+type: hardware
+aliases:
+  CUDA介绍
+description: CUDA并行计算平台介绍
+draft: false
+---
+
+
+# CUDA 介绍
 
 https://www.bilibili.com/video/BV1vJ411D73S/?spm_id_from=333.1387.favlist.content.click&vd_source=8beb74be6b19124f110600d2ce0f3957
 

@@ -1,4 +1,5 @@
 ---
+title: 面试   AssetBundle 2 callback 方式 使用资源
 tags:
   - 面试
 ---

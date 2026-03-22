@@ -1,5 +1,17 @@
+---
+title: Unity Spine Skeleton组件
+date: 2026-03-16
+tags:
+  - unity
+  - spine
+  - skeleton
+type: framework
+aliases:
+  Spine Skeleton
+description: Unity Spine基础组件Skeleton
+draft: false
+---
 
-可以直接修改物体本身， 存储了对于 skeleton data资源的引用---其中又引用了数个atlas资源
 
 ## 1. 设置attachment
 
@@ -59,7 +71,7 @@ skeletonAnimation.AnimationState.Apply(skeletonAnimation.Skeleton); // skeletonM
 
 [运行时重打包](https://zh.esotericsoftware.com/spine-unity-main-components#%E8%BF%90%E8%A1%8C%E6%97%B6%E9%87%8D%E6%89%93%E5%8C%85)
 
-当组合皮肤时会不可避免地会使用到到多种material, 这将导致额外绘制调用. 此时可使用 `Skin.GetRepackedSkin()` 方法, 将不同皮肤中使用到的texture区域合并为单页texture.
+当组合皮肤时会不可避免地会使用到到多种material, 这将导致额外绘制调用. 此时可使用 `Skin.GetRepackedSkin()` 方法, 将不同皮肤中使用到的texture区域合并为单页texture.
 
 ```c#
 using Spine.Unity.AttachmentTools;

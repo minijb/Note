@@ -1,5 +1,6 @@
 ---
 
+title: UIFrame.excalidraw
 excalidraw-plugin: parsed
 tags: [excalidraw]
 

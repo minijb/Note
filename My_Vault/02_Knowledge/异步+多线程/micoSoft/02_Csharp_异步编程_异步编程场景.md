@@ -1,3 +1,17 @@
+---
+title: Csharp 异步编程 异步编程场景
+date: 2026-03-16
+tags:
+  - knowledge
+  - csharp
+type: language
+aliases:
+  -
+description: 在异步编程模型中，有几个关键概念需要了解：
+draft: false
+---
+
+# Csharp 异步编程 异步编程场景
 
 在异步编程模型中，有几个关键概念需要了解：
 

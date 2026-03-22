@@ -1,3 +1,17 @@
+---
+title: ch unity 自动在场景中添加物体
+date: 2026-03-16
+tags:
+  - resource
+  - unity
+type: knowledge
+aliases:
+  -
+description: public class LogEditor
+draft: false
+---
+
+# ch unity 自动在场景中添加物体
 
 ```c#
 public class LogEditor

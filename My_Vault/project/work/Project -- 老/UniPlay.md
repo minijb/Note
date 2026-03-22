@@ -1,3 +1,16 @@
+---
+title: UniPlay
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: 使用 play 加载上下文. --- `UniPlay.Load(context)`
+draft: false
+---
+
+# UniPlay
 
 ### Load
 

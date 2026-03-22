@@ -1,4 +1,5 @@
 ---
+title: linux   zsh
 tags:
   - linux
 ---

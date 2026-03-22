@@ -1,4 +1,5 @@
 ---
+title: git cherry pick
 tags:
   - git
 ---

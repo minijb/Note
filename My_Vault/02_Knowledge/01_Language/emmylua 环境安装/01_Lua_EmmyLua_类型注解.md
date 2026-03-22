@@ -1,4 +1,30 @@
+---
+title: Lua EmmyLua 类型注解
+date: 2026-03-16
+tags:
+  - lua
+  - emmylua
+  - type-annotation
+type: language
+aliases:
+  类型注解
+description: EmmyLua类型注解语法
+draft: false
+---
 
+title: Lua EmmyLua 类型注解
+date: 2026-03-16
+tags:
+  - knowledge
+  - lua
+type: language
+aliases:
+  -
+description: 用于创建自定义类型，枚举类型或简化复杂类型表达式
+draft: false
+---
+
+# Lua EmmyLua 类型注解
 
 ## 1. @alias 类型别敏
 
@@ -52,10 +78,10 @@
 ---@field [<访问控制>] [<键类型>] <值类型> [描述]
 ```
 
-- `public` - 公共字段（默认）
-- `private` - 私有字段（仅类内部访问）
-- `protected` - 受保护字段（类及子类可访问）
-- `package` - 包内字段（同包内可访问）
+- `public` - 公共字段（默认）
+- `private` - 私有字段（仅类内部访问）
+- `protected` - 受保护字段（类及子类可访问）
+- `package` - 包内字段（同包内可访问）
 
 可选字段（使用 ? 标记）
 

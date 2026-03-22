@@ -1,4 +1,5 @@
 ---
+title: cpp tips
 tags:
   - cpp
   - tips

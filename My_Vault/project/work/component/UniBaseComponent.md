@@ -1,3 +1,16 @@
+---
+title: UniBaseComponent
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: public class UniBaseComponent : UniBaseComponentV2, IAnalysis
+draft: false
+---
+
+# UniBaseComponent
 
 ```c#
     public class UniBaseComponent : UniBaseComponentV2, IAnalysis

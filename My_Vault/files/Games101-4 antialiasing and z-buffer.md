@@ -1,4 +1,5 @@
 ---
+title: Games101 4 antialiasing and z buffer
 tags:
   - games101
 ---

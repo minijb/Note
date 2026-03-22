@@ -1,3 +1,16 @@
+---
+title: UniPluginInitializer
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: 非 editor 模式
+draft: false
+---
+
+# UniPluginInitializer
 
 用于初始化插件
 

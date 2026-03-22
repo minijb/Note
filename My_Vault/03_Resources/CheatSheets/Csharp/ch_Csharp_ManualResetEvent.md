@@ -1,3 +1,17 @@
+---
+title: ch Csharp ManualResetEvent
+date: 2026-03-16
+tags:
+  - resource
+  - csharp
+type: language
+aliases:
+  -
+description: ManualResetEvent是C#中一个比较常用的工具，可用于线程间通信，实现一种信号量的功能
+draft: false
+---
+
+# ch Csharp ManualResetEvent
 
 ManualResetEvent是C#中一个比较常用的工具，可用于线程间通信，实现一种信号量的功能
 

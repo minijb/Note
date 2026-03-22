@@ -1,3 +1,20 @@
+---
+title: VSCode tasks.json 配置教程
+date: 2026-03-16
+tags:
+  - tool
+  - vscode
+  - configuration
+type: tool
+aliases:
+  - VSCode tasks
+  - tasks配置
+description: VSCode tasks.json 配置详解：基础任务、复合任务(dependsOn)、平台特定配置、presentation设置
+draft: false
+---
+
+# VSCode tasks.json 配置教程
+
 ## 1. 基础任务
 
 ```json

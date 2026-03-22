@@ -1,4 +1,5 @@
 ---
+title: linux list
 tags:
   - linux
 ---

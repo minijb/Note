@@ -1,3 +1,16 @@
+---
+title: uniComponentEditor
+date: 2026-03-16
+tags:
+  - untagged
+type: editor
+aliases:
+  -
+description: public class UniComponentEditor<T> : MonoBehaviour, IUniComponentEditor where T :IUniComponent
+draft: false
+---
+
+# uniComponentEditor
 
 ```c#
 public class UniComponentEditor<T> : MonoBehaviour, IUniComponentEditor where T :IUniComponent

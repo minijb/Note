@@ -1,4 +1,5 @@
 ---
+title: Unity   闭包+匿名函数造成的GC
 tags:
   - unity
   - Csharp

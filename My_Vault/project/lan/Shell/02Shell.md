@@ -1,3 +1,17 @@
+---
+title: 02Shell
+date: 2026-03-16
+tags:
+  - untagged
+type: os
+aliases:
+  -
+description: 在父shell中使用bash命令会生成一个新的shell程序--子Shell运行当前命令
+draft: false
+---
+
+# 02Shell
+
 # Shell
 
 ## Shell的父子关系

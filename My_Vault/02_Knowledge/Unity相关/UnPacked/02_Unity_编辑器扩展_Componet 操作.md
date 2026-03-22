@@ -1,3 +1,16 @@
+---
+title: Unity Component 操作
+date: 2026-03-16
+tags:
+  - unity
+  - editor
+  - component
+type: framework
+aliases:
+  Component
+description: Unity编辑器Component组件操作
+draft: false
+---
 
 
 ### 1. 给某组件添加右边小齿轮菜单选项

@@ -1,3 +1,30 @@
+---
+title: Lua EmmyLua 环境安装
+date: 2026-03-16
+tags:
+  - lua
+  - emmylua
+  - ide
+type: language
+aliases:
+  EmmyLua安装
+description: EmmyLua环境安装配置教程
+draft: false
+---
+
+title: Lua EmmyLua环境安装
+date: 2026-03-16
+tags:
+  - knowledge
+  - lua
+type: language
+aliases:
+  -
+description: - Lua分析器--- 基础 [github](https://github.com/EmmyLuaLs/emmylua-analyzer-rust)
+draft: false
+---
+
+# Lua EmmyLua环境安装
 
 - Lua分析器--- 基础 [github](https://github.com/EmmyLuaLs/emmylua-analyzer-rust)
 - Rider插件--- [github](https://github.com/EmmyLua/Intellij-EmmyLua2)

@@ -1,3 +1,17 @@
+---
+title: CMake Tutorial
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: **the minal project**
+draft: false
+---
+
+# CMake Tutorial
+
 ## step 1
 
 **the minal project**

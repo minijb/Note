@@ -1,4 +1,5 @@
 ---
+title: Shader2   透明 和 一些进阶
 tags:
   - shader
 ---

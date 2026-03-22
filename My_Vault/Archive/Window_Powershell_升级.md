@@ -1,3 +1,16 @@
+---
+title: Window Powershell 升级
+date: 2026-03-16
+tags:
+  - archive
+type: knowledge
+aliases:
+  -
+description: **查看是否有新版本**
+draft: false
+---
+
+# Window Powershell 升级
 
 **查看是否有新版本**
 

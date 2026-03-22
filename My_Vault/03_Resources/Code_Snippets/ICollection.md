@@ -1,3 +1,16 @@
+---
+title: ICollection
+date: 2026-03-16
+tags:
+  - resource
+type: knowledge
+aliases:
+  -
+description: namespace System.Collections
+draft: false
+---
+
+# ICollection
 
 ```c#
 namespace System.Collections

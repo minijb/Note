@@ -1,3 +1,17 @@
+---
+title: Csharp 多线程和异步 异步任务的取消
+date: 2026-03-16
+tags:
+  - knowledge
+  - csharp
+type: language
+aliases:
+  -
+description: var cts = new CancellationTokenSource();
+draft: false
+---
+
+# Csharp 多线程和异步 异步任务的取消
 
 ## 1. 两种取消方法
 

@@ -1,4 +1,5 @@
 ---
+title: ray tracing in one weekend   2
 tags:
   - raytrace
 ---

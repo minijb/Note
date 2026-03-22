@@ -1,4 +1,16 @@
+---
+title: ch ProtoBuffer 类型
+date: 2026-03-16
+tags:
+  - resource
+type: knowledge
+aliases:
+  -
+description: | Proto Type | C++ Type    | Java/Kotlin Type[1] | Python Type[3]                   | Go Type | Ruby...
+draft: false
+---
 
+# ch ProtoBuffer 类型
 
 | Proto Type | C++ Type    | Java/Kotlin Type[1] | Python Type[3]                   | Go Type | Ruby Type                      |
 | ---------- | ----------- | ------------------- | -------------------------------- | ------- | ------------------------------ |

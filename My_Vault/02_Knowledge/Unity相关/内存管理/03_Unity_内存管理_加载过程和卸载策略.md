@@ -1,3 +1,17 @@
+---
+title: Unity 内存管理 加载过程和卸载策略
+date: 2026-03-16
+tags:
+  - knowledge
+  - unity
+type: knowledge
+aliases:
+  -
+description: https://baddogzz.github.io/2020/02/07/Unload-Resources/
+draft: false
+---
+
+# Unity 内存管理 加载过程和卸载策略
 
 https://baddogzz.github.io/2020/02/07/Unload-Resources/
 https://zhuanlan.zhihu.com/p/1957212556377695584

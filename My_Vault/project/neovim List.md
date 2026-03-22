@@ -1,4 +1,5 @@
 ---
+title: neovim List
 tags:
   - neovim
 ---

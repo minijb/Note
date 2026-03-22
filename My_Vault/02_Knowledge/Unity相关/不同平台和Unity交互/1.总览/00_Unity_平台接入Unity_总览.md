@@ -1,3 +1,17 @@
+---
+title: Unity 平台接入Unity 总览
+date: 2026-03-16
+tags:
+  - knowledge
+  - unity
+type: knowledge
+aliases:
+  -
+description: 1. 使用AndroidJavaClass调用JNI访问系统方法，无法直接使用Android资源
+draft: false
+---
+
+# Unity 平台接入Unity 总览
 
 ## 1. Android 接入 Unity
 

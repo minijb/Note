@@ -1,3 +1,17 @@
+---
+title: ch unity protobuf 序列化和反序列化
+date: 2026-03-16
+tags:
+  - resource
+  - unity
+type: knowledge
+aliases:
+  -
+description: MemoryStream ms = new MemoryStream();
+draft: false
+---
+
+# ch unity protobuf 序列化和反序列化
 
 ```c#
 // 序列化

@@ -1,4 +1,5 @@
 ---
+title: cpp tuple
 tags:
   - cpp
 ---

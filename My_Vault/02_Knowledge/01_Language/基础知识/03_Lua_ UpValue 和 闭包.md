@@ -1,23 +1,17 @@
-
-一个 UpValue 是指一个函数内部被引用量为外部局部变量，而不是函数参数。
-
-及时外部函数执行结束了，引用这个局部变量的内部函数人可以访问和修改这个值。
-
-```lua
-print("\nexample 3:");
-function counter()
-    local count = 0;
-    return function()
-        count = count + 1;
-        return count;
-    end
-end
-
-func = counter();
-print(func());
-print(func());
-print(func());
-```
+---
+title: Lua UpValue 和闭包
+date: 2026-03-16
+tags:
+  - lua
+  - closure
+  - upvalue
+type: language
+aliases:
+  UpValue
+  - 闭包
+description: Lua UpValue和闭包概念
+draft: false
+---
 
 
 ### 1. 共享

@@ -1,4 +1,5 @@
 ---
+title: Games101 9 advanced rendering
 tags:
   - games101
 ---

@@ -1,3 +1,16 @@
+---
+title: UniFileContext
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: - TreeData  节点树
+draft: false
+---
+
+# UniFileContext
 
 场景的环境信息
 

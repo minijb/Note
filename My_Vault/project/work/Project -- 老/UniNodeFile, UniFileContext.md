@@ -1,3 +1,16 @@
+---
+title: UniNodeFile, UniFileContext
+date: 2026-03-16
+tags:
+  - untagged
+type: knowledge
+aliases:
+  -
+description: 从网络获取文件的内容， UniNodeFile 为 内容 (UniFileContext)  外层套壳。
+draft: false
+---
+
+# UniNodeFile, UniFileContext
 
 从网络获取文件的内容， UniNodeFile 为 内容 (UniFileContext)  外层套壳。
 

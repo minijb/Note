@@ -1,3 +1,17 @@
+---
+title: ch Csharp byte
+date: 2026-03-16
+tags:
+  - resource
+  - csharp
+type: language
+aliases:
+  -
+description: 将其他类型转换为 `byte/byte[]`
+draft: false
+---
+
+# ch Csharp byte
 
 将其他类型转换为 `byte/byte[]`
 
