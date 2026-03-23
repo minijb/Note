@@ -32,7 +32,7 @@ draft: false
 
 | 笔记 | 说明 | 推荐度 |
 |------|------|--------|
-| [[04_Claude_Code_进阶工作流]] | WSL2 + Tmux 集成 | ⭐⭐ 高阶 |
+| [[05_Claude_Code_进阶工作流]] | WSL2 + Tmux 集成 | ⭐⭐ 高阶 |
 
 ---
 
@@ -67,5 +67,6 @@ draft: false
 - [Claude Code 官方文档](https://docs.claude.ai/claude-code)
 - [Claude Code GitHub](https://github.com/anthropics/claude-code-cli)
 - [Claude Code Workflow](https://catlog22.github.io/Claude-Code-Workflow/zh/)
+- https://claudecn.com/docs/claude-code/workflows/context-management/
 
 ---

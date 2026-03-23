@@ -38,9 +38,41 @@ MCP（Model Context Protocol）是 Anthropic 推出的开源通信标准，让 C
 
 | 作用域 | 配置位置 | 适用场景 | 命令标志 |
 |--------|----------|----------|----------|
-| Local | 当前目录 `.mcp.json` | 项目特定工具 | 默认 |
-| User | `~/.claude/settings.json` | 全局常用工具 | `-s user` |
-| Project | `.mcp.json`（团队共享） | 团队共享工具 | `-s project` |
+| Local | 当前目录 `.mcp.json` | 项目特定工具 | 默认（无标记） |
+| User | `~/.claude/settings.json` | 全局常用工具 | `-s user` 或 `--scope user` |
+| Project | `.mcp.json`（团队共享） | 团队共享工具 | `-s project` 或 `--scope project` |
+
+### 作用域命令详解
+
+```bash
+# 查看当前作用域的 MCP 服务器
+claude mcp list
+
+# 指定作用域添加 MCP 服务器
+claude mcp add <名称> --scope <作用域> -- <命令> [参数]
+claude mcp add <名称> -s <作用域> -- <命令> [参数]
+
+# 作用域简写
+-s, --scope   # 两者等效
+
+# 示例：添加不同作用域
+# 用户级（全局可用）
+claude mcp add filesystem -s user -- npx -y @modelcontextprotocol/server-filesystem ~/Documents
+
+# 项目级（仅当前项目可用）
+claude mcp add github -s project -- npx -y @modelcontextprotocol/server-github
+
+# 本地级（当前目录可用）
+claude mcp add db -s local -- npx -y @modelcontextprotocol/server-postgres
+```
+
+### 作用域优先级
+
+当存在多个作用域的配置时，Claude Code 按以下优先级加载：
+
+1. **Local（本地）** > **Project（项目）** > **User（用户）**
+2. 相同工具名的本地配置会覆盖全局配置
+3. 使用 `/mcp` 命令可查看当前加载的所有 MCP 服务器及所属作用域
 
 ---
 
@@ -83,6 +115,54 @@ claude mcp add github -s user -e GITHUB_TOKEN=your_token -- npx -y @modelcontext
   }
 }
 ```
+
+#### Windows 配置文件格式
+
+在 Windows 下使用 `cmd /c` 的配置格式：
+
+```json
+{
+  "mcpServers": {
+    "filesystem": {
+      "type": "stdio",
+      "command": "cmd",
+      "args": ["/c", "npx -y @modelcontextprotocol/server-filesystem C:/Users/username/Documents"],
+      "env": {}
+    },
+    "context7": {
+      "type": "stdio",
+      "command": "cmd",
+      "args": ["/c", "npx -y @upstash/context7-mcp --api-key=YOUR_API_KEY"],
+      "env": {}
+    }
+  }
+}
+```
+
+> **注意**：Windows 配置中 `command` 必须是 `"cmd"`，`args` 数组的第一个元素必须是 `"/c`，后续才是实际的命令和参数。
+
+### 3. Windows 下添加 MCP 服务器正确姿势
+
+在 Windows 环境下，直接使用 `npx` 或其他系统命令可能会失败（特别是在使用最新版本的 Claude Code 或特定的 shell 下）。
+
+**关键规则**：必须使用 `cmd /c` 前缀来包裹执行命令。
+
+```bash
+# 基本语法
+claude mcp add <名称> [选项] -- cmd /c "执行命令及参数"
+
+# 示例 1：添加 Context7
+claude mcp add context7 -- cmd /c "npx -y @upstash/context7-mcp --api-key=YOUR_API_KEY"
+
+# 示例 2：添加文件系统（注意路径使用正斜杠或双反斜杠）
+claude mcp add filesystem -s user -- cmd /c "npx -y @modelcontextprotocol/server-filesystem C:/Users/username/Documents"
+
+# 示例 3：带环境变量的命令
+claude mcp add github -s user -e GITHUB_TOKEN=your_token -- cmd /c "npx -y @modelcontextprotocol/server-github"
+```
+
+> **注意**：如果不使用 `cmd /c`，可能会遇到诸如 `ENOENT`（找不到命令）或由于 Windows shell 解析导致的参数错误。
+> 在修改 `settings.json` 直接配置时，也需要将 `command` 设为 `cmd`，并在 `args` 中添加 `/c` 及后续命令。
 
 ---
 
