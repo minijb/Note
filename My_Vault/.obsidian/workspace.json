@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02_Knowledge/03_Tools/Env_Setup/常用软件安装.md",
+                "file": "02_Knowledge/03_Tools/AI_Tools/ClaudeCode/00_Claude_Code_速查表.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "常用软件安装"
+              "title": "00_Claude_Code_速查表"
             }
           }
         ],
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "style",
+                "query": "cmd",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -207,20 +207,22 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "7e410183c8c5ffc3",
+  "active": "a36d42b690c80611",
   "lastOpenFiles": [
-    "01_Projects/未命名",
-    "00_Inbox/wsl 速记.md",
-    "02_Knowledge/03_Tools/Env_Setup/常用软件安装.md",
-    "05_StartUp/StartUp_Windows_wsl2.md",
+    "02_Knowledge/03_Tools/AI_Tools/ClaudeCode/01_Claude_Code_MCP_使用指南.md",
+    "02_Knowledge/01_Language/python/00_Python_运行命令行.md",
     "02_Knowledge/03_Tools/WSL/00_Knowledge_Tool_WSL_速览表.md",
+    "02_Knowledge/03_Tools/AI_Tools/ClaudeCode/03_Claude_Code_记忆系统.md",
+    "02_Knowledge/03_Tools/AI_Tools/ClaudeCode/04_Claude_Code_Skills.md",
+    "02_Knowledge/03_Tools/AI_Tools/ClaudeCode/02_Claude_Code_Agents与Commands.md",
+    "Claude Code Agents 与 Commands.md",
+    "02_Knowledge/03_Tools/AI_Tools/ClaudeCode/00_Claude_Code_MOC.md",
     "02_Knowledge/03_Tools/AI_Tools/ClaudeCode/00_Claude_Code_速查表.md",
     "02_Knowledge/03_Tools/AI_Tools/ClaudeCode/05_Claude_Code_进阶工作流.md",
-    "02_Knowledge/03_Tools/AI_Tools/ClaudeCode/04_Claude_Code_Skills.md",
-    "02_Knowledge/03_Tools/AI_Tools/ClaudeCode/03_Claude_Code_记忆系统.md",
-    "02_Knowledge/03_Tools/AI_Tools/ClaudeCode/02_Claude_Code_Agents与Commands.md",
-    "02_Knowledge/03_Tools/AI_Tools/ClaudeCode/01_Claude_Code_MCP_使用指南.md",
-    "02_Knowledge/03_Tools/AI_Tools/ClaudeCode/00_Claude_Code_MOC.md",
+    "02_Knowledge/03_Tools/Env_Setup/常用软件安装.md",
+    "01_Projects/未命名",
+    "00_Inbox/wsl 速记.md",
+    "05_StartUp/StartUp_Windows_wsl2.md",
     "05_StartUp/StartUp_常用工具_NVM.md",
     "02_Knowledge/03_Tools/Env_Setup/AI.md",
     "02_Knowledge/03_Tools/Env_Setup/Nodejs.md",
@@ -235,7 +237,6 @@
     "project/Tools/WSL.md",
     "files/wsl 环境配置.md",
     "project/linux list.md",
-    "02_Knowledge/03_Tools/Tools/Unity/Tool_Unity_多开插件_ParrelSync.md",
     "Excalidraw/Pasted image 20260322231018.png",
     "06_Learning/AICodeing",
     "06_Learning/ComputerGraphics/学习大纲.md.tmp.17828.1774087153371",
@@ -245,7 +246,6 @@
     "06_Learning/ComputerGraphics/学习大纲.md.tmp.17828.1774087128106",
     "06_Learning/ComputerGraphics/学习大纲.md.tmp.17828.1774087120378",
     "06_Learning/ComputerGraphics/学习大纲.md.tmp.17828.1774087114578",
-    "06_Learning/ComputerGraphics/学习大纲.md.tmp.17828.1774087101610",
     "99_Assets/Pasted image 20250316144418.png",
     "Pasted image 20251031150039.png"
   ]
