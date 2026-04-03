@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02_Knowledge/03_Tools/AI_Tools/ClaudeCode/00_Claude_Code_速查表.md",
+                "file": "00_Inbox/备忘录.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00_Claude_Code_速查表"
+              "title": "备忘录"
             }
           }
         ],
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cmd",
+                "query": "博客",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Project/三国杀/03_prject_san_TriggerAction部分.md",
+                "file": "00_Inbox/备忘录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 03_prject_san_TriggerAction部分"
+              "title": "备忘录 的反向链接列表"
             }
           },
           {
@@ -147,7 +147,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "标签"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Unity/编辑器拓展/01_Unitu编辑器_编辑器特性.md",
+                "file": "00_Inbox/备忘录.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 01_Unitu编辑器_编辑器特性"
+              "title": "备忘录 的大纲"
             }
           },
           {
@@ -185,11 +185,12 @@
               "title": "插件不再活动"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 513.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -209,15 +210,18 @@
   },
   "active": "a36d42b690c80611",
   "lastOpenFiles": [
+    "02_Knowledge/03_Tools/AI_Tools/ClaudeCode/00_Claude_Code_MOC.md",
+    "02_Knowledge/03_Tools/AI_Tools/ClaudeCode/02_Claude_Code_Agents与Commands.md",
     "02_Knowledge/03_Tools/AI_Tools/ClaudeCode/01_Claude_Code_MCP_使用指南.md",
+    "02_Knowledge/03_Tools/AI_Tools/ClaudeCode/04_Claude_Code_Skills.md",
+    "02_Knowledge/03_Tools/AI_Tools/ClaudeCode/00_Claude_Code_速查表.md",
+    "02_Knowledge/03_Tools/Static_Blog/01_各个博客介绍.md",
+    "02_Knowledge/CUDA/00_CUDA_介绍.md",
+    "02_Knowledge/Unity相关/Unity项目结构/00_概述.md",
     "02_Knowledge/01_Language/python/00_Python_运行命令行.md",
     "02_Knowledge/03_Tools/WSL/00_Knowledge_Tool_WSL_速览表.md",
     "02_Knowledge/03_Tools/AI_Tools/ClaudeCode/03_Claude_Code_记忆系统.md",
-    "02_Knowledge/03_Tools/AI_Tools/ClaudeCode/04_Claude_Code_Skills.md",
-    "02_Knowledge/03_Tools/AI_Tools/ClaudeCode/02_Claude_Code_Agents与Commands.md",
     "Claude Code Agents 与 Commands.md",
-    "02_Knowledge/03_Tools/AI_Tools/ClaudeCode/00_Claude_Code_MOC.md",
-    "02_Knowledge/03_Tools/AI_Tools/ClaudeCode/00_Claude_Code_速查表.md",
     "02_Knowledge/03_Tools/AI_Tools/ClaudeCode/05_Claude_Code_进阶工作流.md",
     "02_Knowledge/03_Tools/Env_Setup/常用软件安装.md",
     "01_Projects/未命名",
@@ -234,9 +238,6 @@
     "02_Knowledge/Dots/JobSystem/UnPacked/JobSystem简易教程/00_Dots_JobSystem_使用.md",
     "files/wsl 常用命令.md",
     "02_Knowledge/03_Tools/WSL",
-    "project/Tools/WSL.md",
-    "files/wsl 环境配置.md",
-    "project/linux list.md",
     "Excalidraw/Pasted image 20260322231018.png",
     "06_Learning/AICodeing",
     "06_Learning/ComputerGraphics/学习大纲.md.tmp.17828.1774087153371",
