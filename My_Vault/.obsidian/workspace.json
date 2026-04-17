@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Claude Code Agents 与 Commands.md",
+                "file": "01_Projects/战旗/UnPack/嘴型动画/01_战旗_嘴型动画_tips.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Claude Code Agents 与 Commands"
+              "title": "01_战旗_嘴型动画_tips"
             }
           }
         ]
@@ -195,10 +195,12 @@
   },
   "active": "a36d42b690c80611",
   "lastOpenFiles": [
+    "01_Projects/战旗/UnPack/嘴型动画/01_战旗_嘴型动画_方案.md",
+    "01_Projects/战旗/UnPack/00_Project战旗_UI编写逻辑.md",
+    "Claude Code Agents 与 Commands.md",
     "00_Inbox/备忘录.md",
     "未命名.base",
     "未命名.canvas",
-    "Claude Code Agents 与 Commands.md",
     "00_Inbox/Now.md",
     "00_Inbox/need to do.md",
     "02_Knowledge/03_Tools/AI_Tools/官方AI教程.md",
@@ -221,7 +223,6 @@
     "project/lan/Shell/03Environment.md",
     "02_Knowledge/03_Tools/WSL/00_Knowledge_Tool_WSL_速览表.md",
     "02_Knowledge/Unity相关/不同平台和Unity交互/1.总览/00_Unity_平台接入Unity_总览.md",
-    "02_Knowledge/03_Tools/AI_Tools/ClaudeCode/02_Claude_Code_Agents与Commands.md",
     "02_Knowledge/03_Tools/WSL",
     "Excalidraw/Pasted image 20260322231018.png",
     "06_Learning/AICodeing",
